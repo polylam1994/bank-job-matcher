@@ -1,0 +1,501 @@
+InvoiceNumber,InvoiceType,JobNumber,CustomerName,SiteAddress,Suburb,JobDescription,CompletedDate,InvoiceDate,Total
+INV-2011,Deposit,J-1011,Sean & Priya Papadopoulos,"155 Pittwater Rd, Manly NSW",Manly,Roof gutter replacement,2025-10-14,2025-09-28,530.00
+INV-2001,Final,J-1001,Sean Tran,"170 Forest St, Glebe NSW",Glebe,Blocked drain clearing,2025-10-01,2025-10-02,565.00
+INV-2013,Deposit,J-1012,Grace Lee,"5 Fisher Rd, Dee Why NSW",Dee Why,Bathroom renovation rough-in,2025-10-15,2025-10-05,3760.00
+INV-2002,Final,J-1002,Isla & James Murphy,"81 Victoria Ave, Chatswood NSW",Chatswood,Toilet cistern replacement,2025-10-06,2025-10-07,720.00
+INV-2003,Final,J-1003,Noah Wilson,"118 Belmore Rd, Randwick NSW",Randwick,Toilet cistern replacement,2025-10-06,2025-10-07,570.00
+INV-2004,Final,J-1004,Noah Brown,"173 Victoria Ave, Chatswood NSW",Chatswood,Burst pipe repair,2025-10-06,2025-10-08,1050.00
+INV-2007,Final,J-1007,Chen & Co Accountants,"85 Military Rd, Mosman NSW",Mosman,Roof gutter replacement,2025-10-09,2025-10-09,1500.00
+INV-2005,Final,J-1005,William Singh,"130 Crown St, Surry Hills NSW",Surry Hills,Toilet cistern replacement,2025-10-08,2025-10-10,730.00
+INV-2006,Final,J-1006,Mosman Strata Management,"7 Belmont Rd, Mosman NSW",Mosman,Gas cooktop installation,2025-10-08,2025-10-10,890.00
+INV-2008,Final,J-1008,Wei Mitchell,"111 Bourke St, Surry Hills NSW",Surry Hills,Hot water system replacement,2025-10-09,2025-10-10,3201.91
+INV-2009,Final,J-1009,Sophie & Minh Wang,"115 Help St, Chatswood NSW",Chatswood,Leaking tap repair,2025-10-13,2025-10-13,220.00
+INV-2010,Final,J-1010,Liam Papadopoulos,"113 Dolphin St, Coogee NSW",Coogee,Blocked drain clearing,2025-10-13,2025-10-13,325.00
+INV-2012,Final,J-1011,Sean & Priya Papadopoulos,"155 Pittwater Rd, Manly NSW",Manly,Roof gutter replacement,2025-10-14,2025-10-14,1245.00
+INV-2014,Final,J-1012,Grace Lee,"5 Fisher Rd, Dee Why NSW",Dee Why,Bathroom renovation rough-in,2025-10-15,2025-10-15,8790.00
+INV-2016,Final,J-1014,Little Sprouts Childcare Rozelle,"35 Evans St, Rozelle NSW",Rozelle,Hot water system replacement,2025-10-15,2025-10-16,2692.21
+INV-2017,Final,J-1015,Mia Robinson,"92 Mount St, Coogee NSW",Coogee,Burst pipe repair,2025-10-16,2025-10-16,510.00
+INV-2015,Final,J-1013,Emily & Jack Anderson,"166 Underwood St, Paddington NSW",Paddington,Leaking tap repair,2025-10-15,2025-10-17,255.00
+INV-2018,Final,J-1016,Henry Wang,"55 Trafalgar St, Annandale NSW",Annandale,Call-out and inspection,2025-10-20,2025-10-20,165.00
+INV-2019,Final,J-1017,Liam Clarke,"141 Day Ave, Kensington NSW",Kensington,Blocked drain clearing,2025-10-20,2025-10-22,225.00
+INV-2020,Final,J-1018,Kostas Chen,"147 Hewlett St, Bronte NSW",Bronte,Toilet cistern replacement,2025-10-21,2025-10-22,385.00
+INV-2021,Final,J-1019,Sophie Hughes,"157 Victoria Rd, Marrickville NSW",Marrickville,Burst pipe repair,2025-10-22,2025-10-22,1068.24
+INV-2022,Final,J-1020,Thomas & Emily Wilson,"99 Archer St, Chatswood NSW",Chatswood,Gas leak detection and repair,2025-10-23,2025-10-25,310.00
+INV-2023,Final,J-1021,Sophie Wang,"24 Riley St, Surry Hills NSW",Surry Hills,Leaking tap repair,2025-10-24,2025-10-25,295.00
+INV-2025,Final,J-1023,Mosman Strata Management,"7 Belmont Rd, Mosman NSW",Mosman,Gas leak detection and repair,2025-10-28,2025-10-28,720.00
+INV-2024,Final,J-1022,James & Hannah Chen,"130 Fisher Rd, Dee Why NSW",Dee Why,Blocked drain clearing,2025-10-27,2025-10-29,565.00
+INV-2027,Final,J-1025,Sofia King,"177 Hargrave St, Paddington NSW",Paddington,Gas leak detection and repair,2025-10-29,2025-10-29,635.00
+INV-2040,Deposit,J-1038,Noah Campbell,"115 Frenchmans Rd, Randwick NSW",Randwick,Bathroom renovation rough-in,2025-11-11,2025-10-29,4060.00
+INV-2042,Deposit,J-1039,Hannah Robinson,"29 Victoria Rd, Rozelle NSW",Rozelle,Hot water system replacement,2025-11-11,2025-10-29,960.00
+INV-2028,Final,J-1026,Sophie & Emily Taylor,"152 Johnson St, Chatswood NSW",Chatswood,Gas leak detection and repair,2025-10-29,2025-10-30,565.00
+INV-2026,Final,J-1024,Thomas & Emily Wilson,"99 Archer St, Chatswood NSW",Chatswood,Hot water system replacement,2025-10-29,2025-10-31,2075.00
+INV-2029,Final,J-1027,Chloe & Ethan Rossi,"84 Warners Ave, Bondi NSW",Bondi,Call-out and inspection,2025-10-30,2025-10-31,165.00
+INV-2030,Final,J-1028,Priya Kelly,"12 Ashburner St, Manly NSW",Manly,Leaking tap repair,2025-10-30,2025-10-31,325.00
+INV-2031,Final,J-1029,Mia Thompson,"129 Anzac Pde, Kensington NSW",Kensington,Gas leak detection and repair,2025-10-31,2025-10-31,295.00
+INV-2032,Final,J-1030,The Daily Grind Cafe,"21 Victoria Ave, Chatswood NSW",Chatswood,Call-out and inspection,2025-11-03,2025-11-04,165.00
+INV-2033,Final,J-1031,Harbour Realty Newtown,"127 Australia St, Newtown NSW",Newtown,Call-out and inspection,2025-11-04,2025-11-04,165.00
+INV-2034,Final,J-1032,White & Co Accountants,"132 Wigram Rd, Glebe NSW",Glebe,Blocked drain clearing,2025-11-05,2025-11-05,645.00
+INV-2036,Final,J-1034,Thomas & Jack Anderson,"50 Cowles Rd, Mosman NSW",Mosman,Hot water system replacement,2025-11-06,2025-11-06,2440.00
+INV-2035,Final,J-1033,Linh Wang,"152 Addison Rd, Manly NSW",Manly,Toilet cistern replacement,2025-11-06,2025-11-07,705.00
+INV-2037,Final,J-1035,William Campbell,"119 Frenchmans Rd, Randwick NSW",Randwick,Blocked drain clearing,2025-11-07,2025-11-08,395.00
+INV-2038,Final,J-1036,Harbour Realty Kensington,"113 Doncaster Ave, Kensington NSW",Kensington,Leaking tap repair,2025-11-07,2025-11-08,185.00
+INV-2039,Final,J-1037,Aoife Patel,"172 Darley Rd, Manly NSW",Manly,Gas leak detection and repair,2025-11-10,2025-11-10,695.00
+INV-2043,Final,J-1039,Hannah Robinson,"29 Victoria Rd, Rozelle NSW",Rozelle,Hot water system replacement,2025-11-11,2025-11-11,2230.00
+INV-2041,Final,J-1038,Noah Campbell,"115 Frenchmans Rd, Randwick NSW",Randwick,Bathroom renovation rough-in,2025-11-11,2025-11-13,9480.00
+INV-2044,Final,J-1040,Eleni Tran,"169 Glenmore Rd, Paddington NSW",Paddington,Gas cooktop installation,2025-11-13,2025-11-13,820.00
+INV-2046,Final,J-1042,Eleni Johnson,"117 Todman Ave, Kensington NSW",Kensington,Leaking tap repair,2025-11-14,2025-11-14,240.00
+INV-2045,Final,J-1041,Mosman Strata Management,"7 Belmont Rd, Mosman NSW",Mosman,Burst pipe repair,2025-11-14,2025-11-16,1150.00
+INV-2048,Final,J-1044,Henry Wang,"55 Trafalgar St, Annandale NSW",Annandale,Call-out and inspection,2025-11-17,2025-11-17,165.00
+INV-2047,Final,J-1043,Maroubra Strata Management,"71 Malabar Rd, Maroubra NSW",Maroubra,Toilet cistern replacement,2025-11-17,2025-11-18,835.02
+INV-2050,Final,J-1046,Little Sprouts Childcare Marrickville,"41 Victoria Rd, Marrickville NSW",Marrickville,Burst pipe repair,2025-11-18,2025-11-18,800.00
+INV-2049,Final,J-1045,Hannah Mitchell,"91 Bridge Rd, Glebe NSW",Glebe,Blocked drain clearing,2025-11-18,2025-11-19,310.00
+INV-2051,Final,J-1047,Henry O'Brien,"117 Anzac Pde, Kensington NSW",Kensington,Roof gutter replacement,2025-11-19,2025-11-19,1380.00
+INV-2052,Final,J-1048,Chloe Patel,"16 Redman Rd, Dee Why NSW",Dee Why,Leaking tap repair,2025-11-19,2025-11-19,265.00
+INV-2053,Final,J-1049,Mia Robinson,"92 Mount St, Coogee NSW",Coogee,Burst pipe repair,2025-11-20,2025-11-20,1030.00
+INV-2054,Final,J-1050,Wei Thompson,"84 Doncaster Ave, Kensington NSW",Kensington,Blocked drain clearing,2025-11-21,2025-11-21,250.00
+INV-2055,Final,J-1051,William Ryan,"135 Fitzroy St, Surry Hills NSW",Surry Hills,Hot water system replacement,2025-11-24,2025-11-25,2040.00
+INV-2056,Final,J-1052,Chatswood Physiotherapy,"97 Victoria Ave, Chatswood NSW",Chatswood,Blocked drain clearing,2025-11-25,2025-11-26,530.00
+INV-2058,Final,J-1054,Amelia Martin,"82 Toxteth Rd, Glebe NSW",Glebe,Blocked drain clearing,2025-11-27,2025-11-27,330.00
+INV-2067,Deposit,J-1063,Wei White,"171 Pacific Pde, Dee Why NSW",Dee Why,Bathroom renovation rough-in,2025-12-05,2025-11-27,1610.00
+INV-2057,Final,J-1053,Hannah Mitchell,"91 Bridge Rd, Glebe NSW",Glebe,Blocked drain clearing,2025-11-26,2025-11-28,340.00
+INV-2059,Final,J-1055,Coastline Property Management,"44 Beattie St, Balmain NSW",Balmain,Burst pipe repair,2025-11-28,2025-11-29,585.00
+INV-2061,Final,J-1057,Linh White,"10 Wilson St, Newtown NSW",Newtown,Blocked drain clearing,2025-12-01,2025-12-02,220.00
+INV-2060,Final,J-1056,Eleni Johnson,"117 Todman Ave, Kensington NSW",Kensington,Toilet cistern replacement,2025-12-01,2025-12-03,475.00
+INV-2062,Final,J-1058,Aoife Patel,"172 Darley Rd, Manly NSW",Manly,Call-out and inspection,2025-12-02,2025-12-03,165.00
+INV-2064,Final,J-1060,James Kelly,"24 Fitzgerald Ave, Maroubra NSW",Maroubra,Burst pipe repair,2025-12-03,2025-12-03,685.00
+INV-2063,Final,J-1059,Henry Le,"161 Beattie St, Balmain NSW",Balmain,Call-out and inspection,2025-12-03,2025-12-04,165.00
+INV-2065,Final,J-1061,Aoife Singh,"81 Terry St, Rozelle NSW",Rozelle,Leaking tap repair,2025-12-04,2025-12-04,171.65
+INV-2068,Final,J-1063,Wei White,"171 Pacific Pde, Dee Why NSW",Dee Why,Bathroom renovation rough-in,2025-12-05,2025-12-05,3763.80
+INV-2069,Final,J-1064,Mia Robinson,"92 Mount St, Coogee NSW",Coogee,Leaking tap repair,2025-12-05,2025-12-05,247.32
+INV-2078,Deposit,J-1073,William Rossi,"11 Oaks Ave, Dee Why NSW",Dee Why,Bathroom renovation rough-in,2025-12-15,2025-12-05,4020.00
+INV-2066,Final,J-1062,Kostas & Amelia Kelly,"98 Belmont Rd, Mosman NSW",Mosman,Gas cooktop installation,2025-12-05,2025-12-07,470.00
+INV-2093,Deposit,J-1087,Mei & Amelia Johnson,"40 Belmont Rd, Mosman NSW",Mosman,Roof gutter replacement,2025-12-26,2025-12-07,730.00
+INV-2071,Final,J-1066,Chloe Wilson,"99 Australia St, Newtown NSW",Newtown,Call-out and inspection,2025-12-08,2025-12-08,165.00
+INV-2070,Final,J-1065,The Daily Grind Cafe,"21 Victoria Ave, Chatswood NSW",Chatswood,Burst pipe repair,2025-12-08,2025-12-10,920.00
+INV-2072,Final,J-1067,Chloe Mitchell,"67 Victoria Rd, Marrickville NSW",Marrickville,Call-out and inspection,2025-12-10,2025-12-11,165.00
+INV-2073,Final,J-1068,Isla & Sean King,"82 Johnston St, Annandale NSW",Annandale,Call-out and inspection,2025-12-11,2025-12-12,165.00
+INV-2075,Final,J-1070,Mia & Jack Clarke,"171 Fisher Rd, Dee Why NSW",Dee Why,Call-out and inspection,2025-12-12,2025-12-13,165.00
+INV-2074,Final,J-1069,Aoife Singh,"81 Terry St, Rozelle NSW",Rozelle,Blocked drain clearing,2025-12-12,2025-12-14,315.00
+INV-2077,Final,J-1072,Charlotte Anderson,"103 Glenmore Rd, Paddington NSW",Paddington,Gas cooktop installation,2025-12-15,2025-12-16,882.60
+INV-2079,Final,J-1073,William Rossi,"11 Oaks Ave, Dee Why NSW",Dee Why,Bathroom renovation rough-in,2025-12-15,2025-12-16,9380.00
+INV-2080,Final,J-1074,Henry Papadopoulos,"12 Addison Rd, Manly NSW",Manly,Toilet cistern replacement,2025-12-16,2025-12-16,685.00
+INV-2076,Final,J-1071,Sophie Tran,"1 Fitzroy St, Surry Hills NSW",Surry Hills,Call-out and inspection,2025-12-15,2025-12-17,165.00
+INV-2082,Final,J-1076,Mia Brown,"83 Macpherson St, Bronte NSW",Bronte,Gas leak detection and repair,2025-12-17,2025-12-17,375.00
+INV-2081,Final,J-1075,Charlotte Patel,"56 Short St, Leichhardt NSW",Leichhardt,Blocked drain clearing,2025-12-16,2025-12-18,460.70
+INV-2083,Final,J-1077,Noah Wilson,"118 Belmore Rd, Randwick NSW",Randwick,Blocked drain clearing,2025-12-18,2025-12-18,350.00
+INV-2095,Deposit,J-1088,Thomas Papadopoulos,"89 Belmont Rd, Mosman NSW",Mosman,Roof gutter replacement,2025-12-26,2025-12-18,870.00
+INV-2084,Final,J-1078,Sophie Johnson,"20 Darley Rd, Manly NSW",Manly,Hot water system replacement,2025-12-19,2025-12-19,2660.00
+INV-2085,Final,J-1079,Sophie Hughes,"157 Victoria Rd, Marrickville NSW",Marrickville,Leaking tap repair,2025-12-19,2025-12-21,178.03
+INV-2086,Final,J-1080,Hannah Robinson,"29 Victoria Rd, Rozelle NSW",Rozelle,Leaking tap repair,2025-12-22,2025-12-22,234.86
+INV-2087,Final,J-1081,Henry Robinson,"117 Cowles Rd, Mosman NSW",Mosman,Gas leak detection and repair,2025-12-22,2025-12-24,602.21
+INV-2088,Final,J-1082,James White,"142 Despointes St, Marrickville NSW",Marrickville,Blocked drain clearing,2025-12-23,2025-12-24,565.73
+INV-2089,Final,J-1083,Henry Le,"161 Beattie St, Balmain NSW",Balmain,Leaking tap repair,2025-12-24,2025-12-25,175.00
+INV-2090,Final,J-1084,Emily Thompson,"136 Station St, Newtown NSW",Newtown,Gas cooktop installation,2025-12-25,2025-12-25,625.00
+INV-2094,Final,J-1087,Mei & Amelia Johnson,"40 Belmont Rd, Mosman NSW",Mosman,Roof gutter replacement,2025-12-26,2025-12-26,1705.00
+INV-2091,Final,J-1085,Annandale Physiotherapy,"158 Booth St, Annandale NSW",Annandale,Toilet cistern replacement,2025-12-25,2025-12-27,710.00
+INV-2092,Final,J-1086,Minh & Daniel King,"50 Malabar Rd, Maroubra NSW",Maroubra,Gas leak detection and repair,2025-12-26,2025-12-27,810.00
+INV-2096,Final,J-1088,Thomas Papadopoulos,"89 Belmont Rd, Mosman NSW",Mosman,Roof gutter replacement,2025-12-26,2025-12-27,2015.00
+INV-2100,Final,J-1092,Thomas & Sean Chen,"53 Victoria Ave, Chatswood NSW",Chatswood,Leaking tap repair,2026-01-01,2026-01-01,260.00
+INV-2097,Final,J-1089,Sophie Lee,"101 Curlewis St, Bondi NSW",Bondi,Blocked drain clearing,2025-12-31,2026-01-02,580.00
+INV-2098,Final,J-1090,Noah Campbell,"115 Frenchmans Rd, Randwick NSW",Randwick,Call-out and inspection,2025-12-31,2026-01-02,165.00
+INV-2099,Final,J-1091,Charlotte Taylor,"130 Short St, Leichhardt NSW",Leichhardt,Blocked drain clearing,2025-12-31,2026-01-02,425.00
+INV-2101,Final,J-1093,The Daily Grind Cafe,"91 Riley St, Surry Hills NSW",Surry Hills,Toilet cistern replacement,2026-01-02,2026-01-02,630.00
+INV-2102,Final,J-1094,Henry Papadopoulos,"12 Addison Rd, Manly NSW",Manly,Gas cooktop installation,2026-01-05,2026-01-05,945.00
+INV-2103,Final,J-1095,Sean Taylor,"19 Underwood St, Paddington NSW",Paddington,Call-out and inspection,2026-01-05,2026-01-05,165.00
+INV-2104,Final,J-1096,Mei King,"13 Riley St, Surry Hills NSW",Surry Hills,Blocked drain clearing,2026-01-06,2026-01-07,480.00
+INV-2105,Final,J-1097,Hughes Property Group,"30 Wigram Rd, Glebe NSW",Glebe,Toilet cistern replacement,2026-01-06,2026-01-07,538.78
+INV-2106,Final,J-1098,Priya Martin,"24 Belmore Rd, Randwick NSW",Randwick,Gas cooktop installation,2026-01-07,2026-01-07,1020.00
+INV-2114,Deposit,J-1106,Charlotte Patel,"56 Short St, Leichhardt NSW",Leichhardt,Roof gutter replacement,2026-01-19,2026-01-08,950.00
+INV-2108,Final,J-1100,Coastline Property Management,"112 Pittwater Rd, Manly NSW",Manly,Leaking tap repair,2026-01-09,2026-01-09,215.00
+INV-2107,Final,J-1099,Lucas Wang,"72 Marion St, Leichhardt NSW",Leichhardt,Leaking tap repair,2026-01-08,2026-01-10,280.00
+INV-2109,Final,J-1101,Chatswood Physiotherapy,"97 Victoria Ave, Chatswood NSW",Chatswood,Leaking tap repair,2026-01-09,2026-01-10,275.82
+INV-2110,Final,J-1102,Coastline Property Management,"139 Cowles Rd, Mosman NSW",Mosman,Roof gutter replacement,2026-01-13,2026-01-13,2135.00
+INV-2112,Final,J-1104,Kostas Chen,"147 Hewlett St, Bronte NSW",Bronte,Blocked drain clearing,2026-01-14,2026-01-14,415.00
+INV-2111,Final,J-1103,Eleni Tran,"169 Glenmore Rd, Paddington NSW",Paddington,Burst pipe repair,2026-01-13,2026-01-15,1380.65
+INV-2113,Final,J-1105,Minh Johnson,"106 Arden St, Coogee NSW",Coogee,Toilet cistern replacement,2026-01-16,2026-01-17,425.00
+INV-2125,Deposit,J-1116,Eleni Johnson,"117 Todman Ave, Kensington NSW",Kensington,Bathroom renovation rough-in,2026-02-05,2026-01-17,3500.00
+INV-2115,Final,J-1106,Charlotte Patel,"56 Short St, Leichhardt NSW",Leichhardt,Roof gutter replacement,2026-01-19,2026-01-19,2205.00
+INV-2116,Final,J-1107,William Singh,"130 Crown St, Surry Hills NSW",Surry Hills,Gas cooktop installation,2026-01-22,2026-01-23,665.00
+INV-2130,Deposit,J-1120,Emily Thompson,"136 Station St, Newtown NSW",Newtown,Bathroom renovation rough-in,2026-02-11,2026-01-23,2810.00
+INV-2117,Final,J-1108,Giovanni & Lucas Tran,"91 Victoria Rd, Rozelle NSW",Rozelle,Blocked drain clearing,2026-01-23,2026-01-24,436.67
+INV-2118,Final,J-1109,Sophie Le,"112 Yeo St, Neutral Bay NSW",Neutral Bay,Leaking tap repair,2026-01-26,2026-01-26,175.00
+INV-2119,Final,J-1110,Sean O'Brien,"112 Gurner St, Paddington NSW",Paddington,Burst pipe repair,2026-01-26,2026-01-26,490.00
+INV-2120,Final,J-1111,Thomas & Jack Anderson,"50 Cowles Rd, Mosman NSW",Mosman,Call-out and inspection,2026-01-27,2026-01-29,165.00
+INV-2121,Final,J-1112,Kostas & Linh Nguyen,"167 Mount St, Coogee NSW",Coogee,Burst pipe repair,2026-01-28,2026-01-29,1015.00
+INV-2122,Final,J-1113,The Daily Grind Cafe,"91 Riley St, Surry Hills NSW",Surry Hills,Blocked drain clearing,2026-02-02,2026-02-02,285.00
+INV-2123,Final,J-1114,Noah Brown,"173 Victoria Ave, Chatswood NSW",Chatswood,Blocked drain clearing,2026-02-02,2026-02-02,525.00
+INV-2124,Final,J-1115,Henry Wang,"55 Trafalgar St, Annandale NSW",Annandale,Leaking tap repair,2026-02-04,2026-02-05,320.00
+INV-2126,Final,J-1116,Eleni Johnson,"117 Todman Ave, Kensington NSW",Kensington,Bathroom renovation rough-in,2026-02-05,2026-02-05,8175.00
+INV-2127,Final,J-1117,Lucas Ryan,"17 Mort St, Balmain NSW",Balmain,Leaking tap repair,2026-02-05,2026-02-06,295.00
+INV-2128,Final,J-1118,Chloe & Ethan Martin,"2 Pittwater Rd, Manly NSW",Manly,Gas leak detection and repair,2026-02-06,2026-02-07,335.00
+INV-2129,Final,J-1119,Amelia Wang,"34 Fitzroy St, Surry Hills NSW",Surry Hills,Burst pipe repair,2026-02-09,2026-02-09,600.00
+INV-2131,Final,J-1120,Emily Thompson,"136 Station St, Newtown NSW",Newtown,Bathroom renovation rough-in,2026-02-11,2026-02-13,6572.00
+INV-2132,Final,J-1121,Noah Wilson,"118 Belmore Rd, Randwick NSW",Randwick,Leaking tap repair,2026-02-13,2026-02-13,175.00
+INV-2133,Final,J-1122,Henry & Thomas Campbell,"28 Addison Rd, Manly NSW",Manly,Burst pipe repair,2026-02-16,2026-02-16,1145.00
+INV-2134,Final,J-1123,Chloe O'Brien,"24 Wilson St, Newtown NSW",Newtown,Blocked drain clearing,2026-02-16,2026-02-16,570.58
+INV-2135,Final,J-1124,Aoife Patel,"172 Darley Rd, Manly NSW",Manly,Gas leak detection and repair,2026-02-16,2026-02-17,470.00
+INV-2137,Final,J-1126,Wei White,"171 Pacific Pde, Dee Why NSW",Dee Why,Leaking tap repair,2026-02-17,2026-02-17,275.00
+INV-2136,Final,J-1125,Coastline Property Management,"162 Curlewis St, Bondi NSW",Bondi,Gas leak detection and repair,2026-02-17,2026-02-18,807.86
+INV-2138,Final,J-1127,Tran & Co Accountants,"25 Mort St, Balmain NSW",Balmain,Gas leak detection and repair,2026-02-18,2026-02-18,631.45
+INV-2139,Final,J-1128,Sean Mitchell,"174 Short St, Leichhardt NSW",Leichhardt,Roof gutter replacement,2026-02-19,2026-02-19,2360.00
+INV-2140,Final,J-1129,Kostas Wilson,"135 Ashburner St, Manly NSW",Manly,Call-out and inspection,2026-02-23,2026-02-23,165.00
+INV-2143,Final,J-1132,James & Eleni Johnson,"63 Terry St, Rozelle NSW",Rozelle,Gas leak detection and repair,2026-02-24,2026-02-24,735.00
+INV-2141,Final,J-1130,Linh Wang,"152 Addison Rd, Manly NSW",Manly,Call-out and inspection,2026-02-23,2026-02-25,165.00
+INV-2142,Final,J-1131,Wei Anderson,"19 Terry St, Rozelle NSW",Rozelle,Blocked drain clearing,2026-02-23,2026-02-25,440.00
+INV-2144,Final,J-1133,Hannah Singh,"70 Wairoa Ave, Bondi NSW",Bondi,Gas cooktop installation,2026-02-24,2026-02-25,755.00
+INV-2145,Final,J-1134,Ethan Clarke,"174 Fitzgerald Ave, Maroubra NSW",Maroubra,Toilet cistern replacement,2026-02-25,2026-02-25,383.10
+INV-2146,Final,J-1135,Kostas Chen,"147 Hewlett St, Bronte NSW",Bronte,Blocked drain clearing,2026-02-26,2026-02-26,230.00
+INV-2147,Final,J-1136,Thomas Taylor,"165 Haig St, Maroubra NSW",Maroubra,Blocked drain clearing,2026-02-27,2026-02-27,485.00
+INV-2159,Deposit,J-1148,Daniel Clarke,"27 Bucknell St, Newtown NSW",Newtown,Bathroom renovation rough-in,2026-03-11,2026-02-27,3280.00
+INV-2149,Final,J-1138,Emily & Thomas King,"55 Forest St, Glebe NSW",Glebe,Toilet cistern replacement,2026-03-03,2026-03-03,661.91
+INV-2148,Final,J-1137,Lucas White,"142 Crown St, Surry Hills NSW",Surry Hills,Burst pipe repair,2026-03-02,2026-03-04,525.00
+INV-2151,Final,J-1140,Priya & Wei Murphy,"147 Victoria Ave, Chatswood NSW",Chatswood,Blocked drain clearing,2026-03-03,2026-03-04,270.00
+INV-2150,Final,J-1139,Sophie Wang,"29 Haig St, Maroubra NSW",Maroubra,Hot water system replacement,2026-03-03,2026-03-05,3240.00
+INV-2152,Final,J-1141,Henry Nguyen,"8 Belmore Rd, Randwick NSW",Randwick,Gas leak detection and repair,2026-03-04,2026-03-05,510.00
+INV-2153,Final,J-1142,Mia Thompson,"129 Anzac Pde, Kensington NSW",Kensington,Gas cooktop installation,2026-03-04,2026-03-05,850.00
+INV-2154,Final,J-1143,Priya White,"28 Evans St, Rozelle NSW",Rozelle,Blocked drain clearing,2026-03-05,2026-03-06,630.00
+INV-2155,Final,J-1144,Kostas & Amelia Kelly,"98 Belmont Rd, Mosman NSW",Mosman,Call-out and inspection,2026-03-05,2026-03-07,165.00
+INV-2156,Final,J-1145,James & Emily White,"136 Ashburner St, Manly NSW",Manly,Leaking tap repair,2026-03-05,2026-03-07,295.00
+INV-2157,Final,J-1146,Mei Anderson,"124 Johnson St, Chatswood NSW",Chatswood,Gas leak detection and repair,2026-03-06,2026-03-07,845.00
+INV-2177,Deposit,J-1165,Lucas Ryan,"17 Mort St, Balmain NSW",Balmain,Hot water system replacement,2026-03-25,2026-03-08,1010.00
+INV-2158,Final,J-1147,Raj Campbell,"43 Johnson St, Chatswood NSW",Chatswood,Blocked drain clearing,2026-03-09,2026-03-11,640.95
+INV-2161,Final,J-1149,Anderson & Co Accountants,"171 Marion St, Leichhardt NSW",Leichhardt,Leaking tap repair,2026-03-11,2026-03-12,185.00
+INV-2160,Final,J-1148,Daniel Clarke,"27 Bucknell St, Newtown NSW",Newtown,Bathroom renovation rough-in,2026-03-11,2026-03-13,7650.00
+INV-2162,Final,J-1150,Hannah Robinson,"29 Victoria Rd, Rozelle NSW",Rozelle,Gas leak detection and repair,2026-03-11,2026-03-13,805.00
+INV-2164,Final,J-1152,Sofia Papadopoulos,"33 Anzac Pde, Kensington NSW",Kensington,Leaking tap repair,2026-03-13,2026-03-13,180.00
+INV-2163,Final,J-1151,Henry Papadopoulos,"12 Addison Rd, Manly NSW",Manly,Leaking tap repair,2026-03-12,2026-03-14,185.00
+INV-2165,Final,J-1153,Mia Hughes,"98 Cowles Rd, Mosman NSW",Mosman,Roof gutter replacement,2026-03-16,2026-03-16,2370.00
+INV-2166,Final,J-1154,Charlotte Taylor,"130 Short St, Leichhardt NSW",Leichhardt,Toilet cistern replacement,2026-03-16,2026-03-18,590.00
+INV-2168,Final,J-1156,Grace Lee,"5 Fisher Rd, Dee Why NSW",Dee Why,Toilet cistern replacement,2026-03-18,2026-03-18,575.00
+INV-2167,Final,J-1155,James & Eleni Johnson,"63 Terry St, Rozelle NSW",Rozelle,Bathroom renovation rough-in,2026-03-18,2026-03-19,12750.00
+INV-2169,Final,J-1157,Giovanni Taylor,"129 Bream St, Coogee NSW",Coogee,Blocked drain clearing,2026-03-19,2026-03-19,460.00
+INV-2172,Final,J-1160,Thomas & Sean Chen,"53 Victoria Ave, Chatswood NSW",Chatswood,Hot water system replacement,2026-03-20,2026-03-20,2165.00
+INV-2170,Final,J-1158,Mosman Strata Management,"7 Belmont Rd, Mosman NSW",Mosman,Leaking tap repair,2026-03-19,2026-03-21,285.00
+INV-2171,Final,J-1159,Wei Mitchell,"111 Bourke St, Surry Hills NSW",Surry Hills,Gas leak detection and repair,2026-03-19,2026-03-21,880.00
+INV-2174,Final,J-1162,Emily Thompson,"136 Station St, Newtown NSW",Newtown,Toilet cistern replacement,2026-03-23,2026-03-23,390.00
+INV-2173,Final,J-1161,Emily & Jack Anderson,"166 Underwood St, Paddington NSW",Paddington,Hot water system replacement,2026-03-23,2026-03-24,2780.00
+INV-2175,Final,J-1163,William & Kostas Taylor,"146 Pittwater Rd, Manly NSW",Manly,Blocked drain clearing,2026-03-23,2026-03-24,591.16
+INV-2176,Final,J-1164,James & Emily White,"136 Ashburner St, Manly NSW",Manly,Leaking tap repair,2026-03-24,2026-03-24,200.00
+INV-2179,Final,J-1166,Linh Tran,"107 Macpherson St, Bronte NSW",Bronte,Burst pipe repair,2026-03-25,2026-03-25,1327.39
+INV-2178,Final,J-1165,Lucas Ryan,"17 Mort St, Balmain NSW",Balmain,Hot water system replacement,2026-03-25,2026-03-26,2360.00
+INV-2180,Final,J-1167,Noah Campbell,"115 Frenchmans Rd, Randwick NSW",Randwick,Burst pipe repair,2026-03-26,2026-03-27,1110.00
+INV-2181,Final,J-1168,Little Sprouts Childcare Newtown,"165 Station St, Newtown NSW",Newtown,Gas cooktop installation,2026-03-26,2026-03-27,690.00
+INV-2183,Final,J-1170,Sofia Chen,"171 Riley St, Surry Hills NSW",Surry Hills,Blocked drain clearing,2026-03-27,2026-03-27,300.00
+INV-2182,Final,J-1169,Jack Wang,"157 Malabar Rd, Maroubra NSW",Maroubra,Blocked drain clearing,2026-03-27,2026-03-29,580.00
+INV-2184,Final,J-1171,Coastline Property Management,"48 Johnston St, Annandale NSW",Annandale,Call-out and inspection,2026-03-30,2026-03-31,165.00
+INV-2185,Final,J-1172,Linh Harris,"178 Short St, Leichhardt NSW",Leichhardt,Gas leak detection and repair,2026-03-31,2026-03-31,305.00
+INV-2191,Deposit,J-1178,Aoife Singh,"81 Terry St, Rozelle NSW",Rozelle,Bathroom renovation rough-in,2026-04-08,2026-04-01,4000.00
+INV-2186,Final,J-1173,Anderson & Co Accountants,"171 Marion St, Leichhardt NSW",Leichhardt,Hot water system replacement,2026-04-01,2026-04-02,3205.00
+INV-2187,Final,J-1174,Wei & Raj Ryan,"78 Booth St, Annandale NSW",Annandale,Leaking tap repair,2026-04-02,2026-04-03,200.00
+INV-2188,Final,J-1175,Charlotte & Minh Kelly,"88 Terry St, Rozelle NSW",Rozelle,Leaking tap repair,2026-04-03,2026-04-04,200.00
+INV-2189,Final,J-1176,Balmain Physiotherapy,"113 Beattie St, Balmain NSW",Balmain,Toilet cistern replacement,2026-04-06,2026-04-06,445.00
+INV-2190,Final,J-1177,Henry Papadopoulos,"12 Addison Rd, Manly NSW",Manly,Gas cooktop installation,2026-04-07,2026-04-07,985.00
+INV-2192,Final,J-1178,Aoife Singh,"81 Terry St, Rozelle NSW",Rozelle,Bathroom renovation rough-in,2026-04-08,2026-04-09,9320.00
+INV-2195,Final,J-1181,Raj & Sophie Wilson,"130 Malabar Rd, Maroubra NSW",Maroubra,Call-out and inspection,2026-04-09,2026-04-09,165.00
+INV-2193,Final,J-1179,Sean White,"113 Addison Rd, Manly NSW",Manly,Gas leak detection and repair,2026-04-09,2026-04-10,620.00
+INV-2194,Final,J-1180,The Daily Grind Cafe,"63 Underwood St, Paddington NSW",Paddington,Leaking tap repair,2026-04-09,2026-04-10,330.00
+INV-2196,Final,J-1182,James King,"38 Beattie St, Balmain NSW",Balmain,Leaking tap repair,2026-04-10,2026-04-10,266.68
+INV-2197,Final,J-1183,Minh Ryan,"98 Victoria Rd, Marrickville NSW",Marrickville,Roof gutter replacement,2026-04-10,2026-04-10,3125.00
+INV-2206,Deposit,J-1192,Priya Kelly,"12 Ashburner St, Manly NSW",Manly,Roof gutter replacement,2026-04-24,2026-04-11,730.00
+INV-2199,Final,J-1185,Thomas & Emily Wilson,"99 Archer St, Chatswood NSW",Chatswood,Blocked drain clearing,2026-04-15,2026-04-15,511.71
+INV-2198,Final,J-1184,Annandale Physiotherapy,"144 Trafalgar St, Annandale NSW",Annandale,Call-out and inspection,2026-04-14,2026-04-16,165.00
+INV-2200,Final,J-1186,Wei Murphy,"59 Military Rd, Mosman NSW",Mosman,Gas leak detection and repair,2026-04-17,2026-04-18,304.65
+INV-2201,Final,J-1187,William Harris,"140 Fitzroy St, Surry Hills NSW",Surry Hills,Leaking tap repair,2026-04-17,2026-04-18,210.00
+INV-2209,Deposit,J-1194,Liam Wilson,"120 Bridge Rd, Glebe NSW",Glebe,Hot water system replacement,2026-04-29,2026-04-18,960.00
+INV-2203,Final,J-1189,Little Sprouts Childcare Bronte,"13 St Thomas St, Bronte NSW",Bronte,Hot water system replacement,2026-04-20,2026-04-21,2159.67
+INV-2204,Final,J-1190,Tran & Co Accountants,"25 Mort St, Balmain NSW",Balmain,Gas cooktop installation,2026-04-21,2026-04-21,1045.00
+INV-2202,Final,J-1188,Hannah & Amelia Patel,"88 Redman Rd, Dee Why NSW",Dee Why,Blocked drain clearing,2026-04-20,2026-04-22,510.00
+INV-2205,Final,J-1191,Surry Hills Physiotherapy,"149 Crown St, Surry Hills NSW",Surry Hills,Blocked drain clearing,2026-04-22,2026-04-24,231.53
+INV-2207,Final,J-1192,Priya Kelly,"12 Ashburner St, Manly NSW",Manly,Roof gutter replacement,2026-04-24,2026-04-24,1700.00
+INV-2208,Final,J-1193,Harbour Realty Newtown,"127 Australia St, Newtown NSW",Newtown,Gas leak detection and repair,2026-04-27,2026-04-29,605.64
+INV-2211,Final,J-1195,Wei Mitchell,"111 Bourke St, Surry Hills NSW",Surry Hills,Burst pipe repair,2026-04-29,2026-04-30,765.00
+INV-2212,Final,J-1196,Daniel Wang,"21 Military Rd, Mosman NSW",Mosman,Burst pipe repair,2026-04-30,2026-04-30,995.00
+INV-2210,Final,J-1194,Liam Wilson,"120 Bridge Rd, Glebe NSW",Glebe,Hot water system replacement,2026-04-29,2026-05-01,2255.00
+INV-2213,Final,J-1197,Lucas Ryan,"17 Mort St, Balmain NSW",Balmain,Blocked drain clearing,2026-05-01,2026-05-02,405.00
+INV-2214,Final,J-1198,Chen & Co Accountants,"85 Military Rd, Mosman NSW",Mosman,Toilet cistern replacement,2026-05-05,2026-05-07,415.00
+INV-2217,Final,J-1201,Minh Rossi,"39 Hewlett St, Bronte NSW",Bronte,Blocked drain clearing,2026-05-07,2026-05-07,365.00
+INV-2215,Final,J-1199,Bronte Physiotherapy,"135 Hewlett St, Bronte NSW",Bronte,Blocked drain clearing,2026-05-06,2026-05-08,655.00
+INV-2216,Final,J-1200,James Taylor,"13 Anzac Pde, Maroubra NSW",Maroubra,Call-out and inspection,2026-05-07,2026-05-08,165.00
+INV-2219,Final,J-1203,Giovanni & Raj Murphy,"74 Wycombe Rd, Neutral Bay NSW",Neutral Bay,Gas cooktop installation,2026-05-11,2026-05-11,600.00
+INV-2220,Final,J-1204,Charlotte Taylor,"41 Dolphin St, Coogee NSW",Coogee,Leaking tap repair,2026-05-12,2026-05-12,285.00
+INV-2218,Final,J-1202,William Walker,"167 Arden St, Coogee NSW",Coogee,Gas leak detection and repair,2026-05-11,2026-05-13,500.00
+INV-2221,Final,J-1205,Minh Robinson,"165 Fitzgerald Ave, Maroubra NSW",Maroubra,Burst pipe repair,2026-05-13,2026-05-14,915.00
+INV-2222,Final,J-1206,Thomas Johnson,"174 Todman Ave, Kensington NSW",Kensington,Burst pipe repair,2026-05-14,2026-05-14,1095.00
+INV-2223,Final,J-1207,Kelly Property Group,"12 Fisher Rd, Dee Why NSW",Dee Why,Leaking tap repair,2026-05-15,2026-05-15,300.65
+INV-2224,Final,J-1208,Liam Kelly,"33 Avoca St, Randwick NSW",Randwick,Leaking tap repair,2026-05-18,2026-05-18,180.00
+INV-2225,Final,J-1209,Amelia Chen,"115 Terry St, Rozelle NSW",Rozelle,Toilet cistern replacement,2026-05-19,2026-05-20,635.00
+INV-2226,Final,J-1210,Priya White,"28 Evans St, Rozelle NSW",Rozelle,Blocked drain clearing,2026-05-19,2026-05-21,245.00
+INV-2227,Final,J-1211,Giovanni Singh,"119 Archer St, Chatswood NSW",Chatswood,Leaking tap repair,2026-05-20,2026-05-21,285.00
+INV-2228,Final,J-1212,Charlotte Anderson,"103 Glenmore Rd, Paddington NSW",Paddington,Toilet cistern replacement,2026-05-20,2026-05-21,447.55
+INV-2230,Final,J-1214,Priya Rossi,"26 Beattie St, Balmain NSW",Balmain,Gas leak detection and repair,2026-05-21,2026-05-21,620.00
+INV-2243,Deposit,J-1227,Sophie Thompson,"8 Victoria Rd, Rozelle NSW",Rozelle,Hot water system replacement,2026-06-11,2026-05-21,640.00
+INV-2229,Final,J-1213,Lucas Murphy,"37 Victoria Ave, Chatswood NSW",Chatswood,Gas cooktop installation,2026-05-21,2026-05-22,810.00
+INV-2231,Final,J-1215,Charlotte Taylor,"130 Short St, Leichhardt NSW",Leichhardt,Leaking tap repair,2026-05-22,2026-05-22,300.00
+INV-2232,Final,J-1216,Amelia Chen,"115 Terry St, Rozelle NSW",Rozelle,Toilet cistern replacement,2026-05-25,2026-05-26,700.00
+INV-2233,Final,J-1217,Thomas & Amelia Johnson,"71 Glenmore Rd, Paddington NSW",Paddington,Call-out and inspection,2026-05-28,2026-05-29,165.00
+INV-2234,Final,J-1218,Harbour Realty Coogee,"113 Mount St, Coogee NSW",Coogee,Hot water system replacement,2026-05-29,2026-05-29,3110.00
+INV-2249,Deposit,J-1232,Chen & Co Accountants,"85 Military Rd, Mosman NSW",Mosman,Bathroom renovation rough-in,2026-06-17,2026-06-01,3390.00
+INV-2235,Final,J-1219,Ethan Williams,"92 Pittwater Rd, Manly NSW",Manly,Blocked drain clearing,2026-06-01,2026-06-02,250.00
+INV-2237,Final,J-1221,Isla Tran,"22 Station St, Newtown NSW",Newtown,Hot water system replacement,2026-06-02,2026-06-02,2215.00
+INV-2236,Final,J-1220,Minh & Amelia Thompson,"173 Johnson St, Chatswood NSW",Chatswood,Blocked drain clearing,2026-06-01,2026-06-03,505.00
+INV-2238,Final,J-1222,Olivia Tran,"116 Avoca St, Randwick NSW",Randwick,Blocked drain clearing,2026-06-04,2026-06-06,495.00
+INV-2239,Final,J-1223,Raj Campbell,"43 Johnson St, Chatswood NSW",Chatswood,Toilet cistern replacement,2026-06-05,2026-06-06,805.00
+INV-2240,Final,J-1224,Thomas Nguyen,"43 Cowles Rd, Mosman NSW",Mosman,Toilet cistern replacement,2026-06-05,2026-06-07,650.00
+INV-2241,Final,J-1225,Daniel & Jack Mitchell,"60 Crown St, Surry Hills NSW",Surry Hills,Gas cooktop installation,2026-06-09,2026-06-10,765.00
+INV-2242,Final,J-1226,Grace Mitchell,"91 Wilson St, Newtown NSW",Newtown,Gas cooktop installation,2026-06-09,2026-06-10,940.00
+INV-2244,Final,J-1227,Sophie Thompson,"8 Victoria Rd, Rozelle NSW",Rozelle,Hot water system replacement,2026-06-11,2026-06-12,1506.75
+INV-2245,Final,J-1228,Emily Clarke,"134 Oaks Ave, Dee Why NSW",Dee Why,Burst pipe repair,2026-06-12,2026-06-13,895.00
+INV-2246,Final,J-1229,Liam Tran,"141 Wilson St, Newtown NSW",Newtown,Blocked drain clearing,2026-06-15,2026-06-15,260.45
+INV-2248,Final,J-1231,Mei White,"76 Forest St, Glebe NSW",Glebe,Gas cooktop installation,2026-06-16,2026-06-16,615.00
+INV-2247,Final,J-1230,Ethan Williams,"46 Gurner St, Paddington NSW",Paddington,Burst pipe repair,2026-06-15,2026-06-17,440.00
+INV-2267,Deposit,J-1249,Sofia Papadopoulos,"33 Anzac Pde, Kensington NSW",Kensington,Bathroom renovation rough-in,2026-07-06,2026-06-17,3830.00
+INV-2250,Final,J-1232,Chen & Co Accountants,"85 Military Rd, Mosman NSW",Mosman,Bathroom renovation rough-in,2026-06-17,2026-06-18,7905.00
+INV-2251,Final,J-1233,Wei Harris,"84 Mort St, Balmain NSW",Balmain,Toilet cistern replacement,2026-06-17,2026-06-18,631.59
+INV-2252,Final,J-1234,Noah Campbell,"115 Frenchmans Rd, Randwick NSW",Randwick,Blocked drain clearing,2026-06-18,2026-06-18,434.06
+INV-2253,Final,J-1235,Grace Lee,"5 Fisher Rd, Dee Why NSW",Dee Why,Toilet cistern replacement,2026-06-18,2026-06-19,835.00
+INV-2254,Final,J-1236,Aoife Smith,"76 Military Rd, Mosman NSW",Mosman,Call-out and inspection,2026-06-19,2026-06-21,165.00
+INV-2256,Final,J-1238,Henry & Thomas Campbell,"28 Addison Rd, Manly NSW",Manly,Gas leak detection and repair,2026-06-22,2026-06-23,780.00
+INV-2257,Final,J-1239,The Daily Grind Cafe,"38 Mort St, Balmain NSW",Balmain,Blocked drain clearing,2026-06-23,2026-06-23,555.00
+INV-2255,Final,J-1237,Sean White,"113 Addison Rd, Manly NSW",Manly,Blocked drain clearing,2026-06-22,2026-06-24,618.05
+INV-2258,Final,J-1240,Liam Le,"2 St Thomas St, Bronte NSW",Bronte,Toilet cistern replacement,2026-06-24,2026-06-26,383.40
+INV-2259,Final,J-1241,Manly Strata Management,"117 Addison Rd, Manly NSW",Manly,Hot water system replacement,2026-06-26,2026-06-26,2300.00
+INV-2260,Final,J-1242,Emily Wang,"91 Fisher Rd, Dee Why NSW",Dee Why,Hot water system replacement,2026-06-26,2026-06-27,2640.00
+INV-2261,Final,J-1243,Sophie King,"172 Cowles Rd, Mosman NSW",Mosman,Leaking tap repair,2026-06-29,2026-06-29,220.00
+INV-2262,Final,J-1244,Hannah Singh,"70 Wairoa Ave, Bondi NSW",Bondi,Toilet cistern replacement,2026-06-29,2026-06-30,555.00
+INV-2263,Final,J-1245,Thomas Mitchell,"22 Pittwater Rd, Manly NSW",Manly,Call-out and inspection,2026-06-30,2026-07-01,165.00
+INV-2264,Final,J-1246,Jack Nguyen,"135 Victoria Rd, Marrickville NSW",Marrickville,Roof gutter replacement,2026-06-30,2026-07-01,3440.00
+INV-2265,Final,J-1247,Maroubra Strata Management,"71 Malabar Rd, Maroubra NSW",Maroubra,Hot water system replacement,2026-07-01,2026-07-01,2125.00
+INV-2281,Deposit,J-1262,Ethan Mitchell,"60 Macpherson St, Bronte NSW",Bronte,Roof gutter replacement,2026-07-16,2026-07-01,570.00
+INV-2266,Final,J-1248,Kelly & Co Accountants,"98 Dolphin St, Coogee NSW",Coogee,Roof gutter replacement,2026-07-02,2026-07-03,2200.00
+INV-2268,Final,J-1249,Sofia Papadopoulos,"33 Anzac Pde, Kensington NSW",Kensington,Bathroom renovation rough-in,2026-07-06,2026-07-06,8945.00
+INV-2269,Final,J-1250,Little Sprouts Childcare Rozelle,"35 Evans St, Rozelle NSW",Rozelle,Burst pipe repair,2026-07-06,2026-07-06,510.00
+INV-2270,Final,J-1251,Sophie Anderson,"153 Hargrave St, Paddington NSW",Paddington,Gas cooktop installation,2026-07-07,2026-07-08,835.00
+INV-2272,Final,J-1253,Thomas & Sean Chen,"53 Victoria Ave, Chatswood NSW",Chatswood,Blocked drain clearing,2026-07-08,2026-07-09,385.00
+INV-2271,Final,J-1252,Emily Hughes,"64 Help St, Chatswood NSW",Chatswood,Call-out and inspection,2026-07-08,2026-07-10,165.00
+INV-2273,Final,J-1254,Harbour Realty Kensington,"113 Doncaster Ave, Kensington NSW",Kensington,Blocked drain clearing,2026-07-09,2026-07-11,630.00
+INV-2274,Final,J-1255,Little Sprouts Childcare Bronte,"13 St Thomas St, Bronte NSW",Bronte,Call-out and inspection,2026-07-10,2026-07-11,165.00
+INV-2275,Final,J-1256,Kensington Strata Management,"145 Todman Ave, Kensington NSW",Kensington,Blocked drain clearing,2026-07-13,2026-07-13,270.00
+INV-2276,Final,J-1257,Noah Wilson,"118 Belmore Rd, Randwick NSW",Randwick,Roof gutter replacement,2026-07-13,2026-07-15,3735.00
+INV-2277,Final,J-1258,Coastline Property Management,"112 Pittwater Rd, Manly NSW",Manly,Blocked drain clearing,2026-07-14,2026-07-15,500.00
+INV-2279,Final,J-1260,Annandale Strata Management,"113 Trafalgar St, Annandale NSW",Annandale,Toilet cistern replacement,2026-07-15,2026-07-15,395.00
+INV-2280,Final,J-1261,Grace Harris,"84 Clovelly Rd, Randwick NSW",Randwick,Blocked drain clearing,2026-07-15,2026-07-15,425.00
+INV-2301,Deposit,J-1281,Sophie Martin,"13 Norton St, Leichhardt NSW",Leichhardt,Hot water system replacement,2026-08-03,2026-07-15,980.00
+INV-2278,Final,J-1259,Hannah Robinson,"29 Victoria Rd, Rozelle NSW",Rozelle,Gas leak detection and repair,2026-07-15,2026-07-16,790.00
+INV-2283,Final,J-1263,Lucas Ryan,"90 Allen St, Leichhardt NSW",Leichhardt,Burst pipe repair,2026-07-16,2026-07-16,788.21
+INV-2284,Final,J-1264,Liam Wilson,"120 Bridge Rd, Glebe NSW",Glebe,Blocked drain clearing,2026-07-16,2026-07-16,232.65
+INV-2285,Final,J-1265,Minh Ryan,"98 Victoria Rd, Marrickville NSW",Marrickville,Gas cooktop installation,2026-07-17,2026-07-17,500.00
+INV-2282,Final,J-1262,Ethan Mitchell,"60 Macpherson St, Bronte NSW",Bronte,Roof gutter replacement,2026-07-16,2026-07-18,1335.00
+INV-2286,Final,J-1266,Kostas Williams,"60 Hewlett St, Bronte NSW",Bronte,Blocked drain clearing,2026-07-17,2026-07-19,635.00
+INV-2288,Final,J-1268,Grace Mitchell,"91 Wilson St, Newtown NSW",Newtown,Toilet cistern replacement,2026-07-21,2026-07-21,740.00
+INV-2287,Final,J-1267,Linh Harris,"178 Short St, Leichhardt NSW",Leichhardt,Gas cooktop installation,2026-07-20,2026-07-22,590.00
+INV-2289,Final,J-1269,Noah Singh,"8 Ben Boyd Rd, Neutral Bay NSW",Neutral Bay,Call-out and inspection,2026-07-22,2026-07-23,165.00
+INV-2290,Final,J-1270,Ethan Williams,"46 Gurner St, Paddington NSW",Paddington,Burst pipe repair,2026-07-23,2026-07-23,500.00
+INV-2291,Final,J-1271,William Patel,"12 Bourke St, Surry Hills NSW",Surry Hills,Hot water system replacement,2026-07-24,2026-07-25,2375.00
+INV-2292,Final,J-1272,Charlotte Robinson,"179 Mort St, Balmain NSW",Balmain,Toilet cistern replacement,2026-07-24,2026-07-25,740.00
+INV-2304,Deposit,J-1283,Henry & Thomas Campbell,"28 Addison Rd, Manly NSW",Manly,Roof gutter replacement,2026-08-05,2026-07-25,850.00
+INV-2293,Final,J-1273,Liam Wilson,"120 Bridge Rd, Glebe NSW",Glebe,Leaking tap repair,2026-07-27,2026-07-29,270.00
+INV-2294,Final,J-1274,Little Sprouts Childcare Rozelle,"35 Evans St, Rozelle NSW",Rozelle,Leaking tap repair,2026-07-27,2026-07-29,245.00
+INV-2295,Final,J-1275,Giovanni & Lucas Tran,"91 Victoria Rd, Rozelle NSW",Rozelle,Gas cooktop installation,2026-07-28,2026-07-29,770.00
+INV-2296,Final,J-1276,Kostas Wilson,"135 Ashburner St, Manly NSW",Manly,Gas leak detection and repair,2026-07-28,2026-07-30,635.00
+INV-2297,Final,J-1277,Wei O'Brien,"71 Avoca St, Randwick NSW",Randwick,Blocked drain clearing,2026-07-29,2026-07-30,375.00
+INV-2298,Final,J-1278,Aoife & Kostas Papadopoulos,"138 Underwood St, Paddington NSW",Paddington,Leaking tap repair,2026-07-29,2026-07-30,195.00
+INV-2300,Final,J-1280,Harbour Realty Kensington,"167 Day Ave, Kensington NSW",Kensington,Gas leak detection and repair,2026-07-30,2026-07-30,445.00
+INV-2299,Final,J-1279,Amelia Chen,"115 Terry St, Rozelle NSW",Rozelle,Toilet cistern replacement,2026-07-30,2026-07-31,540.00
+INV-2318,Deposit,J-1296,Isla Harris,"9 Australia St, Newtown NSW",Newtown,Hot water system replacement,2026-08-14,2026-08-02,700.00
+INV-2302,Final,J-1281,Sophie Martin,"13 Norton St, Leichhardt NSW",Leichhardt,Hot water system replacement,2026-08-03,2026-08-04,2275.00
+INV-2303,Final,J-1282,Daniel Taylor,"133 Anzac Pde, Maroubra NSW",Maroubra,Burst pipe repair,2026-08-04,2026-08-05,630.00
+INV-2305,Final,J-1283,Henry & Thomas Campbell,"28 Addison Rd, Manly NSW",Manly,Roof gutter replacement,2026-08-05,2026-08-05,1998.21
+INV-2306,Final,J-1284,Henry & Thomas Campbell,"28 Addison Rd, Manly NSW",Manly,Leaking tap repair,2026-08-06,2026-08-06,315.00
+INV-2307,Final,J-1285,Sofia Papadopoulos,"33 Anzac Pde, Kensington NSW",Kensington,Blocked drain clearing,2026-08-06,2026-08-06,637.86
+INV-2309,Final,J-1287,Lucas Wang,"72 Marion St, Leichhardt NSW",Leichhardt,Call-out and inspection,2026-08-07,2026-08-07,165.00
+INV-2308,Final,J-1286,Minh Rossi,"39 Hewlett St, Bronte NSW",Bronte,Blocked drain clearing,2026-08-07,2026-08-08,415.00
+INV-2310,Final,J-1288,Emily & Jack Anderson,"166 Underwood St, Paddington NSW",Paddington,Burst pipe repair,2026-08-07,2026-08-08,615.00
+INV-2311,Final,J-1289,Sofia Williams,"178 Cowles Rd, Mosman NSW",Mosman,Call-out and inspection,2026-08-10,2026-08-11,165.00
+INV-2312,Final,J-1290,Kostas Brown,"85 Redman Rd, Dee Why NSW",Dee Why,Leaking tap repair,2026-08-10,2026-08-11,315.00
+INV-2313,Final,J-1291,James White,"142 Despointes St, Marrickville NSW",Marrickville,Roof gutter replacement,2026-08-10,2026-08-11,3345.00
+INV-2315,Final,J-1293,Wei Campbell,"35 Hargrave St, Paddington NSW",Paddington,Gas leak detection and repair,2026-08-11,2026-08-11,335.00
+INV-2316,Final,J-1294,Grace Mitchell,"91 Wilson St, Newtown NSW",Newtown,Leaking tap repair,2026-08-12,2026-08-12,230.00
+INV-2314,Final,J-1292,Aoife Patel,"172 Darley Rd, Manly NSW",Manly,Leaking tap repair,2026-08-11,2026-08-13,235.00
+INV-2317,Final,J-1295,Sofia & William Williams,"37 Belmont Rd, Mosman NSW",Mosman,Leaking tap repair,2026-08-13,2026-08-13,280.00
+INV-2319,Final,J-1296,Isla Harris,"9 Australia St, Newtown NSW",Newtown,Hot water system replacement,2026-08-14,2026-08-14,1635.00
+INV-2320,Final,J-1297,William Campbell,"119 Frenchmans Rd, Randwick NSW",Randwick,Burst pipe repair,2026-08-14,2026-08-14,500.00
+INV-2321,Final,J-1298,Mei Brown,"100 Wycombe Rd, Neutral Bay NSW",Neutral Bay,Blocked drain clearing,2026-08-14,2026-08-14,245.00
+INV-2322,Final,J-1299,James Anderson,"135 Victoria Ave, Chatswood NSW",Chatswood,Blocked drain clearing,2026-08-18,2026-08-19,300.00
+INV-2324,Final,J-1301,The Daily Grind Cafe,"21 Victoria Ave, Chatswood NSW",Chatswood,Gas cooktop installation,2026-08-19,2026-08-19,745.14
+INV-2326,Final,J-1303,Daniel & Sofia Nguyen,"148 Addison Rd, Manly NSW",Manly,Gas cooktop installation,2026-08-20,2026-08-20,1035.00
+INV-2323,Final,J-1300,James Anderson,"135 Victoria Ave, Chatswood NSW",Chatswood,Leaking tap repair,2026-08-19,2026-08-21,275.00
+INV-2325,Final,J-1302,White & Co Accountants,"132 Wigram Rd, Glebe NSW",Glebe,Blocked drain clearing,2026-08-20,2026-08-21,259.24
+INV-2327,Final,J-1304,Mia Brown,"83 Macpherson St, Bronte NSW",Bronte,Gas leak detection and repair,2026-08-24,2026-08-25,670.00
+INV-2328,Final,J-1305,Minh & Minh Martin,"10 Australia St, Newtown NSW",Newtown,Blocked drain clearing,2026-08-26,2026-08-27,352.17
+INV-2330,Final,J-1307,Mei King,"13 Riley St, Surry Hills NSW",Surry Hills,Gas leak detection and repair,2026-08-27,2026-08-27,290.00
+INV-2331,Final,J-1308,Lucas White,"142 Crown St, Surry Hills NSW",Surry Hills,Toilet cistern replacement,2026-08-27,2026-08-27,540.43
+INV-2329,Final,J-1306,Olivia Walker,"46 Mort St, Balmain NSW",Balmain,Blocked drain clearing,2026-08-27,2026-08-29,445.00
+INV-2332,Final,J-1309,Charlotte Taylor,"41 Dolphin St, Coogee NSW",Coogee,Burst pipe repair,2026-08-31,2026-08-31,1195.00
+INV-2334,Final,J-1311,Grace Mitchell,"91 Wilson St, Newtown NSW",Newtown,Call-out and inspection,2026-09-01,2026-09-02,165.00
+INV-2333,Final,J-1310,Rossi Property Group,"86 Wigram Rd, Glebe NSW",Glebe,Blocked drain clearing,2026-09-01,2026-09-03,645.00
+INV-2336,Final,J-1313,Amelia Walker,"88 Victoria Ave, Chatswood NSW",Chatswood,Toilet cistern replacement,2026-09-02,2026-09-03,390.00
+INV-2345,Deposit,J-1322,Giovanni Singh,"119 Archer St, Chatswood NSW",Chatswood,Bathroom renovation rough-in,2026-09-16,2026-09-03,3860.00
+INV-2335,Final,J-1312,Sophie Tran,"1 Fitzroy St, Surry Hills NSW",Surry Hills,Burst pipe repair,2026-09-02,2026-09-04,595.00
+INV-2337,Final,J-1314,Chloe & Ethan Rossi,"84 Warners Ave, Bondi NSW",Bondi,Blocked drain clearing,2026-09-07,2026-09-08,290.00
+INV-2338,Final,J-1315,Charlotte Anderson,"103 Glenmore Rd, Paddington NSW",Paddington,Blocked drain clearing,2026-09-08,2026-09-08,434.00
+INV-2339,Final,J-1316,Emily Brown,"158 Mount St, Coogee NSW",Coogee,Call-out and inspection,2026-09-08,2026-09-09,165.00
+INV-2340,Final,J-1317,Olivia O'Brien,"70 Evans St, Rozelle NSW",Rozelle,Toilet cistern replacement,2026-09-11,2026-09-11,676.07
+INV-2341,Final,J-1318,Minh & Amelia Thompson,"173 Johnson St, Chatswood NSW",Chatswood,Hot water system replacement,2026-09-14,2026-09-14,2110.00
+INV-2342,Final,J-1319,Liam Nguyen,"94 Frenchmans Rd, Randwick NSW",Randwick,Blocked drain clearing,2026-09-15,2026-09-15,635.00
+INV-2346,Final,J-1322,Giovanni Singh,"119 Archer St, Chatswood NSW",Chatswood,Bathroom renovation rough-in,2026-09-16,2026-09-16,9010.00
+INV-2343,Final,J-1320,Sean & Priya Papadopoulos,"155 Pittwater Rd, Manly NSW",Manly,Gas cooktop installation,2026-09-15,2026-09-17,1080.00
+INV-2344,Final,J-1321,Charlotte Robinson,"179 Mort St, Balmain NSW",Balmain,Gas leak detection and repair,2026-09-15,2026-09-17,715.00
+INV-2347,Final,J-1323,Little Sprouts Childcare Bronte,"13 St Thomas St, Bronte NSW",Bronte,Toilet cistern replacement,2026-09-16,2026-09-18,725.00
+INV-2348,Final,J-1324,Kostas Chen,"147 Hewlett St, Bronte NSW",Bronte,Burst pipe repair,2026-09-17,2026-09-18,435.00
+INV-2349,Final,J-1325,Mia & Grace Wilson,"51 Station St, Newtown NSW",Newtown,Gas leak detection and repair,2026-09-17,2026-09-18,900.00
+INV-2361,Deposit,J-1337,Emily & Liam Wilson,"91 Illawarra Rd, Marrickville NSW",Marrickville,Bathroom renovation rough-in,2026-09-29,2026-09-19,2120.00
+INV-2365,Deposit,J-1340,Jack Wang,"157 Malabar Rd, Maroubra NSW",Maroubra,Bathroom renovation rough-in,2026-10-06,2026-09-19,1440.00
+INV-2351,Final,J-1327,Priya & Wei Murphy,"147 Victoria Ave, Chatswood NSW",Chatswood,Leaking tap repair,2026-09-21,2026-09-22,190.00
+INV-2352,Final,J-1328,Jack Nguyen,"135 Victoria Rd, Marrickville NSW",Marrickville,Blocked drain clearing,2026-09-22,2026-09-22,220.00
+INV-2350,Final,J-1326,Mei Nguyen,"174 Kurraba Rd, Neutral Bay NSW",Neutral Bay,Call-out and inspection,2026-09-21,2026-09-23,165.00
+INV-2353,Final,J-1329,Lucas Wang,"72 Marion St, Leichhardt NSW",Leichhardt,Burst pipe repair,2026-09-22,2026-09-23,490.00
+INV-2354,Final,J-1330,Chen & Co Accountants,"85 Military Rd, Mosman NSW",Mosman,Call-out and inspection,2026-09-23,2026-09-23,165.00
+INV-2355,Final,J-1331,Daniel & Sofia Nguyen,"148 Addison Rd, Manly NSW",Manly,Gas leak detection and repair,2026-09-23,2026-09-23,630.00
+INV-2356,Final,J-1332,Daniel Wang,"17 Belmont Rd, Mosman NSW",Mosman,Burst pipe repair,2026-09-25,2026-09-25,540.00
+INV-2357,Final,J-1333,Priya Kelly,"12 Ashburner St, Manly NSW",Manly,Gas leak detection and repair,2026-09-28,2026-09-29,815.00
+INV-2358,Final,J-1334,Isla Thompson,"43 Toxteth Rd, Glebe NSW",Glebe,Leaking tap repair,2026-09-28,2026-09-29,205.00
+INV-2359,Final,J-1335,Harbour Realty Maroubra,"106 Haig St, Maroubra NSW",Maroubra,Call-out and inspection,2026-09-29,2026-09-29,165.00
+INV-2360,Final,J-1336,Isla Harris,"9 Australia St, Newtown NSW",Newtown,Leaking tap repair,2026-09-29,2026-09-30,260.00
+INV-2362,Final,J-1337,Emily & Liam Wilson,"91 Illawarra Rd, Marrickville NSW",Marrickville,Bathroom renovation rough-in,2026-09-29,2026-10-01,4937.02
+INV-2371,Deposit,J-1345,Daniel & Mei Lee,"142 Glenmore Rd, Paddington NSW",Paddington,Bathroom renovation rough-in,2026-10-08,2026-10-01,3130.00
+INV-2363,Final,J-1338,Eleni Brown,"171 Fisher Rd, Dee Why NSW",Dee Why,Gas leak detection and repair,2026-09-30,2026-10-02,899.53
+INV-2374,Deposit,J-1347,Mei & Amelia Johnson,"40 Belmont Rd, Mosman NSW",Mosman,Hot water system replacement,2026-10-12,2026-10-02,830.00
+INV-2364,Final,J-1339,Priya Rossi,"26 Beattie St, Balmain NSW",Balmain,Gas cooktop installation,2026-10-02,2026-10-03,862.86
+INV-2366,Final,J-1340,Jack Wang,"157 Malabar Rd, Maroubra NSW",Maroubra,Bathroom renovation rough-in,2026-10-06,2026-10-06,3354.00
+INV-2367,Final,J-1341,Aoife Anderson,"111 Victoria Rd, Rozelle NSW",Rozelle,Burst pipe repair,2026-10-06,2026-10-06,445.00
+INV-2368,Final,J-1342,Priya & Wei Murphy,"147 Victoria Ave, Chatswood NSW",Chatswood,Roof gutter replacement,2026-10-07,2026-10-07,3095.00
+INV-2369,Final,J-1343,Kostas & Sean Ryan,"144 Johnston St, Annandale NSW",Annandale,Toilet cistern replacement,2026-10-08,2026-10-08,565.00
+INV-2370,Final,J-1344,Minh Kelly,"177 St Thomas St, Bronte NSW",Bronte,Gas cooktop installation,2026-10-08,2026-10-08,968.19
+INV-2372,Final,J-1345,Daniel & Mei Lee,"142 Glenmore Rd, Paddington NSW",Paddington,Bathroom renovation rough-in,2026-10-08,2026-10-08,7310.00
+INV-2392,Deposit,J-1363,Chloe Murphy,"105 Mort St, Balmain NSW",Balmain,Hot water system replacement,2026-10-28,2026-10-08,770.00
+INV-2373,Final,J-1346,William Singh,"130 Crown St, Surry Hills NSW",Surry Hills,Gas cooktop installation,2026-10-09,2026-10-09,785.00
+INV-2377,Final,J-1349,Hannah Robinson,"29 Victoria Rd, Rozelle NSW",Rozelle,Gas cooktop installation,2026-10-12,2026-10-12,772.35
+INV-2376,Final,J-1348,Chloe Murphy,"105 Mort St, Balmain NSW",Balmain,Leaking tap repair,2026-10-12,2026-10-13,220.00
+INV-2379,Final,J-1351,Sophie & Emily Taylor,"152 Johnson St, Chatswood NSW",Chatswood,Leaking tap repair,2026-10-13,2026-10-13,168.55
+INV-2375,Final,J-1347,Mei & Amelia Johnson,"40 Belmont Rd, Mosman NSW",Mosman,Hot water system replacement,2026-10-12,2026-10-14,1950.00
+INV-2378,Final,J-1350,Lucas Ryan,"90 Allen St, Leichhardt NSW",Leichhardt,Blocked drain clearing,2026-10-13,2026-10-14,285.00
+INV-2380,Final,J-1352,William Walker,"167 Arden St, Coogee NSW",Coogee,Gas cooktop installation,2026-10-14,2026-10-14,1023.08
+INV-2381,Final,J-1353,Harbour Realty Newtown,"127 Australia St, Newtown NSW",Newtown,Gas leak detection and repair,2026-10-14,2026-10-15,460.00
+INV-2382,Final,J-1354,Mia Le,"116 Illawarra Rd, Marrickville NSW",Marrickville,Blocked drain clearing,2026-10-15,2026-10-16,570.00
+INV-2385,Final,J-1357,Wei & Ethan Robinson,"67 St Thomas St, Bronte NSW",Bronte,Hot water system replacement,2026-10-20,2026-10-20,2400.00
+INV-2390,Deposit,J-1362,Liam Wilson,"120 Bridge Rd, Glebe NSW",Glebe,Bathroom renovation rough-in,2026-10-27,2026-10-20,1620.00
+INV-2383,Final,J-1355,Grace Mitchell,"91 Wilson St, Newtown NSW",Newtown,Burst pipe repair,2026-10-19,2026-10-21,845.00
+INV-2384,Final,J-1356,Sophie & Priya Papadopoulos,"9 Bucknell St, Newtown NSW",Newtown,Leaking tap repair,2026-10-19,2026-10-21,225.00
+INV-2387,Final,J-1359,Wei Campbell,"35 Hargrave St, Paddington NSW",Paddington,Call-out and inspection,2026-10-21,2026-10-21,165.00
+INV-2386,Final,J-1358,Minh Rossi,"39 Hewlett St, Bronte NSW",Bronte,Burst pipe repair,2026-10-20,2026-10-22,550.00
+INV-2388,Final,J-1360,Bronte Physiotherapy,"135 Hewlett St, Bronte NSW",Bronte,Gas cooktop installation,2026-10-26,2026-10-27,585.00
+INV-2389,Final,J-1361,Jack O'Brien,"175 Australia St, Newtown NSW",Newtown,Gas leak detection and repair,2026-10-26,2026-10-27,850.00
+INV-2398,Deposit,J-1368,Olivia Tran,"116 Avoca St, Randwick NSW",Randwick,Hot water system replacement,2026-11-03,2026-10-27,990.00
+INV-2393,Final,J-1363,Chloe Murphy,"105 Mort St, Balmain NSW",Balmain,Hot water system replacement,2026-10-28,2026-10-28,1791.29
+INV-2391,Final,J-1362,Liam Wilson,"120 Bridge Rd, Glebe NSW",Glebe,Bathroom renovation rough-in,2026-10-27,2026-10-29,3765.00
+INV-2394,Final,J-1364,Mosman Strata Management,"7 Belmont Rd, Mosman NSW",Mosman,Gas leak detection and repair,2026-10-28,2026-10-29,606.03
+INV-2395,Final,J-1365,Kostas & Amelia Kelly,"98 Belmont Rd, Mosman NSW",Mosman,Hot water system replacement,2026-10-29,2026-10-30,2605.00
+INV-2396,Final,J-1366,Kostas & Linh Nguyen,"167 Mount St, Coogee NSW",Coogee,Call-out and inspection,2026-10-30,2026-11-01,165.00
+INV-2397,Final,J-1367,Priya King,"128 Raglan St, Mosman NSW",Mosman,Leaking tap repair,2026-11-02,2026-11-03,170.00
+INV-2400,Final,J-1369,Harbour Realty Randwick,"140 Avoca St, Randwick NSW",Randwick,Gas cooktop installation,2026-11-04,2026-11-04,705.00
+INV-2399,Final,J-1368,Olivia Tran,"116 Avoca St, Randwick NSW",Randwick,Hot water system replacement,2026-11-03,2026-11-05,2304.73
+INV-2401,Final,J-1370,Amelia Hughes,"146 Dolphin St, Coogee NSW",Coogee,Burst pipe repair,2026-11-05,2026-11-07,785.00
+INV-2402,Final,J-1371,Mei White,"76 Forest St, Glebe NSW",Glebe,Blocked drain clearing,2026-11-06,2026-11-07,295.00
+INV-2403,Final,J-1372,James Taylor,"13 Anzac Pde, Maroubra NSW",Maroubra,Hot water system replacement,2026-11-06,2026-11-07,3405.00
+INV-2404,Final,J-1373,Linh White,"10 Wilson St, Newtown NSW",Newtown,Toilet cistern replacement,2026-11-06,2026-11-08,388.29
+INV-2405,Final,J-1374,Coastline Property Management,"48 Johnston St, Annandale NSW",Annandale,Leaking tap repair,2026-11-09,2026-11-09,175.00
+INV-2406,Final,J-1375,Ethan O'Brien,"117 Anzac Pde, Maroubra NSW",Maroubra,Burst pipe repair,2026-11-09,2026-11-09,490.00
+INV-2407,Final,J-1376,Priya Kelly,"12 Ashburner St, Manly NSW",Manly,Blocked drain clearing,2026-11-09,2026-11-09,250.00
+INV-2409,Final,J-1378,Mei Brown,"100 Wycombe Rd, Neutral Bay NSW",Neutral Bay,Blocked drain clearing,2026-11-10,2026-11-10,405.00
+INV-2408,Final,J-1377,Sean Patel,"145 Terry St, Rozelle NSW",Rozelle,Leaking tap repair,2026-11-10,2026-11-11,195.00
+INV-2411,Final,J-1380,Mia & Jack Clarke,"171 Fisher Rd, Dee Why NSW",Dee Why,Call-out and inspection,2026-11-11,2026-11-11,165.00
+INV-2410,Final,J-1379,Sophie Hughes,"157 Victoria Rd, Marrickville NSW",Marrickville,Burst pipe repair,2026-11-11,2026-11-12,975.00
+INV-2413,Final,J-1382,James & Emily White,"136 Ashburner St, Manly NSW",Manly,Leaking tap repair,2026-11-12,2026-11-12,315.00
+INV-2412,Final,J-1381,Tran & Co Accountants,"25 Mort St, Balmain NSW",Balmain,Hot water system replacement,2026-11-12,2026-11-13,2175.00
+INV-2414,Final,J-1383,Aoife Singh,"81 Terry St, Rozelle NSW",Rozelle,Leaking tap repair,2026-11-13,2026-11-13,260.00
+INV-2415,Final,J-1384,Sophie & Priya Papadopoulos,"9 Bucknell St, Newtown NSW",Newtown,Call-out and inspection,2026-11-16,2026-11-17,165.00
+INV-2416,Final,J-1385,The Daily Grind Cafe,"91 Riley St, Surry Hills NSW",Surry Hills,Burst pipe repair,2026-11-17,2026-11-17,965.00
+INV-2417,Final,J-1386,Mia & Jack Clarke,"171 Fisher Rd, Dee Why NSW",Dee Why,Blocked drain clearing,2026-11-17,2026-11-19,300.00
+INV-2418,Final,J-1387,Aoife Anderson,"111 Victoria Rd, Rozelle NSW",Rozelle,Blocked drain clearing,2026-11-18,2026-11-20,334.11
+INV-2419,Final,J-1388,Mei & Amelia Johnson,"40 Belmont Rd, Mosman NSW",Mosman,Burst pipe repair,2026-11-18,2026-11-20,415.00
+INV-2422,Final,J-1391,Aoife Singh,"81 Terry St, Rozelle NSW",Rozelle,Blocked drain clearing,2026-11-20,2026-11-20,275.00
+INV-2420,Final,J-1389,Thomas Johnson,"174 Todman Ave, Kensington NSW",Kensington,Call-out and inspection,2026-11-20,2026-11-21,165.00
+INV-2421,Final,J-1390,White & Co Accountants,"68 Wairoa Ave, Bondi NSW",Bondi,Gas leak detection and repair,2026-11-20,2026-11-21,821.31
+INV-2423,Final,J-1392,Lucas Murphy,"37 Victoria Ave, Chatswood NSW",Chatswood,Roof gutter replacement,2026-11-23,2026-11-25,2965.00
+INV-2425,Final,J-1394,Mia Hughes,"98 Cowles Rd, Mosman NSW",Mosman,Call-out and inspection,2026-11-26,2026-11-26,165.00
+INV-2424,Final,J-1393,Raj & Sophie Wilson,"130 Malabar Rd, Maroubra NSW",Maroubra,Call-out and inspection,2026-11-26,2026-11-27,165.00
+INV-2426,Final,J-1395,Ethan Papadopoulos,"28 Crown St, Surry Hills NSW",Surry Hills,Leaking tap repair,2026-11-30,2026-12-01,290.00
+INV-2427,Final,J-1396,Coastline Property Management,"139 Cowles Rd, Mosman NSW",Mosman,Leaking tap repair,2026-12-02,2026-12-02,180.00
+INV-2428,Final,J-1397,Thomas & Amelia Johnson,"71 Glenmore Rd, Paddington NSW",Paddington,Gas leak detection and repair,2026-12-02,2026-12-03,475.00
+INV-2429,Final,J-1398,Aoife Singh,"81 Terry St, Rozelle NSW",Rozelle,Toilet cistern replacement,2026-12-03,2026-12-04,660.00
+INV-2430,Final,J-1399,Kostas White,"180 Frenchmans Rd, Randwick NSW",Randwick,Call-out and inspection,2026-12-04,2026-12-04,165.00
+INV-2431,Final,J-1400,Sophie Tran,"1 Fitzroy St, Surry Hills NSW",Surry Hills,Blocked drain clearing,2026-12-07,2026-12-07,540.00
+INV-2432,Final,J-1401,Chloe O'Brien,"24 Wilson St, Newtown NSW",Newtown,Burst pipe repair,2026-12-08,2026-12-08,425.00
+INV-2433,Final,J-1402,James & Eleni Johnson,"63 Terry St, Rozelle NSW",Rozelle,Toilet cistern replacement,2026-12-09,2026-12-09,478.59
+INV-2435,Final,J-1404,Mei Nguyen,"174 Kurraba Rd, Neutral Bay NSW",Neutral Bay,Leaking tap repair,2026-12-10,2026-12-10,205.00
+INV-2434,Final,J-1403,Linh Tran,"107 Macpherson St, Bronte NSW",Bronte,Call-out and inspection,2026-12-10,2026-12-11,165.00
+INV-2436,Final,J-1405,Wei & Ethan Robinson,"67 St Thomas St, Bronte NSW",Bronte,Blocked drain clearing,2026-12-15,2026-12-15,275.00
+INV-2438,Final,J-1407,Henry Kelly,"99 Anzac Pde, Kensington NSW",Kensington,Gas cooktop installation,2026-12-16,2026-12-16,940.00
+INV-2437,Final,J-1406,Jack Wang,"157 Malabar Rd, Maroubra NSW",Maroubra,Burst pipe repair,2026-12-15,2026-12-17,544.13
+INV-2463,Deposit,J-1429,Mei Nguyen,"174 Kurraba Rd, Neutral Bay NSW",Neutral Bay,Bathroom renovation rough-in,2027-01-07,2026-12-17,3950.00
+INV-2439,Final,J-1408,Henry Kelly,"99 Anzac Pde, Kensington NSW",Kensington,Blocked drain clearing,2026-12-17,2026-12-18,445.00
+INV-2450,Deposit,J-1419,Kostas Harris,"63 Hewlett St, Bronte NSW",Bronte,Roof gutter replacement,2026-12-30,2026-12-18,640.00
+INV-2440,Final,J-1409,Liam Kelly,"33 Avoca St, Randwick NSW",Randwick,Leaking tap repair,2026-12-17,2026-12-19,320.00
+INV-2441,Final,J-1410,The Daily Grind Cafe,"38 Mort St, Balmain NSW",Balmain,Blocked drain clearing,2026-12-18,2026-12-20,351.87
+INV-2442,Final,J-1411,Sofia Williams,"178 Cowles Rd, Mosman NSW",Mosman,Toilet cistern replacement,2026-12-21,2026-12-21,697.97
+INV-2443,Final,J-1412,Daniel Wang,"17 Belmont Rd, Mosman NSW",Mosman,Leaking tap repair,2026-12-21,2026-12-21,185.00
+INV-2444,Final,J-1413,Linh Harris,"178 Short St, Leichhardt NSW",Leichhardt,Toilet cistern replacement,2026-12-22,2026-12-23,545.00
+INV-2457,Deposit,J-1425,Noah Brown,"173 Victoria Ave, Chatswood NSW",Chatswood,Hot water system replacement,2027-01-04,2026-12-24,830.00
+INV-2446,Final,J-1415,Mei King,"13 Riley St, Surry Hills NSW",Surry Hills,Gas cooktop installation,2026-12-25,2026-12-25,636.43
+INV-2445,Final,J-1414,Raj Campbell,"43 Johnson St, Chatswood NSW",Chatswood,Leaking tap repair,2026-12-24,2026-12-26,285.00
+INV-2447,Final,J-1416,Daniel Wang,"17 Belmont Rd, Mosman NSW",Mosman,Burst pipe repair,2026-12-28,2026-12-28,1085.00
+INV-2459,Deposit,J-1426,Noah Thompson,"86 Kurraba Rd, Neutral Bay NSW",Neutral Bay,Hot water system replacement,2027-01-05,2026-12-28,1050.00
+INV-2467,Deposit,J-1432,Eleni Johnson,"117 Todman Ave, Kensington NSW",Kensington,Bathroom renovation rough-in,2027-01-08,2026-12-28,2280.00
+INV-2448,Final,J-1417,Linh Harris,"178 Short St, Leichhardt NSW",Leichhardt,Gas cooktop installation,2026-12-29,2026-12-29,895.00
+INV-2449,Final,J-1418,Lucas Ryan,"17 Mort St, Balmain NSW",Balmain,Toilet cistern replacement,2026-12-30,2026-12-30,580.00
+INV-2451,Final,J-1419,Kostas Harris,"63 Hewlett St, Bronte NSW",Bronte,Roof gutter replacement,2026-12-30,2026-12-30,1485.00
+INV-2452,Final,J-1420,Charlotte Taylor,"41 Dolphin St, Coogee NSW",Coogee,Blocked drain clearing,2026-12-31,2026-12-31,405.00
+INV-2453,Final,J-1421,Mei Nguyen,"174 Kurraba Rd, Neutral Bay NSW",Neutral Bay,Call-out and inspection,2026-12-31,2026-12-31,165.00
+INV-2454,Final,J-1422,Sofia Wilson,"47 Yeo St, Neutral Bay NSW",Neutral Bay,Toilet cistern replacement,2027-01-01,2027-01-01,441.77
+INV-2456,Final,J-1424,Mei King,"13 Riley St, Surry Hills NSW",Surry Hills,Gas cooktop installation,2027-01-04,2027-01-04,845.00
+INV-2455,Final,J-1423,Daniel Wang,"21 Military Rd, Mosman NSW",Mosman,Gas leak detection and repair,2027-01-04,2027-01-05,395.00
+INV-2458,Final,J-1425,Noah Brown,"173 Victoria Ave, Chatswood NSW",Chatswood,Hot water system replacement,2027-01-04,2027-01-05,1935.00
+INV-2460,Final,J-1426,Noah Thompson,"86 Kurraba Rd, Neutral Bay NSW",Neutral Bay,Hot water system replacement,2027-01-05,2027-01-05,2460.00
+INV-2461,Final,J-1427,Aoife Singh,"81 Terry St, Rozelle NSW",Rozelle,Blocked drain clearing,2027-01-05,2027-01-05,275.00
+INV-2462,Final,J-1428,Emily Hughes,"64 Help St, Chatswood NSW",Chatswood,Toilet cistern replacement,2027-01-06,2027-01-07,400.00
+INV-2466,Final,J-1431,Charlotte Robinson,"179 Mort St, Balmain NSW",Balmain,Blocked drain clearing,2027-01-08,2027-01-08,635.00
+INV-2468,Final,J-1432,Eleni Johnson,"117 Todman Ave, Kensington NSW",Kensington,Bathroom renovation rough-in,2027-01-08,2027-01-08,5303.34
+INV-2464,Final,J-1429,Mei Nguyen,"174 Kurraba Rd, Neutral Bay NSW",Neutral Bay,Bathroom renovation rough-in,2027-01-07,2027-01-09,9205.00
+INV-2465,Final,J-1430,Maroubra Strata Management,"71 Malabar Rd, Maroubra NSW",Maroubra,Blocked drain clearing,2027-01-07,2027-01-09,480.00
+INV-2469,Final,J-1433,Anderson & Co Accountants,"171 Marion St, Leichhardt NSW",Leichhardt,Gas cooktop installation,2027-01-08,2027-01-09,920.00
+INV-2470,Final,J-1434,Charlotte Taylor,"41 Dolphin St, Coogee NSW",Coogee,Gas leak detection and repair,2027-01-11,2027-01-12,375.00
+INV-2471,Final,J-1435,Mei Johnson,"129 Dolphin St, Coogee NSW",Coogee,Burst pipe repair,2027-01-11,2027-01-12,370.00
+INV-2472,Final,J-1436,Chatswood Physiotherapy,"97 Victoria Ave, Chatswood NSW",Chatswood,Burst pipe repair,2027-01-12,2027-01-12,985.00
+INV-2473,Final,J-1437,Anderson & Co Accountants,"171 Marion St, Leichhardt NSW",Leichhardt,Call-out and inspection,2027-01-13,2027-01-13,165.00
+INV-2484,Deposit,J-1448,Amelia Martin,"82 Toxteth Rd, Glebe NSW",Glebe,Roof gutter replacement,2027-01-22,2027-01-14,380.00
+INV-2474,Final,J-1438,Olivia O'Brien,"100 Allen St, Leichhardt NSW",Leichhardt,Toilet cistern replacement,2027-01-14,2027-01-16,525.00
+INV-2475,Final,J-1439,Wei Lee,"55 Bridge Rd, Glebe NSW",Glebe,Call-out and inspection,2027-01-15,2027-01-16,165.00
+INV-2477,Final,J-1441,The Daily Grind Cafe,"63 Underwood St, Paddington NSW",Paddington,Hot water system replacement,2027-01-18,2027-01-18,2465.00
+INV-2476,Final,J-1440,Minh Ryan,"98 Victoria Rd, Marrickville NSW",Marrickville,Call-out and inspection,2027-01-18,2027-01-19,165.00
+INV-2478,Final,J-1442,Liam Brown,"150 Arden St, Coogee NSW",Coogee,Call-out and inspection,2027-01-19,2027-01-19,165.00
+INV-2479,Final,J-1443,Minh & Minh Martin,"10 Australia St, Newtown NSW",Newtown,Gas cooktop installation,2027-01-20,2027-01-21,980.00
+INV-2480,Final,J-1444,Annandale Strata Management,"113 Trafalgar St, Annandale NSW",Annandale,Blocked drain clearing,2027-01-20,2027-01-21,390.00
+INV-2481,Final,J-1445,Kostas & Sophie Hughes,"22 Booth St, Annandale NSW",Annandale,Hot water system replacement,2027-01-21,2027-01-21,3590.00
+INV-2482,Final,J-1446,Henry O'Brien,"117 Anzac Pde, Kensington NSW",Kensington,Leaking tap repair,2027-01-21,2027-01-22,305.00
+INV-2485,Final,J-1448,Amelia Martin,"82 Toxteth Rd, Glebe NSW",Glebe,Roof gutter replacement,2027-01-22,2027-01-22,900.00
+INV-2483,Final,J-1447,Noah Patel,"103 Cowles Rd, Mosman NSW",Mosman,Call-out and inspection,2027-01-22,2027-01-23,165.00
+INV-2492,Deposit,J-1455,Daniel Wilson,"15 Victoria Ave, Chatswood NSW",Chatswood,Bathroom renovation rough-in,2027-02-03,2027-01-24,1460.00
+INV-2486,Final,J-1449,Priya & Wei Murphy,"147 Victoria Ave, Chatswood NSW",Chatswood,Call-out and inspection,2027-01-27,2027-01-28,165.00
+INV-2487,Final,J-1450,Daniel Clarke,"27 Bucknell St, Newtown NSW",Newtown,Gas leak detection and repair,2027-01-27,2027-01-29,523.22
+INV-2488,Final,J-1451,Giovanni & Lucas Tran,"91 Victoria Rd, Rozelle NSW",Rozelle,Gas cooktop installation,2027-01-28,2027-01-29,485.00
+INV-2490,Final,J-1453,Thomas Johnson,"174 Todman Ave, Kensington NSW",Kensington,Toilet cistern replacement,2027-01-29,2027-01-29,735.00
+INV-2489,Final,J-1452,Amelia Hughes,"146 Dolphin St, Coogee NSW",Coogee,Gas leak detection and repair,2027-01-29,2027-01-30,630.00
+INV-2491,Final,J-1454,Liam Nguyen,"94 Frenchmans Rd, Randwick NSW",Randwick,Call-out and inspection,2027-02-02,2027-02-03,165.00
+INV-2493,Final,J-1455,Daniel Wilson,"15 Victoria Ave, Chatswood NSW",Chatswood,Bathroom renovation rough-in,2027-02-03,2027-02-03,3420.00
+INV-2495,Final,J-1457,Wei Anderson,"19 Terry St, Rozelle NSW",Rozelle,Toilet cistern replacement,2027-02-03,2027-02-03,785.00
+INV-2494,Final,J-1456,Mia Hughes,"98 Cowles Rd, Mosman NSW",Mosman,Blocked drain clearing,2027-02-03,2027-02-04,475.00
+INV-2496,Final,J-1458,Coastline Property Management,"139 Cowles Rd, Mosman NSW",Mosman,Roof gutter replacement,2027-02-05,2027-02-05,2175.00
+INV-2497,Final,J-1459,Wei & Raj Ryan,"78 Booth St, Annandale NSW",Annandale,Toilet cistern replacement,2027-02-05,2027-02-06,455.00
+INV-2499,Final,J-1461,Grace Thompson,"145 Trafalgar St, Annandale NSW",Annandale,Leaking tap repair,2027-02-08,2027-02-09,190.00
+INV-2500,Final,J-1462,James & Eleni Johnson,"63 Terry St, Rozelle NSW",Rozelle,Gas leak detection and repair,2027-02-08,2027-02-09,480.71
+INV-2498,Final,J-1460,William & Kostas Taylor,"146 Pittwater Rd, Manly NSW",Manly,Leaking tap repair,2027-02-08,2027-02-10,215.00

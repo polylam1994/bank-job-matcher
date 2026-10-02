@@ -1,0 +1,344 @@
+<title>Bank-to-Job Matcher</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a reconciliation docket. Bank line on the left, the job paperwork it matches on the right,
+   one row per bank line, summary strip on top, method notes at the foot. */
+:root{
+  --paper:#EDF0F2; --sheet:#FFFFFF; --ink:#18222C; --muted:#5B6874; --rule:#D3D9DF; --rule-strong:#B8C1CA;
+  --accent:#0E6670; --accent-soft:#DCEDEE;
+  --in:#1D6B43; --out:#9A3B1F;
+  --ok:#1D6B43; --ok-soft:#E1F1E7; --warn:#8A5A00; --warn-soft:#FBEFD5; --bad:#A1302A; --bad-soft:#F8E3E1;
+  --idle:#66717C; --idle-soft:#E7EAED;
+  --display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#0F151B; --sheet:#161E26; --ink:#E3E9EE; --muted:#93A1AD; --rule:#26313B; --rule-strong:#35424E;
+    --accent:#5FC0C8; --accent-soft:#16333A;
+    --in:#6CCB97; --out:#F0957A;
+    --ok:#6CCB97; --ok-soft:#14301F; --warn:#E8B85A; --warn-soft:#352812; --bad:#F08A80; --bad-soft:#3A1A18;
+    --idle:#9AA6B1; --idle-soft:#212B34;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#0F151B; --sheet:#161E26; --ink:#E3E9EE; --muted:#93A1AD; --rule:#26313B; --rule-strong:#35424E;
+  --accent:#5FC0C8; --accent-soft:#16333A;
+  --in:#6CCB97; --out:#F0957A;
+  --ok:#6CCB97; --ok-soft:#14301F; --warn:#E8B85A; --warn-soft:#352812; --bad:#F08A80; --bad-soft:#3A1A18;
+  --idle:#9AA6B1; --idle-soft:#212B34;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;padding-inline:16px;padding-block:28px 56px}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:22px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+h1{font-size:30px;font-weight:700;letter-spacing:-.005em}
+h2{font-size:20px;font-weight:600}
+.eyebrow{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.lede{margin:0;color:var(--muted);max-width:70ch}
+header{display:grid;gap:6px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted)}
+.meta b{color:var(--ink);font-weight:600}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+button{font:inherit}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* summary strip doubles as the filter */
+.strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;background:var(--sheet);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.tab{all:unset;cursor:pointer;display:grid;gap:2px;padding:14px 16px;border-right:1px solid var(--rule);border-top:3px solid transparent;min-width:0}
+.tab:last-child{border-right:none}
+.tab:hover{background:var(--paper)}
+.tab[aria-selected="true"]{border-top-color:var(--accent);background:var(--accent-soft)}
+.tab:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.tab .lbl{font-size:13px;font-weight:600;display:flex;align-items:center;gap:6px}
+.tab .cnt{font-family:var(--mono);font-size:24px;font-weight:500;font-variant-numeric:tabular-nums}
+.tab .amt{font-size:12px;color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;flex:none}
+.dot.review{background:var(--warn)} .dot.auto{background:var(--ok)} .dot.settled{background:var(--accent)} .dot.ignored{background:var(--idle)}
+@media (max-width:640px){.strip{grid-template-columns:repeat(2,minmax(0,1fr))}.tab:nth-child(2){border-right:none}.tab:nth-child(-n+2){border-bottom:1px solid var(--rule)}}
+
+.list{display:grid;gap:10px}
+.empty{background:var(--sheet);border:1px dashed var(--rule-strong);border-radius:6px;padding:28px;text-align:center;color:var(--muted)}
+
+/* one docket per bank line */
+.line{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);background:var(--sheet);border:1px solid var(--rule);border-radius:6px}
+@media (max-width:760px){.line{grid-template-columns:minmax(0,1fr)}.bank{border-right:none!important;border-bottom:1px dashed var(--rule-strong)}}
+.bank{padding:14px 16px;border-right:1px dashed var(--rule-strong);display:grid;gap:6px;align-content:start;min-width:0}
+.bank .top{display:flex;justify-content:space-between;gap:10px;font-size:12px;color:var(--muted)}
+.bank .payee{font-weight:600;word-break:break-word}
+.bank .ref{font-size:13px;color:var(--muted);word-break:break-word}
+.bank .ref span{font-family:var(--mono);font-size:12px;color:var(--ink);background:var(--paper);padding:1px 5px;border-radius:3px}
+.amount{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:20px;font-weight:500}
+.amount.in{color:var(--in)} .amount.out{color:var(--out)}
+.flow{font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;border-radius:999px;padding:2px 9px;width:max-content}
+.pill.review{background:var(--warn-soft);color:var(--warn)} .pill.unmatched{background:var(--bad-soft);color:var(--bad)}
+.pill.auto{background:var(--ok-soft);color:var(--ok)} .pill.settled{background:var(--accent-soft);color:var(--accent)}
+.pill.ignored{background:var(--idle-soft);color:var(--idle)}
+
+.side{padding:12px 16px;display:grid;gap:10px;min-width:0}
+.note{font-size:13px;color:var(--muted);border-left:3px solid var(--accent);padding:4px 10px;background:var(--accent-soft);border-radius:0 4px 4px 0}
+.note b{color:var(--ink)}
+.cand{border:1px solid var(--rule);border-radius:5px;padding:10px 12px;display:grid;gap:8px;min-width:0}
+.cand.top{border-color:var(--rule-strong)}
+.cand.chosen{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+.chead{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;justify-content:space-between}
+.method{font-size:12px;color:var(--muted)}
+.method b{color:var(--ink);font-weight:600}
+.prob{display:flex;align-items:center;gap:8px;font-size:13px}
+.prob i{display:block;width:70px;height:6px;background:var(--rule);border-radius:3px;overflow:hidden}
+.prob i u{display:block;height:100%;background:var(--accent)}
+.items{display:grid;gap:4px;margin:0;padding:0;list-style:none}
+.items li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:baseline;font-size:14px}
+.items .id{font-family:var(--mono);font-size:12px;color:var(--accent)}
+.items .t{min-width:0}
+.items .t small{display:block;color:var(--muted);font-size:12px}
+.items .c{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:13px}
+.items .total{border-top:1px solid var(--rule);padding-top:4px;font-weight:600}
+details.why summary{cursor:pointer;font-size:13px;color:var(--accent);font-weight:500;width:max-content}
+.factors{display:grid;gap:4px;margin-top:8px}
+.factor{display:grid;grid-template-columns:92px minmax(0,1fr) 150px;gap:8px;align-items:center;font-size:12px}
+.factor .fname{color:var(--muted);text-transform:capitalize}
+.factor .fdetail{min-width:0}
+.bar{position:relative;height:12px;background:linear-gradient(var(--rule),var(--rule)) center/1px 100% no-repeat}
+.bar span{position:absolute;top:2px;height:8px;border-radius:2px}
+.bar span.pos{left:50%;background:var(--ok)} .bar span.neg{right:50%;background:var(--bad)}
+.factor .w{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;color:var(--muted)}
+@media (max-width:520px){.factor{grid-template-columns:72px minmax(0,1fr);}.factor .barcell{grid-column:1/-1}}
+.reasons{margin:6px 0 0;padding-left:18px;font-size:12px;color:var(--muted);display:grid;gap:2px}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.btn{cursor:pointer;border:1px solid var(--rule-strong);background:var(--sheet);color:var(--ink);border-radius:5px;padding:5px 12px;font-size:13px;font-weight:500}
+.btn:hover{border-color:var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--sheet)}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.5;cursor:default}
+.lineactions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
+
+.howto{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:16px 18px;display:grid;gap:12px}
+.howto summary{cursor:pointer;font-family:var(--display);font-weight:600;font-size:18px}
+.steps{margin:0;padding-left:20px;display:grid;gap:6px;max-width:80ch}
+.howto p{margin:0;max-width:80ch;color:var(--muted)}
+.tablebox{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:13px}
+th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--rule)}
+th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right}
+.acc{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13px}
+.acc b{font-family:var(--mono);font-weight:500}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--sheet);padding:8px 14px;border-radius:5px;font-size:13px}
+@media (prefers-reduced-motion:no-preference){.line{transition:border-color .15s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Daily 7am reconciliation · sample data</div>
+    <h1>Bank-to-Job Matcher</h1>
+    <p class="lede">Every bank line that came in since the last reconciliation, matched to the invoice or the supplier materials it pays. There are no invoice numbers on the bank feed, so matches come from amount, name, reference and date. Confirm or reject the ones that need a person; the next morning's run learns from what you decide.</p>
+    <div class="meta" id="meta"><span>Waiting for the first run…</span></div>
+  </header>
+
+  <div class="strip" role="tablist" aria-label="Filter bank lines">
+    <button class="tab" role="tab" id="tab-review" data-tab="review" aria-selected="true"><span class="lbl"><span class="dot review"></span>Needs review</span><span class="cnt" id="c-review">–</span><span class="amt" id="a-review">&nbsp;</span></button>
+    <button class="tab" role="tab" id="tab-auto" data-tab="auto" aria-selected="false"><span class="lbl"><span class="dot auto"></span>Auto-matched</span><span class="cnt" id="c-auto">–</span><span class="amt" id="a-auto">&nbsp;</span></button>
+    <button class="tab" role="tab" id="tab-settled" data-tab="settled" aria-selected="false"><span class="lbl"><span class="dot settled"></span>Decided by you</span><span class="cnt" id="c-settled">–</span><span class="amt" id="a-settled">&nbsp;</span></button>
+    <button class="tab" role="tab" id="tab-ignored" data-tab="ignored" aria-selected="false"><span class="lbl"><span class="dot ignored"></span>Running costs</span><span class="cnt" id="c-ignored">–</span><span class="amt" id="a-ignored">&nbsp;</span></button>
+  </div>
+
+  <div class="list" id="list" role="tabpanel" aria-labelledby="tab-review">
+    <div class="empty">No bank lines yet. The 7am run adds each day's bank lines here, with the invoice or materials each one most likely pays.</div>
+  </div>
+
+  <details class="howto" id="howto">
+    <summary>How the matching works</summary>
+    <ol class="steps">
+      <li><b>Daily exports.</b> Bank statement lines (Xero bank feed), jobs and invoices (ServiceM8 + Xero), and job materials with supplier costs (ServiceM8).</li>
+      <li><b>Running costs filtered out.</b> Wages, fuel, tax, leases and subscriptions are recognised by payee and set aside.</li>
+      <li><b>Money in: Fellegi-Sunter probabilistic linkage</b> (Splink on DuckDB). Each payment is compared with each open invoice on amount, name, reference words and date. Every comparison adds or subtracts evidence: log<sub>2</sub>(m/u), where m is how often that agreement happens for true matches (learned from past reconciliations) and u how often it happens by chance (random sampling).</li>
+      <li><b>One invoice, one payment.</b> SciPy's linear_sum_assignment picks the best overall set of pairs, so two payments never claim the same invoice. A match is automatic only above 95% and well clear of the runner-up.</li>
+      <li><b>Several payments, one invoice.</b> Part payments from the same payer are combined by subset-sum to find instalments that add up to what is still owed.</li>
+      <li><b>Money out: one payment, many material lines.</b> Statement suppliers (Reece, Tradelink) are matched to a contiguous statement period of lines; card purchases (Bunnings) to same-day lines that add up exactly. A wider subset-sum search is the last resort and always goes to a person, because coincidental exact sums are common.</li>
+    </ol>
+    <p id="training"></p>
+    <div class="acc" id="acc"></div>
+    <div class="tablebox"><table>
+      <thead><tr><th>Model</th><th>Comparison</th><th>Level</th><th style="text-align:right">m</th><th style="text-align:right">u</th><th style="text-align:right">Weight (bits)</th></tr></thead>
+      <tbody id="params"><tr><td colspan="6">Model parameters appear after the first run.</td></tr></tbody>
+    </table></div>
+  </details>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(function(){
+  "use strict";
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const money = c => (c < 0 ? "−" : "") + "$" + (Math.abs(c) / 100).toLocaleString("en-AU", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+  const fmtDate = d => { try { return new Date(d + "T00:00:00").toLocaleDateString("en-AU", {day: "numeric", month: "short", year: "numeric"}); } catch (e) { return d; } };
+  const METHOD = {"fellegi-sunter": "Probabilistic match", "instalments": "Instalments", "statement": "Statement period",
+                  "subset-sum": "Same-day receipt", "single line": "Single supplier invoice", "wide search": "Wide search"};
+  const BUCKET = s => s === "auto" ? "auto" : s === "ignored" ? "ignored" : (s === "confirmed" || s === "rejected" || s === "not_job") ? "settled" : "review";
+
+  let db = null, lines = [], tab = "review";
+  try { tab = localStorage.getItem("bjm-tab") || "review"; } catch (e) {}
+
+  function toast(msg) {
+    const t = $("toast"); t.textContent = msg; t.hidden = false;
+    clearTimeout(toast.h); toast.h = setTimeout(() => t.hidden = true, 2400);
+  }
+
+  function selectTab(name) {
+    tab = name;
+    try { localStorage.setItem("bjm-tab", name); } catch (e) {}
+    document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === name)));
+    $("list").setAttribute("aria-labelledby", "tab-" + name);
+    render();
+  }
+  document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => selectTab(b.dataset.tab)));
+
+  function factorRows(c) {
+    const fs = (c.reasons || []).filter(r => typeof r.weight === "number");
+    if (!fs.length) return "";
+    const sum = fs.reduce((a, r) => a + r.weight, 0);
+    const rows = fs.slice();
+    if (typeof c.weight === "number") rows.unshift({factor: "prior", detail: "chance a random pair matches", weight: +(c.weight - sum).toFixed(2)});
+    const max = Math.max(8, ...rows.map(r => Math.abs(r.weight)));
+    return '<div class="factors">' + rows.map(r => {
+      const w = Math.abs(r.weight) / max * 50;
+      return '<div class="factor"><span class="fname">' + esc(r.factor) + '</span><span class="fdetail">' + esc(r.detail) +
+        '</span><span class="barcell" style="display:grid;grid-template-columns:minmax(0,1fr) 48px;gap:6px;align-items:center"><span class="bar"><span class="' +
+        (r.weight >= 0 ? "pos" : "neg") + '" style="width:' + w.toFixed(1) + '%"></span></span><span class="w">' +
+        (r.weight > 0 ? "+" : "") + r.weight.toFixed(1) + '</span></span></div>';
+    }).join("") + '<div class="factor"><span class="fname">Total</span><span class="fdetail">match weight → probability</span><span class="w" style="text-align:right">' +
+      (c.weight > 0 ? "+" : "") + c.weight.toFixed(1) + " bits = " + (c.probability * 100).toFixed(1) + '%</span></div></div>';
+  }
+
+  function candHtml(line, c, i) {
+    const items = c.items || [];
+    const total = items.reduce((a, x) => a + x.cents, 0);
+    const chosen = line.chosenKey === c.key;
+    const prob = typeof c.probability === "number"
+      ? '<span class="prob"><span class="num">' + (c.probability * 100).toFixed(c.probability > .99 ? 2 : 0) + '%</span><i><u style="width:' + (c.probability * 100).toFixed(0) + '%"></u></i></span>'
+      : "";
+    const others = (c.bank_ids || []).filter(b => b !== line.id);
+    const otherNote = others.length ? '<div class="method">Together with bank line' + (others.length > 1 ? "s " : " ") + others.map(esc).join(", ") + '</div>' : "";
+    const textReasons = (c.reasons || []).filter(r => typeof r.weight !== "number");
+    const canAct = line.status === "open" && db;
+    return '<div class="cand' + (i === 0 ? " top" : "") + (chosen ? " chosen" : "") + '">' +
+      '<div class="chead"><span class="method"><b>' + esc(METHOD[c.method] || c.method) + '</b>' + (i === 0 && line.status === "open" ? " · best candidate" : "") + '</span>' + prob + '</div>' +
+      otherNote +
+      '<ul class="items">' + items.map(x => '<li><span class="id">' + esc(x.id) + '</span><span class="t">' + esc(x.title) + '<small>' + esc(x.detail) + " · " + esc(fmtDate(x.date)) + '</small></span><span class="c">' + money(x.cents) + '</span></li>').join("") +
+      (items.length > 1 ? '<li class="total"><span></span><span class="t">' + items.length + ' lines</span><span class="c">' + money(total) + '</span></li>' : "") + '</ul>' +
+      '<details class="why"><summary>Why this match</summary>' + factorRows(c) +
+      (textReasons.length ? '<ul class="reasons">' + textReasons.map(r => '<li><b>' + esc(r.factor.replace("F-S ", "")) + ':</b> ' + esc(r.detail) + '</li>').join("") + '</ul>' : "") + '</details>' +
+      (canAct ? '<div class="actions"><button class="btn primary" data-act="confirm" data-id="' + esc(line.id) + '" data-key="' + esc(c.key) + '">Confirm this match</button></div>' : "") +
+      '</div>';
+  }
+
+  function lineHtml(l) {
+    const bucket = BUCKET(l.status);
+    const inflow = l.cents > 0;
+    let pill;
+    if (l.status === "open") pill = l.candidates && l.candidates.length ? '<span class="pill review">Needs review</span>' : '<span class="pill unmatched">No match found</span>';
+    else if (l.status === "auto") pill = '<span class="pill auto">Auto-matched</span>';
+    else if (l.status === "confirmed") pill = '<span class="pill settled">Confirmed by you</span>';
+    else if (l.status === "rejected") pill = '<span class="pill settled">Rejected · re-matching tomorrow</span>';
+    else if (l.status === "not_job") pill = '<span class="pill settled">Not job-related</span>';
+    else pill = '<span class="pill ignored">Running cost</span>';
+
+    let side = "";
+    if (l.note) side += '<div class="note"><b>Claude\'s note:</b> ' + esc(l.note) + '</div>';
+    const cands = l.candidates || [];
+    if (l.status === "ignored") side += '<div class="method">' + esc(l.note ? "" : "Recognised as a running cost by payee, so there is no job to match.") + '</div>';
+    else if (!cands.length) side += '<div class="method">' + (inflow ? "No open invoice fits this payment." : "No open supplier lines fit this payment.") + ' Mark it as not job-related, or leave it for tomorrow once more invoices and materials are in.</div>';
+    else side += cands.map((c, i) => candHtml(l, c, i)).join("");
+
+    let acts = "";
+    if (db) {
+      if (l.status === "open" && cands.length) acts = '<button class="btn" data-act="reject" data-id="' + esc(l.id) + '">None of these</button><button class="btn" data-act="notjob" data-id="' + esc(l.id) + '">Not job-related</button>';
+      else if (l.status === "open") acts = '<button class="btn" data-act="notjob" data-id="' + esc(l.id) + '">Not job-related</button>';
+      else if (l.status === "auto") acts = '<button class="btn" data-act="undo" data-id="' + esc(l.id) + '" data-key="' + esc(cands[0] ? cands[0].key : "") + '">Undo auto-match</button>';
+      else if (bucket === "settled" && !l.synced) acts = '<span>Applied at the next run.</span><button class="btn" data-act="reopen" data-id="' + esc(l.id) + '">Change decision</button>';
+      else if (bucket === "settled") acts = '<span>Applied to the reconciliation.</span>';
+    }
+
+    return '<article class="line" id="l-' + esc(l.id) + '">' +
+      '<div class="bank"><div class="top"><span class="num">' + esc(l.id) + '</span><span>' + esc(fmtDate(l.date)) + '</span></div>' +
+      '<span class="flow" style="color:var(--' + (inflow ? "in" : "out") + ')">' + (inflow ? "Money in" : "Money out") + '</span>' +
+      '<span class="amount ' + (inflow ? "in" : "out") + '">' + money(l.cents) + '</span>' +
+      '<span class="payee">' + esc(l.payee) + '</span>' +
+      '<span class="ref">' + esc(l.description) + (l.reference ? ' · ref <span>' + esc(l.reference) + '</span>' : " · no reference") + '</span>' +
+      pill + '</div>' +
+      '<div class="side">' + side + (acts ? '<div class="lineactions">' + acts + '</div>' : "") + '</div></article>';
+  }
+
+  function render() {
+    const counts = {review: [0, 0], auto: [0, 0], settled: [0, 0], ignored: [0, 0]};
+    lines.forEach(l => { const b = counts[BUCKET(l.status)]; b[0]++; b[1] += Math.abs(l.cents); });
+    for (const k in counts) { $("c-" + k).textContent = counts[k][0]; $("a-" + k).textContent = money(counts[k][1]); }
+    const shown = lines.filter(l => BUCKET(l.status) === tab)
+      .sort((a, b) => tab === "review" ? ((a.candidates || []).length ? 0 : 1) - ((b.candidates || []).length ? 0 : 1) || a.date.localeCompare(b.date) : b.date.localeCompare(a.date));
+    const emptyMsg = {
+      review: lines.length ? "Nothing needs review. Every new bank line was matched automatically or set aside as a running cost." : "No bank lines yet. The 7am run adds each day's bank lines here, with the invoice or materials each one most likely pays.",
+      auto: "No automatic matches yet.", settled: "Lines you confirm, reject or mark as not job-related appear here.", ignored: "No running costs in this period."
+    }[tab];
+    $("list").innerHTML = shown.length ? shown.map(lineHtml).join("") : '<div class="empty">' + emptyMsg + '</div>';
+  }
+
+  async function write(ids, fields, msg) {
+    try {
+      await Promise.all(ids.map(id => db.doc("lines/" + id).update(Object.assign({decidedAt: new Date().toISOString()}, fields))));
+      toast(msg);
+    } catch (e) {
+      toast(e && e.code === "invalid_argument" ? "That line has changed since you opened it. Reload and try again." : "Could not save. Check your connection and try again.");
+    }
+  }
+
+  $("list").addEventListener("click", e => {
+    const b = e.target.closest("button[data-act]"); if (!b || !db) return;
+    const line = lines.find(l => l.id === b.dataset.id); if (!line) return;
+    const act = b.dataset.act;
+    if (act === "confirm") {
+      const c = (line.candidates || []).find(x => x.key === b.dataset.key);
+      const ids = (c && c.bank_ids && c.bank_ids.length ? c.bank_ids : [line.id]).filter(id => lines.some(l => l.id === id));
+      write(ids, {status: "confirmed", chosenKey: b.dataset.key}, "Match confirmed");
+    } else if (act === "reject") write([line.id], {status: "rejected", chosenKey: null}, "Rejected. Tomorrow's run looks again without these.");
+    else if (act === "undo") write([line.id], {status: "rejected", chosenKey: b.dataset.key}, "Auto-match undone. It goes back to review tomorrow.");
+    else if (act === "notjob") write([line.id], {status: "not_job", chosenKey: null}, "Marked as not job-related");
+    else if (act === "reopen") write([line.id], {status: "open", chosenKey: null}, "Back in review");
+  });
+
+  function renderRun(r) {
+    if (!r) return;
+    const s = r.stats || {};
+    $("meta").innerHTML = '<span>' + esc(r.business || "") + '</span><span>Bank feed up to <b>' + esc(fmtDate(r.as_of)) + '</b></span>' +
+      '<span>Last run <b>' + esc(new Date(r.generated_at).toLocaleString("en-AU", {dateStyle: "medium", timeStyle: "short"})) + '</b></span>';
+    const m = r.model || {};
+    $("training").textContent = "Money in: " + ((m.customer || {}).training || "-") + ". Money out: " + ((m.supplier || {}).training || "-") + ".";
+    const a = r.sample_accuracy;
+    if (a) {
+      const f = x => x && x[1] ? x[0] + "/" + x[1] : "–";
+      $("acc").innerHTML = '<span>Checked against the sample answer key on this run:</span><span>Auto-matches correct <b>' + f(a.auto_correct) + '</b></span><span>Right answer listed in review <b>' + f(a.suggested_listed) + '</b></span><span>Missed matches <b>' + esc(a.unmatched_should_match) + '</b></span>';
+    }
+    const rows = [].concat((m.customer || {}).parameters || [], (m.supplier || {}).parameters || []);
+    if (rows.length) $("params").innerHTML = rows.map(p => '<tr><td>' + (p.side === "customer" ? "Money in" : "Money out") + '</td><td>' + esc(p.comparison) + '</td><td>' + esc(p.level) +
+      '</td><td class="n">' + (p.m == null ? "–" : p.m.toFixed(4)) + '</td><td class="n">' + (p.u == null ? "–" : p.u.toFixed(4)) + '</td><td class="n">' + (p.weight == null ? "–" : (p.weight > 0 ? "+" : "") + p.weight.toFixed(2)) + '</td></tr>').join("");
+  }
+
+  selectTab(tab);
+  (async () => {
+    db = await (window.claude?.use?.("db") ?? Promise.resolve(null));
+    if (!db) { $("list").innerHTML = '<div class="empty">The reconciliation log is not available in this view. Open the page from claude.ai to review matches.</div>'; return; }
+    db.collection("lines").onSnapshot(snap => {
+      lines = snap.docs.map(d => Object.assign({id: d.id}, d.data()));
+      render();
+    }, () => toast("The log stopped updating. Reload the page to reconnect."));
+    db.doc("runs/latest").onSnapshot(s => { if (s.exists) renderRun(s.data()); }, () => {});
+  })();
+})();
+</script>

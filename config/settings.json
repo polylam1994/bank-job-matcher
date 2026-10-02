@@ -1,0 +1,71 @@
+{
+  "business": "Harbourside Plumbing & Gas (fictional sample business)",
+  "reconciled_up_to": "2026-08-31",
+
+  "customer": {
+    "date_window_days": 45,
+    "amount_tolerance_cents": 200
+  },
+  "supplier": {
+    "date_window_days": 45,
+    "same_day_window_days": 2,
+    "amount_tolerance_cents": 0,
+    "try_ex_gst": false
+  },
+  "gst_rate": 0.10,
+
+  "thresholds": {
+    "auto_match_probability": 0.95,
+    "auto_min_margin_weight": 3.0,
+    "suggest_min_probability": 0.20,
+    "max_suggestions": 3
+  },
+
+  "subset_sum": {
+    "max_items": 10,
+    "max_nodes": 2000000,
+    "max_solutions": 50
+  },
+
+  "supplier_billing": {
+    "_note": "From discovery: how each supplier bills. statement = trade account paid per statement period; card = paid at the counter; invoice = one debit per supplier invoice.",
+    "Reece": "statement",
+    "Tradelink": "statement",
+    "Bunnings": "card",
+    "Rheem": "invoice"
+  },
+
+  "supplier_aliases": {
+    "REECE": "Reece",
+    "TRADELINK": "Tradelink",
+    "BUNNINGS": "Bunnings",
+    "RHEEM": "Rheem"
+  },
+
+  "ignore_payees": [
+    "ATO", "AMPOL", "BP ", "TELSTRA", "PAYROLL", "PAY - ", "AAMI", "XERO",
+    "ACCOUNT FEE", "TOYOTA FINANCE", "RENT ", "TRANSFER TO"
+  ],
+
+  "abbreviations": {
+    "HWS": "HOT WATER",
+    "HW": "HOT WATER",
+    "BATHRM": "BATHROOM",
+    "BTHRM": "BATHROOM",
+    "RENO": "RENOVATION",
+    "PLMB": "PLUMBING",
+    "PLUMBER": "PLUMBING",
+    "STH": "SOUTH",
+    "NTH": "NORTH",
+    "ST": "STREET",
+    "RD": "ROAD",
+    "AVE": "AVENUE"
+  },
+
+  "stopwords": [
+    "PTY", "LTD", "LIMITED", "MR", "MRS", "MS", "DR", "THE", "AND", "OF",
+    "TRUST", "ACCOUNT", "ACC", "PAYMENT", "PMT", "TFR", "TRANSFER", "FROM",
+    "INVOICE", "INV", "DD", "DIRECT", "DEBIT", "CREDIT", "OSKO", "BPAY",
+    "PLUMBING", "GAS", "HARBOURSIDE"
+  ]
+}

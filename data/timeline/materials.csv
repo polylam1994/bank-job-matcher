@@ -1,0 +1,1009 @@
+LineID,JobNumber,Supplier,Item,Qty,PurchaseDate,CostIncGST
+M-30001,J-1001,Reece,Flick mixer tap,1,2025-09-29,202.99
+M-30002,J-1002,Reece,Shower mixer valve,1,2025-10-06,492.53
+M-30003,J-1003,Reece,Flick mixer tap,1,2025-10-06,228.73
+M-30004,J-1003,Tradelink,Basin waste,1,2025-10-06,34.31
+M-30005,J-1003,Tradelink,Gas bayonet fitting,1,2025-10-06,45.54
+M-30017,J-1008,Reece,Waste trap 40mm,1,2025-10-07,34.65
+M-30018,J-1008,Bunnings,Drain cleaner,1,2025-10-07,13.78
+M-30019,J-1008,Bunnings,Silicone sealant,1,2025-10-07,17.35
+M-30006,J-1006,Reece,Shower mixer valve,1,2025-10-08,247.03
+M-30007,J-1007,Reece,Pressure limiting valve,1,2025-10-08,99.03
+M-30008,J-1007,Reece,Pressure limiting valve,1,2025-10-08,123.72
+M-30009,J-1007,Reece,Copper pipe 15mm x 6m,1,2025-10-08,74.26
+M-30016,J-1008,Rheem,Rheem 26L continuous flow,1,2025-10-08,1167.82
+M-30010,J-1007,Tradelink,Toilet suite,1,2025-10-09,533.01
+M-30011,J-1007,Tradelink,Toilet suite,1,2025-10-09,739.77
+M-30012,J-1007,Tradelink,Gas bayonet fitting,1,2025-10-09,48.43
+M-30013,J-1007,Bunnings,PVC pipe 100mm x 3m,1,2025-10-09,47.63
+M-30014,J-1007,Bunnings,PVC pipe 100mm x 3m,1,2025-10-09,48.71
+M-30015,J-1007,Bunnings,Pipe clips 10pk,1,2025-10-09,8.29
+M-30020,J-1009,Bunnings,Silicone sealant,1,2025-10-12,11.06
+M-30021,J-1009,Reece,Shower mixer valve,1,2025-10-13,431.77
+M-30022,J-1009,Reece,Copper pipe 15mm x 6m,1,2025-10-13,59.50
+M-30023,J-1010,Bunnings,Gutter brackets 10pk,1,2025-10-13,34.25
+M-30024,J-1011,Reece,Copper pipe 15mm x 6m,1,2025-10-13,93.70
+M-30025,J-1011,Reece,Waste trap 40mm,1,2025-10-13,30.11
+M-30026,J-1011,Reece,Shower mixer valve,1,2025-10-13,315.18
+M-30027,J-1011,Reece,Pressure limiting valve,1,2025-10-13,120.03
+M-30028,J-1011,Reece,Flick mixer tap,1,2025-10-13,226.88
+M-30029,J-1011,Reece,Shower mixer valve,1,2025-10-13,366.26
+M-30032,J-1012,Reece,Copper pipe 15mm x 6m,1,2025-10-13,56.84
+M-30033,J-1012,Reece,Shower mixer valve,1,2025-10-13,449.02
+M-30034,J-1012,Reece,Shower mixer valve,1,2025-10-13,281.62
+M-30030,J-1011,Bunnings,PVC pipe 100mm x 3m,1,2025-10-14,39.81
+M-30031,J-1011,Bunnings,Pipe clips 10pk,1,2025-10-14,13.02
+M-30037,J-1012,Bunnings,Gutter brackets 10pk,1,2025-10-14,34.90
+M-30035,J-1012,Tradelink,Toilet suite,1,2025-10-15,424.18
+M-30036,J-1012,Tradelink,Cistern inlet valve,1,2025-10-15,57.01
+M-30038,J-1014,Rheem,Rheem 26L continuous flow,1,2025-10-15,1002.86
+M-30039,J-1015,Reece,Pressure limiting valve,1,2025-10-16,162.45
+M-30040,J-1015,Reece,Waste trap 40mm,1,2025-10-16,31.75
+M-30041,J-1015,Tradelink,Cistern inlet valve,1,2025-10-16,50.73
+M-30043,J-1018,Bunnings,Thread tape 5pk,1,2025-10-19,7.60
+M-30044,J-1018,Bunnings,Pipe clips 10pk,1,2025-10-19,8.71
+M-30042,J-1018,Reece,Copper pipe 15mm x 6m,1,2025-10-20,91.15
+M-30045,J-1019,Reece,Shower mixer valve,1,2025-10-21,367.08
+M-30046,J-1019,Reece,Waste trap 40mm,1,2025-10-21,14.23
+M-30047,J-1019,Tradelink,Basin waste,1,2025-10-21,33.84
+M-30048,J-1019,Tradelink,Toilet suite,1,2025-10-21,827.82
+M-30049,J-1020,Bunnings,Thread tape 5pk,1,2025-10-23,6.09
+M-30050,J-1020,Reece,Copper pipe 15mm x 6m,1,2025-10-23,62.07
+M-30051,J-1020,Reece,Shower mixer valve,1,2025-10-23,289.36
+M-30052,J-1021,Bunnings,PVC pipe 100mm x 3m,1,2025-10-23,35.15
+M-30054,J-1024,Reece,Flick mixer tap,1,2025-10-27,353.57
+M-30055,J-1024,Reece,Copper pipe 15mm x 6m,1,2025-10-27,61.72
+M-30056,J-1024,Reece,Pressure limiting valve,1,2025-10-27,148.22
+M-30061,J-1026,Bunnings,Thread tape 5pk,1,2025-10-27,8.64
+M-30062,J-1026,Bunnings,Pipe clips 10pk,1,2025-10-27,15.34
+M-30053,J-1024,Rheem,Rheem Stellar 330L gas HWS,1,2025-10-28,1530.66
+M-30057,J-1025,Bunnings,Silicone sealant,1,2025-10-29,9.63
+M-30058,J-1025,Bunnings,Pipe clips 10pk,1,2025-10-29,10.48
+M-30059,J-1025,Reece,Flick mixer tap,1,2025-10-29,374.50
+M-30060,J-1025,Reece,Waste trap 40mm,1,2025-10-29,29.00
+M-30999,J-1024,Reece,Credit: returned copper pipe 15mm x 6m,1,2025-10-30,-61.72
+M-30063,J-1029,Bunnings,Pipe clips 10pk,1,2025-10-31,14.06
+M-30064,J-1029,Reece,Flick mixer tap,1,2025-10-31,300.25
+M-30070,J-1034,Reece,Shower mixer valve,1,2025-11-04,262.84
+M-30065,J-1032,Bunnings,Drain cleaner,1,2025-11-05,22.46
+M-30066,J-1033,Reece,Copper pipe 15mm x 6m,1,2025-11-05,87.07
+M-30073,J-1036,Bunnings,Drain cleaner,1,2025-11-05,13.60
+M-30074,J-1036,Bunnings,Thread tape 5pk,1,2025-11-05,11.07
+M-30067,J-1033,Bunnings,Silicone sealant,1,2025-11-06,14.21
+M-30068,J-1033,Bunnings,Thread tape 5pk,1,2025-11-06,8.86
+M-30069,J-1034,Rheem,Rheem Stellar 330L gas HWS,1,2025-11-06,2286.93
+M-30071,J-1035,Bunnings,Gutter brackets 10pk,1,2025-11-06,25.94
+M-30072,J-1035,Reece,Shower mixer valve,1,2025-11-07,271.70
+M-30077,J-1037,Reece,Shower mixer valve,1,2025-11-08,265.07
+M-30075,J-1037,Bunnings,Pipe clips 10pk,1,2025-11-10,13.37
+M-30076,J-1037,Bunnings,Drain cleaner,1,2025-11-10,17.37
+M-30078,J-1038,Reece,Waste trap 40mm,1,2025-11-10,25.80
+M-30079,J-1038,Reece,Waste trap 40mm,1,2025-11-10,34.16
+M-30080,J-1038,Reece,Pressure limiting valve,1,2025-11-10,101.71
+M-30081,J-1038,Reece,Shower mixer valve,1,2025-11-10,220.18
+M-30082,J-1038,Reece,PEX fittings pack,1,2025-11-10,34.27
+M-30083,J-1038,Reece,Flick mixer tap,1,2025-11-10,187.46
+M-30084,J-1038,Tradelink,Flexible hoses pair,1,2025-11-10,25.90
+M-30085,J-1038,Tradelink,Toilet suite,1,2025-11-10,637.47
+M-30086,J-1038,Tradelink,Basin waste,1,2025-11-10,39.70
+M-30087,J-1039,Rheem,Rheem Stellar 330L gas HWS,1,2025-11-11,1854.76
+M-30088,J-1039,Reece,Copper pipe 15mm x 6m,1,2025-11-11,84.45
+M-30089,J-1039,Reece,PEX fittings pack,1,2025-11-11,30.81
+M-30092,J-1040,Bunnings,Thread tape 5pk,1,2025-11-12,11.20
+M-30090,J-1040,Reece,Shower mixer valve,1,2025-11-13,298.22
+M-30091,J-1040,Reece,Shower mixer valve,1,2025-11-13,535.21
+M-30093,J-1041,Bunnings,Pipe clips 10pk,1,2025-11-14,12.64
+M-30094,J-1043,Tradelink,Gas bayonet fitting,1,2025-11-15,85.06
+M-30100,J-1046,Tradelink,Flexible hoses pair,1,2025-11-17,17.27
+M-30095,J-1045,Bunnings,Gutter brackets 10pk,1,2025-11-18,29.29
+M-30096,J-1045,Reece,Pressure limiting valve,1,2025-11-18,136.55
+M-30097,J-1046,Reece,PEX fittings pack,1,2025-11-18,43.82
+M-30098,J-1046,Reece,Pressure limiting valve,1,2025-11-18,89.71
+M-30099,J-1046,Reece,Waste trap 40mm,1,2025-11-18,22.25
+M-30101,J-1046,Bunnings,Thread tape 5pk,1,2025-11-18,8.21
+M-30106,J-1047,Tradelink,Flexible hoses pair,1,2025-11-18,21.66
+M-30107,J-1047,Tradelink,Cistern inlet valve,1,2025-11-18,38.44
+M-30102,J-1047,Reece,Pressure limiting valve,1,2025-11-19,135.82
+M-30103,J-1047,Reece,Pressure limiting valve,1,2025-11-19,154.36
+M-30104,J-1047,Reece,Copper pipe 15mm x 6m,1,2025-11-19,90.14
+M-30105,J-1047,Reece,PEX fittings pack,1,2025-11-19,53.60
+M-30108,J-1049,Reece,Pressure limiting valve,1,2025-11-20,137.49
+M-30109,J-1049,Tradelink,Basin waste,1,2025-11-20,21.70
+M-30110,J-1049,Tradelink,Gas bayonet fitting,1,2025-11-20,64.78
+M-30114,J-1051,Bunnings,Pipe clips 10pk,1,2025-11-23,13.51
+M-30111,J-1051,Rheem,Rheem Stellar 330L gas HWS,1,2025-11-24,1932.75
+M-30112,J-1051,Reece,Waste trap 40mm,1,2025-11-24,24.50
+M-30113,J-1051,Reece,PEX fittings pack,1,2025-11-24,24.43
+M-30115,J-1052,Bunnings,Thread tape 5pk,1,2025-11-25,6.76
+M-30116,J-1054,Bunnings,PVC pipe 100mm x 3m,1,2025-11-25,46.03
+M-30117,J-1054,Reece,Flick mixer tap,1,2025-11-27,228.57
+M-30118,J-1054,Reece,PEX fittings pack,1,2025-11-27,29.52
+M-30122,J-1055,Bunnings,Pipe clips 10pk,1,2025-11-27,15.79
+M-30119,J-1055,Reece,Flick mixer tap,1,2025-11-28,160.04
+M-30120,J-1055,Reece,Waste trap 40mm,1,2025-11-28,35.65
+M-30121,J-1055,Reece,PEX fittings pack,1,2025-11-28,31.37
+M-30128,J-1057,Bunnings,Pipe clips 10pk,1,2025-11-29,12.43
+M-30123,J-1056,Reece,Pressure limiting valve,1,2025-12-01,164.83
+M-30124,J-1056,Reece,PEX fittings pack,1,2025-12-01,52.76
+M-30125,J-1056,Reece,Shower mixer valve,1,2025-12-01,460.96
+M-30126,J-1056,Tradelink,Toilet suite,1,2025-12-01,436.70
+M-30127,J-1056,Tradelink,Basin waste,1,2025-12-01,35.81
+M-30129,J-1057,Reece,Copper pipe 15mm x 6m,1,2025-12-01,50.06
+M-30130,J-1057,Reece,PEX fittings pack,1,2025-12-01,59.69
+M-30131,J-1060,Reece,PEX fittings pack,1,2025-12-01,26.44
+M-30132,J-1060,Tradelink,Toilet suite,1,2025-12-03,615.73
+M-30133,J-1060,Tradelink,Cistern inlet valve,1,2025-12-03,43.75
+M-30134,J-1062,Reece,PEX fittings pack,1,2025-12-04,27.10
+M-30135,J-1062,Tradelink,Cistern inlet valve,1,2025-12-05,53.42
+M-30136,J-1062,Bunnings,PVC pipe 100mm x 3m,1,2025-12-05,28.46
+M-30137,J-1062,Bunnings,PVC pipe 100mm x 3m,1,2025-12-05,32.15
+M-30138,J-1063,Reece,Shower mixer valve,1,2025-12-05,352.94
+M-30139,J-1063,Reece,Waste trap 40mm,1,2025-12-05,23.48
+M-30140,J-1063,Reece,Copper pipe 15mm x 6m,1,2025-12-05,65.99
+M-30141,J-1063,Reece,Pressure limiting valve,1,2025-12-05,102.13
+M-30142,J-1063,Tradelink,Basin waste,1,2025-12-05,30.49
+M-30143,J-1063,Tradelink,Cistern inlet valve,1,2025-12-05,32.90
+M-30144,J-1064,Bunnings,Silicone sealant,1,2025-12-05,15.43
+M-30145,J-1064,Bunnings,Drain cleaner,1,2025-12-05,15.49
+M-30146,J-1065,Reece,Copper pipe 15mm x 6m,1,2025-12-08,62.99
+M-30147,J-1065,Tradelink,Flexible hoses pair,1,2025-12-08,25.53
+M-30998,J-1065,Reece,Credit: returned copper pipe 15mm x 6m,1,2025-12-11,-62.99
+M-30148,J-1069,Bunnings,Gutter brackets 10pk,1,2025-12-12,25.08
+M-30149,J-1069,Bunnings,Thread tape 5pk,1,2025-12-12,6.36
+M-30150,J-1069,Reece,Shower mixer valve,1,2025-12-12,494.02
+M-30159,J-1073,Bunnings,Pipe clips 10pk,1,2025-12-14,12.44
+M-30151,J-1072,Reece,Shower mixer valve,1,2025-12-15,339.23
+M-30152,J-1072,Reece,Shower mixer valve,1,2025-12-15,220.69
+M-30153,J-1072,Reece,Shower mixer valve,1,2025-12-15,315.01
+M-30154,J-1073,Reece,Waste trap 40mm,1,2025-12-15,30.08
+M-30155,J-1073,Reece,Waste trap 40mm,1,2025-12-15,35.28
+M-30156,J-1073,Reece,Pressure limiting valve,1,2025-12-15,89.87
+M-30157,J-1073,Tradelink,Basin waste,1,2025-12-15,40.04
+M-30158,J-1073,Tradelink,Toilet suite,1,2025-12-15,327.46
+M-30162,J-1076,Bunnings,Gutter brackets 10pk,1,2025-12-15,27.48
+M-30163,J-1076,Bunnings,Silicone sealant,1,2025-12-15,9.96
+M-30160,J-1074,Tradelink,Basin waste,1,2025-12-16,44.65
+M-30161,J-1074,Tradelink,Toilet suite,1,2025-12-16,501.01
+M-30167,J-1078,Rheem,Rheem Stellar 330L gas HWS,1,2025-12-17,2127.01
+M-30173,J-1079,Bunnings,PVC pipe 100mm x 3m,1,2025-12-17,47.93
+M-30164,J-1077,Bunnings,Gutter brackets 10pk,1,2025-12-18,27.71
+M-30165,J-1077,Reece,Pressure limiting valve,1,2025-12-18,124.79
+M-30166,J-1077,Reece,Waste trap 40mm,1,2025-12-18,20.36
+M-30171,J-1078,Bunnings,Drain cleaner,1,2025-12-18,21.62
+M-30172,J-1078,Bunnings,Pipe clips 10pk,1,2025-12-18,13.15
+M-30168,J-1078,Reece,Flick mixer tap,1,2025-12-19,339.13
+M-30169,J-1078,Reece,Pressure limiting valve,1,2025-12-19,162.77
+M-30170,J-1078,Reece,Shower mixer valve,1,2025-12-19,285.08
+M-30175,J-1081,Bunnings,Pipe clips 10pk,1,2025-12-21,9.35
+M-30174,J-1080,Reece,Pressure limiting valve,1,2025-12-22,131.28
+M-30176,J-1082,Bunnings,PVC pipe 100mm x 3m,1,2025-12-22,31.62
+M-30177,J-1082,Bunnings,Pipe clips 10pk,1,2025-12-22,9.29
+M-30183,J-1084,Tradelink,Cistern inlet valve,1,2025-12-23,52.29
+M-30184,J-1084,Tradelink,Gas bayonet fitting,1,2025-12-23,86.33
+M-30189,J-1085,Tradelink,Basin waste,1,2025-12-23,22.58
+M-30190,J-1085,Tradelink,Basin waste,1,2025-12-23,38.97
+M-30178,J-1083,Bunnings,Thread tape 5pk,1,2025-12-24,11.06
+M-30179,J-1083,Bunnings,Gutter brackets 10pk,1,2025-12-24,36.75
+M-30180,J-1084,Reece,Pressure limiting valve,1,2025-12-24,146.72
+M-30181,J-1084,Reece,Flick mixer tap,1,2025-12-24,342.46
+M-30182,J-1084,Reece,Shower mixer valve,1,2025-12-24,471.19
+M-30191,J-1087,Reece,Waste trap 40mm,1,2025-12-24,37.21
+M-30192,J-1087,Reece,Waste trap 40mm,1,2025-12-24,20.61
+M-30193,J-1087,Reece,Pressure limiting valve,1,2025-12-24,153.72
+M-30194,J-1087,Reece,Pressure limiting valve,1,2025-12-24,108.15
+M-30195,J-1087,Reece,Pressure limiting valve,1,2025-12-24,111.96
+M-30196,J-1087,Tradelink,Gas bayonet fitting,1,2025-12-24,49.81
+M-30197,J-1087,Tradelink,Gas bayonet fitting,1,2025-12-24,91.97
+M-30185,J-1084,Bunnings,PVC pipe 100mm x 3m,1,2025-12-25,33.24
+M-30186,J-1085,Reece,Copper pipe 15mm x 6m,1,2025-12-25,59.37
+M-30187,J-1085,Reece,Pressure limiting valve,1,2025-12-25,134.15
+M-30188,J-1085,Reece,PEX fittings pack,1,2025-12-25,62.34
+M-30198,J-1088,Reece,Flick mixer tap,1,2025-12-26,196.90
+M-30199,J-1088,Reece,Waste trap 40mm,1,2025-12-26,36.85
+M-30200,J-1088,Reece,Waste trap 40mm,1,2025-12-26,21.17
+M-30201,J-1088,Reece,PEX fittings pack,1,2025-12-26,43.73
+M-30202,J-1088,Reece,PEX fittings pack,1,2025-12-26,59.79
+M-30203,J-1091,Reece,PEX fittings pack,1,2025-12-31,36.92
+M-30204,J-1093,Reece,Pressure limiting valve,1,2026-01-02,164.03
+M-30205,J-1093,Reece,Pressure limiting valve,1,2026-01-02,99.89
+M-30206,J-1093,Bunnings,Thread tape 5pk,1,2026-01-02,9.79
+M-30207,J-1093,Bunnings,Silicone sealant,1,2026-01-02,12.13
+M-30208,J-1094,Reece,Pressure limiting valve,1,2026-01-04,119.66
+M-30209,J-1094,Reece,Pressure limiting valve,1,2026-01-04,118.13
+M-30210,J-1094,Reece,Copper pipe 15mm x 6m,1,2026-01-04,73.09
+M-30216,J-1098,Tradelink,Flexible hoses pair,1,2026-01-05,28.63
+M-30217,J-1098,Tradelink,Cistern inlet valve,1,2026-01-05,50.07
+M-30211,J-1097,Tradelink,Flexible hoses pair,1,2026-01-06,16.34
+M-30212,J-1097,Bunnings,Gutter brackets 10pk,1,2026-01-06,21.50
+M-30213,J-1098,Reece,Copper pipe 15mm x 6m,1,2026-01-07,78.72
+M-30214,J-1098,Reece,Copper pipe 15mm x 6m,1,2026-01-07,50.27
+M-30215,J-1098,Reece,Copper pipe 15mm x 6m,1,2026-01-07,67.59
+M-30218,J-1099,Reece,Pressure limiting valve,1,2026-01-08,104.10
+M-30219,J-1101,Bunnings,Gutter brackets 10pk,1,2026-01-09,37.64
+M-30228,J-1103,Reece,Pressure limiting valve,1,2026-01-11,102.78
+M-30229,J-1103,Reece,Pressure limiting valve,1,2026-01-11,148.22
+M-30230,J-1103,Reece,Shower mixer valve,1,2026-01-11,219.51
+M-30225,J-1102,Bunnings,Pipe clips 10pk,1,2026-01-12,15.20
+M-30226,J-1102,Bunnings,Gutter brackets 10pk,1,2026-01-12,41.38
+M-30227,J-1102,Bunnings,Silicone sealant,1,2026-01-12,10.13
+M-30220,J-1102,Reece,PEX fittings pack,1,2026-01-13,49.86
+M-30221,J-1102,Reece,PEX fittings pack,1,2026-01-13,35.80
+M-30222,J-1102,Reece,Pressure limiting valve,1,2026-01-13,161.59
+M-30223,J-1102,Tradelink,Basin waste,1,2026-01-13,23.12
+M-30224,J-1102,Tradelink,Flexible hoses pair,1,2026-01-13,23.20
+M-30231,J-1105,Bunnings,PVC pipe 100mm x 3m,1,2026-01-14,41.51
+M-30232,J-1106,Reece,Pressure limiting valve,1,2026-01-17,151.10
+M-30233,J-1106,Reece,Copper pipe 15mm x 6m,1,2026-01-17,69.58
+M-30234,J-1106,Reece,Shower mixer valve,1,2026-01-17,357.87
+M-30235,J-1106,Reece,Pressure limiting valve,1,2026-01-17,122.98
+M-30236,J-1106,Reece,Copper pipe 15mm x 6m,1,2026-01-17,94.09
+M-30237,J-1106,Reece,Waste trap 40mm,1,2026-01-17,29.68
+M-30238,J-1106,Tradelink,Gas bayonet fitting,1,2026-01-18,70.81
+M-30240,J-1108,Bunnings,Silicone sealant,1,2026-01-21,10.21
+M-30239,J-1107,Tradelink,Basin waste,1,2026-01-22,27.94
+M-30241,J-1110,Reece,Pressure limiting valve,1,2026-01-25,159.25
+M-30242,J-1110,Reece,PEX fittings pack,1,2026-01-25,51.06
+M-30243,J-1110,Reece,PEX fittings pack,1,2026-01-25,52.68
+M-30244,J-1110,Tradelink,Gas bayonet fitting,1,2026-01-25,86.43
+M-30245,J-1110,Tradelink,Flexible hoses pair,1,2026-01-25,33.63
+M-30246,J-1112,Bunnings,Gutter brackets 10pk,1,2026-01-28,23.65
+M-30247,J-1112,Bunnings,Thread tape 5pk,1,2026-01-28,9.37
+M-31004,J-1110,Reece,Credit: returned pex fittings pack,1,2026-01-28,-51.06
+M-30248,J-1114,Bunnings,Drain cleaner,1,2026-02-01,24.15
+M-30256,J-1117,Bunnings,PVC pipe 100mm x 3m,1,2026-02-03,44.46
+M-30257,J-1117,Bunnings,Thread tape 5pk,1,2026-02-03,9.15
+M-30249,J-1115,Reece,Shower mixer valve,1,2026-02-04,496.72
+M-30250,J-1116,Reece,PEX fittings pack,1,2026-02-05,62.42
+M-30251,J-1116,Reece,Waste trap 40mm,1,2026-02-05,26.33
+M-30252,J-1116,Reece,Pressure limiting valve,1,2026-02-05,92.09
+M-30253,J-1116,Tradelink,Cistern inlet valve,1,2026-02-05,47.18
+M-30254,J-1116,Bunnings,Gutter brackets 10pk,1,2026-02-05,42.56
+M-30255,J-1116,Bunnings,PVC pipe 100mm x 3m,1,2026-02-05,31.23
+M-30258,J-1118,Bunnings,Drain cleaner,1,2026-02-06,19.43
+M-30259,J-1119,Bunnings,Thread tape 5pk,1,2026-02-09,9.24
+M-30260,J-1119,Bunnings,Thread tape 5pk,1,2026-02-09,6.15
+M-30261,J-1120,Reece,Waste trap 40mm,1,2026-02-11,29.11
+M-30262,J-1120,Reece,PEX fittings pack,1,2026-02-11,58.33
+M-30263,J-1120,Reece,Pressure limiting valve,1,2026-02-11,152.51
+M-30264,J-1120,Reece,PEX fittings pack,1,2026-02-11,44.59
+M-30265,J-1121,Bunnings,Pipe clips 10pk,1,2026-02-13,11.49
+M-30266,J-1121,Bunnings,Gutter brackets 10pk,1,2026-02-13,30.30
+M-30267,J-1122,Reece,Flick mixer tap,1,2026-02-14,333.59
+M-30272,J-1124,Bunnings,Silicone sealant,1,2026-02-14,10.84
+M-30268,J-1122,Tradelink,Flexible hoses pair,1,2026-02-16,22.87
+M-30269,J-1122,Tradelink,Toilet suite,1,2026-02-16,579.13
+M-30270,J-1123,Bunnings,Drain cleaner,1,2026-02-16,24.25
+M-30271,J-1123,Reece,Shower mixer valve,1,2026-02-16,406.90
+M-30273,J-1125,Reece,Copper pipe 15mm x 6m,1,2026-02-17,57.28
+M-30274,J-1125,Reece,Shower mixer valve,1,2026-02-17,370.77
+M-30276,J-1128,Reece,Flick mixer tap,1,2026-02-17,352.27
+M-30277,J-1128,Reece,PEX fittings pack,1,2026-02-17,59.43
+M-30278,J-1128,Reece,PEX fittings pack,1,2026-02-17,33.06
+M-30275,J-1127,Bunnings,Gutter brackets 10pk,1,2026-02-18,38.02
+M-30279,J-1128,Bunnings,Drain cleaner,1,2026-02-19,20.84
+M-30282,J-1133,Reece,Flick mixer tap,1,2026-02-22,346.07
+M-30283,J-1133,Reece,Flick mixer tap,1,2026-02-22,279.44
+M-30284,J-1133,Reece,Shower mixer valve,1,2026-02-22,267.37
+M-30280,J-1132,Reece,PEX fittings pack,1,2026-02-24,23.80
+M-30281,J-1132,Reece,PEX fittings pack,1,2026-02-24,43.75
+M-30285,J-1133,Bunnings,Pipe clips 10pk,1,2026-02-24,16.75
+M-30286,J-1133,Bunnings,Silicone sealant,1,2026-02-24,14.16
+M-30289,J-1135,Bunnings,Drain cleaner,1,2026-02-24,14.06
+M-30287,J-1134,Reece,PEX fittings pack,1,2026-02-25,29.85
+M-30288,J-1134,Tradelink,Flexible hoses pair,1,2026-02-25,30.60
+M-30290,J-1135,Reece,Shower mixer valve,1,2026-02-26,529.85
+M-30291,J-1135,Reece,Waste trap 40mm,1,2026-02-26,14.45
+M-31001,J-1132,Reece,Credit: returned pex fittings pack,1,2026-02-27,-23.80
+M-30298,J-1139,Bunnings,Thread tape 5pk,1,2026-03-01,7.13
+M-30299,J-1139,Bunnings,Gutter brackets 10pk,1,2026-03-01,38.10
+M-30301,J-1140,Reece,Shower mixer valve,1,2026-03-01,330.66
+M-30302,J-1140,Reece,Flick mixer tap,1,2026-03-01,386.87
+M-30292,J-1137,Reece,Pressure limiting valve,1,2026-03-02,99.05
+M-30293,J-1137,Reece,Copper pipe 15mm x 6m,1,2026-03-02,57.51
+M-30294,J-1138,Reece,Shower mixer valve,1,2026-03-03,483.08
+M-30295,J-1138,Reece,Waste trap 40mm,1,2026-03-03,29.58
+M-30296,J-1138,Reece,Shower mixer valve,1,2026-03-03,348.83
+M-30297,J-1139,Rheem,Rheem 26L continuous flow,1,2026-03-03,1362.93
+M-30300,J-1140,Bunnings,Pipe clips 10pk,1,2026-03-03,13.86
+M-30303,J-1141,Bunnings,Gutter brackets 10pk,1,2026-03-03,23.74
+M-30304,J-1141,Reece,PEX fittings pack,1,2026-03-04,43.35
+M-30305,J-1142,Tradelink,Flexible hoses pair,1,2026-03-04,32.67
+M-30308,J-1145,Reece,Waste trap 40mm,1,2026-03-04,23.48
+M-30309,J-1145,Reece,Shower mixer valve,1,2026-03-04,276.10
+M-30306,J-1145,Bunnings,Silicone sealant,1,2026-03-05,15.55
+M-30307,J-1145,Bunnings,Silicone sealant,1,2026-03-05,9.87
+M-30310,J-1146,Bunnings,Pipe clips 10pk,1,2026-03-06,13.17
+M-30311,J-1146,Bunnings,Thread tape 5pk,1,2026-03-06,7.05
+M-30312,J-1147,Bunnings,Drain cleaner,1,2026-03-08,18.77
+M-30313,J-1147,Bunnings,Silicone sealant,1,2026-03-08,16.57
+M-30318,J-1148,Tradelink,Cistern inlet valve,1,2026-03-09,56.63
+M-30319,J-1148,Tradelink,Cistern inlet valve,1,2026-03-09,44.97
+M-30314,J-1148,Reece,Flick mixer tap,1,2026-03-11,153.18
+M-30315,J-1148,Reece,Waste trap 40mm,1,2026-03-11,31.97
+M-30316,J-1148,Reece,Flick mixer tap,1,2026-03-11,148.77
+M-30317,J-1148,Reece,PEX fittings pack,1,2026-03-11,42.02
+M-30320,J-1148,Bunnings,Silicone sealant,1,2026-03-11,11.29
+M-30321,J-1148,Bunnings,Silicone sealant,1,2026-03-11,17.36
+M-30322,J-1151,Bunnings,Gutter brackets 10pk,1,2026-03-12,38.85
+M-30323,J-1151,Bunnings,Pipe clips 10pk,1,2026-03-12,16.79
+M-30324,J-1152,Bunnings,Pipe clips 10pk,1,2026-03-13,16.63
+M-30325,J-1152,Bunnings,Thread tape 5pk,1,2026-03-13,8.20
+M-30330,J-1153,Tradelink,Basin waste,1,2026-03-14,39.99
+M-30331,J-1153,Tradelink,Basin waste,1,2026-03-14,25.03
+M-30332,J-1153,Tradelink,Gas bayonet fitting,1,2026-03-14,47.24
+M-30336,J-1154,Bunnings,Thread tape 5pk,1,2026-03-14,8.13
+M-30326,J-1153,Reece,Shower mixer valve,1,2026-03-16,352.63
+M-30327,J-1153,Reece,Pressure limiting valve,1,2026-03-16,103.90
+M-30328,J-1153,Reece,Waste trap 40mm,1,2026-03-16,17.59
+M-30329,J-1153,Reece,Copper pipe 15mm x 6m,1,2026-03-16,56.30
+M-30333,J-1153,Bunnings,Silicone sealant,1,2026-03-16,17.14
+M-30334,J-1154,Reece,Copper pipe 15mm x 6m,1,2026-03-16,67.35
+M-30335,J-1154,Reece,Flick mixer tap,1,2026-03-16,354.52
+M-30337,J-1155,Reece,Copper pipe 15mm x 6m,1,2026-03-16,51.72
+M-30338,J-1155,Reece,Flick mixer tap,1,2026-03-16,188.34
+M-30339,J-1155,Reece,Flick mixer tap,1,2026-03-16,298.78
+M-30340,J-1155,Reece,Waste trap 40mm,1,2026-03-16,20.42
+M-30341,J-1155,Reece,Waste trap 40mm,1,2026-03-16,23.49
+M-30342,J-1155,Reece,Pressure limiting valve,1,2026-03-16,148.35
+M-30343,J-1157,Bunnings,PVC pipe 100mm x 3m,1,2026-03-17,41.75
+M-30346,J-1159,Bunnings,Drain cleaner,1,2026-03-17,20.96
+M-30347,J-1159,Bunnings,Drain cleaner,1,2026-03-17,16.34
+M-31000,J-1153,Tradelink,Credit: returned basin waste,1,2026-03-17,-25.03
+M-30351,J-1160,Bunnings,Pipe clips 10pk,1,2026-03-18,10.25
+M-30352,J-1160,Bunnings,Gutter brackets 10pk,1,2026-03-18,37.95
+M-30344,J-1158,Reece,Pressure limiting valve,1,2026-03-19,124.51
+M-30345,J-1158,Reece,Shower mixer valve,1,2026-03-19,518.50
+M-30348,J-1160,Rheem,Rheem 26L continuous flow,1,2026-03-19,1453.48
+M-31007,J-1153,Reece,Credit: returned copper pipe 15mm x 6m,1,2026-03-19,-56.30
+M-30349,J-1160,Reece,Flick mixer tap,1,2026-03-20,284.22
+M-30350,J-1160,Reece,Copper pipe 15mm x 6m,1,2026-03-20,73.77
+M-30353,J-1161,Rheem,Rheem 26L continuous flow,1,2026-03-21,1074.00
+M-30358,J-1162,Bunnings,Pipe clips 10pk,1,2026-03-22,16.98
+M-30359,J-1162,Bunnings,Pipe clips 10pk,1,2026-03-22,14.27
+M-30360,J-1163,Bunnings,Silicone sealant,1,2026-03-22,17.96
+M-30361,J-1163,Reece,Copper pipe 15mm x 6m,1,2026-03-22,93.81
+M-30354,J-1161,Reece,Copper pipe 15mm x 6m,1,2026-03-23,77.93
+M-30355,J-1161,Reece,Shower mixer valve,1,2026-03-23,359.41
+M-30356,J-1162,Tradelink,Toilet suite,1,2026-03-23,436.59
+M-30357,J-1162,Tradelink,Cistern inlet valve,1,2026-03-23,32.38
+M-30362,J-1164,Bunnings,Silicone sealant,1,2026-03-24,15.29
+M-30363,J-1164,Bunnings,PVC pipe 100mm x 3m,1,2026-03-24,43.64
+M-30371,J-1167,Reece,Pressure limiting valve,1,2026-03-24,103.42
+M-30372,J-1167,Reece,PEX fittings pack,1,2026-03-24,44.83
+M-30373,J-1167,Reece,Flick mixer tap,1,2026-03-24,319.42
+M-30374,J-1167,Tradelink,Toilet suite,1,2026-03-24,612.90
+M-30364,J-1165,Rheem,Rheem Stellar 330L gas HWS,1,2026-03-25,1806.23
+M-30365,J-1165,Reece,Waste trap 40mm,1,2026-03-25,25.41
+M-30366,J-1165,Reece,Shower mixer valve,1,2026-03-25,261.15
+M-30367,J-1165,Reece,Copper pipe 15mm x 6m,1,2026-03-25,59.69
+M-30368,J-1166,Reece,Shower mixer valve,1,2026-03-25,471.18
+M-30369,J-1166,Reece,PEX fittings pack,1,2026-03-25,42.49
+M-30370,J-1166,Reece,Flick mixer tap,1,2026-03-25,384.24
+M-30377,J-1170,Bunnings,Gutter brackets 10pk,1,2026-03-25,32.27
+M-30378,J-1170,Bunnings,Drain cleaner,1,2026-03-25,21.82
+M-30375,J-1169,Bunnings,Pipe clips 10pk,1,2026-03-27,13.77
+M-30376,J-1169,Bunnings,PVC pipe 100mm x 3m,1,2026-03-27,30.02
+M-30379,J-1170,Reece,Shower mixer valve,1,2026-03-27,446.89
+M-30383,J-1173,Reece,Pressure limiting valve,1,2026-03-30,159.95
+M-30384,J-1173,Reece,Flick mixer tap,1,2026-03-30,272.02
+M-30385,J-1173,Reece,Flick mixer tap,1,2026-03-30,348.66
+M-30380,J-1172,Reece,PEX fittings pack,1,2026-03-31,30.11
+M-30381,J-1172,Reece,Waste trap 40mm,1,2026-03-31,19.97
+M-30382,J-1173,Rheem,Rheem 26L continuous flow,1,2026-04-01,1232.35
+M-30386,J-1174,Bunnings,Pipe clips 10pk,1,2026-04-01,8.00
+M-30387,J-1174,Bunnings,PVC pipe 100mm x 3m,1,2026-04-01,48.64
+M-30388,J-1176,Reece,Shower mixer valve,1,2026-04-06,341.93
+M-30389,J-1177,Bunnings,Thread tape 5pk,1,2026-04-07,11.28
+M-30390,J-1177,Bunnings,Pipe clips 10pk,1,2026-04-07,11.75
+M-30391,J-1178,Reece,Flick mixer tap,1,2026-04-08,259.62
+M-30392,J-1178,Reece,PEX fittings pack,1,2026-04-08,28.43
+M-30393,J-1178,Reece,Waste trap 40mm,1,2026-04-08,31.56
+M-30394,J-1178,Reece,Pressure limiting valve,1,2026-04-08,162.80
+M-30395,J-1178,Bunnings,Pipe clips 10pk,1,2026-04-08,10.61
+M-30402,J-1183,Tradelink,Cistern inlet valve,1,2026-04-08,46.21
+M-30396,J-1179,Reece,Shower mixer valve,1,2026-04-09,275.38
+M-30397,J-1179,Reece,Pressure limiting valve,1,2026-04-09,138.57
+M-30398,J-1182,Bunnings,Gutter brackets 10pk,1,2026-04-10,29.60
+M-30399,J-1183,Reece,Flick mixer tap,1,2026-04-10,309.39
+M-30400,J-1183,Reece,Copper pipe 15mm x 6m,1,2026-04-10,62.34
+M-30401,J-1183,Reece,Pressure limiting valve,1,2026-04-10,90.73
+M-30403,J-1185,Bunnings,Pipe clips 10pk,1,2026-04-14,12.58
+M-30404,J-1186,Bunnings,Thread tape 5pk,1,2026-04-17,10.11
+M-30405,J-1189,Rheem,Rheem Stellar 330L gas HWS,1,2026-04-20,1972.93
+M-30406,J-1189,Reece,Flick mixer tap,1,2026-04-20,308.02
+M-30407,J-1190,Reece,Copper pipe 15mm x 6m,1,2026-04-21,83.98
+M-30408,J-1190,Reece,Pressure limiting valve,1,2026-04-21,162.05
+M-30409,J-1190,Reece,Flick mixer tap,1,2026-04-21,244.18
+M-30410,J-1191,Bunnings,Silicone sealant,1,2026-04-22,15.87
+M-30411,J-1192,Reece,Waste trap 40mm,1,2026-04-23,30.11
+M-30412,J-1192,Reece,PEX fittings pack,1,2026-04-23,53.83
+M-30413,J-1192,Reece,Copper pipe 15mm x 6m,1,2026-04-23,56.32
+M-30414,J-1192,Reece,Pressure limiting valve,1,2026-04-23,154.90
+M-30415,J-1192,Tradelink,Cistern inlet valve,1,2026-04-24,43.12
+M-30416,J-1192,Tradelink,Toilet suite,1,2026-04-24,658.29
+M-30417,J-1193,Bunnings,Silicone sealant,1,2026-04-26,14.19
+M-30418,J-1194,Rheem,Rheem 26L continuous flow,1,2026-04-27,1394.95
+M-30419,J-1194,Reece,PEX fittings pack,1,2026-04-27,54.71
+M-30420,J-1195,Reece,Copper pipe 15mm x 6m,1,2026-04-29,59.75
+M-30421,J-1195,Reece,Waste trap 40mm,1,2026-04-29,29.57
+M-30422,J-1195,Bunnings,PVC pipe 100mm x 3m,1,2026-04-29,42.83
+M-30423,J-1197,Bunnings,Silicone sealant,1,2026-05-01,18.60
+M-30424,J-1197,Reece,Pressure limiting valve,1,2026-05-01,126.82
+M-30425,J-1198,Reece,Copper pipe 15mm x 6m,1,2026-05-03,56.69
+M-30427,J-1199,Bunnings,Pipe clips 10pk,1,2026-05-04,14.74
+M-30426,J-1198,Tradelink,Cistern inlet valve,1,2026-05-05,54.20
+M-30428,J-1201,Reece,Pressure limiting valve,1,2026-05-05,144.03
+M-30429,J-1203,Reece,PEX fittings pack,1,2026-05-11,55.58
+M-30430,J-1203,Reece,Pressure limiting valve,1,2026-05-11,120.47
+M-30431,J-1203,Reece,Flick mixer tap,1,2026-05-11,219.91
+M-30432,J-1203,Bunnings,Thread tape 5pk,1,2026-05-11,10.74
+M-30433,J-1203,Bunnings,Thread tape 5pk,1,2026-05-11,7.80
+M-30436,J-1204,Reece,Pressure limiting valve,1,2026-05-11,148.58
+M-30437,J-1204,Reece,Pressure limiting valve,1,2026-05-11,159.51
+M-30434,J-1204,Bunnings,Pipe clips 10pk,1,2026-05-12,15.18
+M-30435,J-1204,Bunnings,Gutter brackets 10pk,1,2026-05-12,24.12
+M-30438,J-1205,Reece,Copper pipe 15mm x 6m,1,2026-05-13,63.94
+M-30439,J-1205,Reece,Pressure limiting valve,1,2026-05-13,136.61
+M-30442,J-1206,Bunnings,Silicone sealant,1,2026-05-13,12.40
+M-30440,J-1206,Reece,Shower mixer valve,1,2026-05-14,309.77
+M-30441,J-1206,Tradelink,Toilet suite,1,2026-05-14,561.27
+M-30443,J-1207,Bunnings,Pipe clips 10pk,1,2026-05-15,14.42
+M-30444,J-1207,Bunnings,Drain cleaner,1,2026-05-15,13.62
+M-30446,J-1208,Reece,Pressure limiting valve,1,2026-05-16,140.01
+M-30447,J-1208,Reece,Flick mixer tap,1,2026-05-16,167.82
+M-30445,J-1208,Bunnings,Thread tape 5pk,1,2026-05-18,7.20
+M-30449,J-1209,Tradelink,Cistern inlet valve,1,2026-05-18,32.75
+M-30448,J-1209,Reece,Flick mixer tap,1,2026-05-19,288.45
+M-30454,J-1212,Tradelink,Basin waste,1,2026-05-19,39.50
+M-30450,J-1211,Bunnings,PVC pipe 100mm x 3m,1,2026-05-20,37.57
+M-30451,J-1211,Bunnings,Gutter brackets 10pk,1,2026-05-20,35.82
+M-30452,J-1212,Reece,Pressure limiting valve,1,2026-05-20,126.05
+M-30453,J-1212,Reece,Copper pipe 15mm x 6m,1,2026-05-20,70.34
+M-30455,J-1213,Reece,Shower mixer valve,1,2026-05-20,290.42
+M-30456,J-1213,Tradelink,Toilet suite,1,2026-05-20,500.36
+M-30457,J-1213,Tradelink,Gas bayonet fitting,1,2026-05-20,65.26
+M-30458,J-1215,Bunnings,Thread tape 5pk,1,2026-05-20,8.97
+M-30459,J-1215,Bunnings,Gutter brackets 10pk,1,2026-05-20,22.41
+M-30460,J-1215,Reece,PEX fittings pack,1,2026-05-22,49.76
+M-30461,J-1218,Rheem,Rheem Stellar 330L gas HWS,1,2026-05-28,1949.88
+M-30463,J-1221,Reece,Flick mixer tap,1,2026-06-01,158.42
+M-30464,J-1221,Reece,Pressure limiting valve,1,2026-06-01,162.09
+M-30465,J-1221,Reece,Copper pipe 15mm x 6m,1,2026-06-01,54.68
+M-30462,J-1221,Rheem,Rheem 26L continuous flow,1,2026-06-02,996.73
+M-30468,J-1224,Reece,PEX fittings pack,1,2026-06-04,43.24
+M-30466,J-1223,Bunnings,Gutter brackets 10pk,1,2026-06-05,39.06
+M-30467,J-1223,Bunnings,Thread tape 5pk,1,2026-06-05,6.37
+M-30469,J-1224,Bunnings,Thread tape 5pk,1,2026-06-05,11.15
+M-30470,J-1224,Bunnings,PVC pipe 100mm x 3m,1,2026-06-05,43.57
+M-30471,J-1226,Tradelink,Toilet suite,1,2026-06-07,678.58
+M-30472,J-1226,Tradelink,Toilet suite,1,2026-06-07,330.04
+M-30474,J-1227,Reece,Waste trap 40mm,1,2026-06-10,34.60
+M-30475,J-1227,Reece,Flick mixer tap,1,2026-06-10,199.28
+M-30476,J-1227,Reece,Copper pipe 15mm x 6m,1,2026-06-10,60.00
+M-30473,J-1227,Rheem,Rheem Stellar 330L gas HWS,1,2026-06-11,2275.94
+M-30477,J-1228,Reece,Copper pipe 15mm x 6m,1,2026-06-12,67.33
+M-30478,J-1230,Tradelink,Basin waste,1,2026-06-15,26.25
+M-30480,J-1231,Tradelink,Flexible hoses pair,1,2026-06-15,33.63
+M-30481,J-1231,Bunnings,Gutter brackets 10pk,1,2026-06-15,32.32
+M-30479,J-1231,Reece,Flick mixer tap,1,2026-06-16,377.46
+M-30488,J-1232,Bunnings,PVC pipe 100mm x 3m,1,2026-06-16,39.34
+M-30489,J-1232,Bunnings,PVC pipe 100mm x 3m,1,2026-06-16,36.07
+M-30490,J-1232,Bunnings,Gutter brackets 10pk,1,2026-06-16,39.81
+M-30482,J-1232,Reece,PEX fittings pack,1,2026-06-17,49.42
+M-30483,J-1232,Reece,Copper pipe 15mm x 6m,1,2026-06-17,91.85
+M-30484,J-1232,Reece,Waste trap 40mm,1,2026-06-17,23.37
+M-30485,J-1232,Reece,PEX fittings pack,1,2026-06-17,51.40
+M-30486,J-1232,Reece,Pressure limiting valve,1,2026-06-17,132.67
+M-30487,J-1232,Reece,Shower mixer valve,1,2026-06-17,443.51
+M-30491,J-1233,Reece,Shower mixer valve,1,2026-06-17,491.60
+M-30492,J-1233,Reece,Flick mixer tap,1,2026-06-17,149.92
+M-30493,J-1233,Tradelink,Cistern inlet valve,1,2026-06-17,46.42
+M-30495,J-1234,Reece,Shower mixer valve,1,2026-06-17,422.32
+M-30494,J-1234,Bunnings,Gutter brackets 10pk,1,2026-06-18,43.92
+M-30496,J-1235,Tradelink,Gas bayonet fitting,1,2026-06-18,66.54
+M-30497,J-1237,Bunnings,PVC pipe 100mm x 3m,1,2026-06-20,30.40
+M-30498,J-1238,Bunnings,Thread tape 5pk,1,2026-06-20,11.02
+M-30499,J-1239,Bunnings,Silicone sealant,1,2026-06-21,10.00
+M-30500,J-1240,Tradelink,Cistern inlet valve,1,2026-06-23,35.72
+M-30501,J-1240,Bunnings,Silicone sealant,1,2026-06-23,18.38
+M-30502,J-1240,Bunnings,Drain cleaner,1,2026-06-23,21.68
+M-30503,J-1241,Rheem,Rheem 26L continuous flow,1,2026-06-24,1365.17
+M-30505,J-1241,Bunnings,Silicone sealant,1,2026-06-25,10.60
+M-30506,J-1241,Bunnings,PVC pipe 100mm x 3m,1,2026-06-25,29.13
+M-30504,J-1241,Reece,PEX fittings pack,1,2026-06-26,26.73
+M-30507,J-1242,Rheem,Rheem Stellar 330L gas HWS,1,2026-06-26,2156.94
+M-30508,J-1242,Reece,PEX fittings pack,1,2026-06-26,52.30
+M-30510,J-1243,Reece,PEX fittings pack,1,2026-06-28,60.97
+M-30512,J-1244,Bunnings,Pipe clips 10pk,1,2026-06-28,9.54
+M-30513,J-1244,Bunnings,Thread tape 5pk,1,2026-06-28,7.32
+M-30509,J-1243,Bunnings,Pipe clips 10pk,1,2026-06-29,13.27
+M-30511,J-1244,Tradelink,Gas bayonet fitting,1,2026-06-29,47.80
+M-30514,J-1246,Reece,PEX fittings pack,1,2026-06-29,35.75
+M-30515,J-1246,Reece,Shower mixer valve,1,2026-06-29,283.39
+M-30516,J-1246,Reece,Shower mixer valve,1,2026-06-29,522.26
+M-30517,J-1246,Reece,Shower mixer valve,1,2026-06-29,506.42
+M-30519,J-1246,Bunnings,Pipe clips 10pk,1,2026-06-29,12.31
+M-30520,J-1246,Bunnings,Gutter brackets 10pk,1,2026-06-29,39.89
+M-30521,J-1246,Bunnings,Pipe clips 10pk,1,2026-06-29,12.46
+M-30518,J-1246,Tradelink,Flexible hoses pair,1,2026-06-30,29.20
+M-30522,J-1247,Rheem,Rheem 26L continuous flow,1,2026-07-01,1408.96
+M-30523,J-1247,Reece,Pressure limiting valve,1,2026-07-01,147.66
+M-30524,J-1247,Reece,Waste trap 40mm,1,2026-07-01,23.73
+M-30529,J-1248,Tradelink,Flexible hoses pair,1,2026-07-01,27.14
+M-30530,J-1248,Tradelink,Basin waste,1,2026-07-01,28.26
+M-30525,J-1248,Reece,Waste trap 40mm,1,2026-07-02,15.94
+M-30526,J-1248,Reece,Flick mixer tap,1,2026-07-02,320.30
+M-30527,J-1248,Reece,Copper pipe 15mm x 6m,1,2026-07-02,72.19
+M-30528,J-1248,Reece,Waste trap 40mm,1,2026-07-02,22.74
+M-30541,J-1250,Reece,Pressure limiting valve,1,2026-07-04,115.35
+M-30544,J-1251,Reece,Flick mixer tap,1,2026-07-05,173.65
+M-30531,J-1249,Reece,Flick mixer tap,1,2026-07-06,143.16
+M-30532,J-1249,Reece,Flick mixer tap,1,2026-07-06,218.76
+M-30533,J-1249,Reece,Pressure limiting valve,1,2026-07-06,127.11
+M-30534,J-1249,Reece,Copper pipe 15mm x 6m,1,2026-07-06,70.10
+M-30535,J-1249,Reece,Shower mixer valve,1,2026-07-06,433.84
+M-30536,J-1249,Reece,Shower mixer valve,1,2026-07-06,506.82
+M-30537,J-1249,Tradelink,Toilet suite,1,2026-07-06,410.32
+M-30538,J-1249,Tradelink,Flexible hoses pair,1,2026-07-06,17.57
+M-30539,J-1249,Tradelink,Flexible hoses pair,1,2026-07-06,32.16
+M-30540,J-1249,Bunnings,Silicone sealant,1,2026-07-06,11.76
+M-30542,J-1250,Tradelink,Cistern inlet valve,1,2026-07-06,33.64
+M-30543,J-1250,Tradelink,Cistern inlet valve,1,2026-07-06,53.71
+M-30545,J-1251,Tradelink,Basin waste,1,2026-07-06,39.55
+M-30546,J-1251,Tradelink,Toilet suite,1,2026-07-06,386.67
+M-30547,J-1251,Bunnings,Gutter brackets 10pk,1,2026-07-07,33.31
+M-30548,J-1253,Reece,Shower mixer valve,1,2026-07-07,309.51
+M-31008,J-1249,Tradelink,Credit: returned flexible hoses pair,1,2026-07-09,-32.16
+M-30560,J-1257,Bunnings,PVC pipe 100mm x 3m,1,2026-07-11,31.02
+M-30561,J-1257,Bunnings,Thread tape 5pk,1,2026-07-11,8.85
+M-30562,J-1257,Bunnings,Drain cleaner,1,2026-07-11,25.81
+M-30557,J-1257,Tradelink,Flexible hoses pair,1,2026-07-12,30.47
+M-30558,J-1257,Tradelink,Basin waste,1,2026-07-12,22.59
+M-30559,J-1257,Tradelink,Flexible hoses pair,1,2026-07-12,29.11
+M-30549,J-1256,Bunnings,PVC pipe 100mm x 3m,1,2026-07-13,40.77
+M-30550,J-1256,Bunnings,Silicone sealant,1,2026-07-13,14.83
+M-30551,J-1256,Reece,Copper pipe 15mm x 6m,1,2026-07-13,51.93
+M-30552,J-1257,Reece,Pressure limiting valve,1,2026-07-13,100.24
+M-30553,J-1257,Reece,Pressure limiting valve,1,2026-07-13,117.09
+M-30554,J-1257,Reece,Flick mixer tap,1,2026-07-13,132.17
+M-30555,J-1257,Reece,Flick mixer tap,1,2026-07-13,220.35
+M-30556,J-1257,Reece,Pressure limiting valve,1,2026-07-13,155.45
+M-30569,J-1260,Bunnings,Thread tape 5pk,1,2026-07-13,6.98
+M-30563,J-1259,Bunnings,PVC pipe 100mm x 3m,1,2026-07-14,44.62
+M-30570,J-1261,Bunnings,PVC pipe 100mm x 3m,1,2026-07-14,34.09
+M-30571,J-1261,Bunnings,Drain cleaner,1,2026-07-14,20.95
+M-30564,J-1259,Reece,Copper pipe 15mm x 6m,1,2026-07-15,78.73
+M-30565,J-1259,Reece,Flick mixer tap,1,2026-07-15,237.46
+M-30566,J-1260,Reece,Pressure limiting valve,1,2026-07-15,131.98
+M-30567,J-1260,Reece,Flick mixer tap,1,2026-07-15,292.28
+M-30568,J-1260,Reece,Pressure limiting valve,1,2026-07-15,163.04
+M-30572,J-1261,Reece,Copper pipe 15mm x 6m,1,2026-07-15,76.14
+M-30573,J-1262,Reece,PEX fittings pack,1,2026-07-16,43.76
+M-30574,J-1262,Reece,Flick mixer tap,1,2026-07-16,331.49
+M-30575,J-1262,Reece,Pressure limiting valve,1,2026-07-16,114.86
+M-30576,J-1262,Bunnings,Silicone sealant,1,2026-07-16,17.32
+M-30577,J-1262,Bunnings,Drain cleaner,1,2026-07-16,20.59
+M-30578,J-1262,Bunnings,Drain cleaner,1,2026-07-16,23.84
+M-30579,J-1263,Tradelink,Cistern inlet valve,1,2026-07-16,53.24
+M-30580,J-1263,Tradelink,Gas bayonet fitting,1,2026-07-16,69.59
+M-30581,J-1265,Reece,Shower mixer valve,1,2026-07-17,405.75
+M-30582,J-1265,Reece,Pressure limiting valve,1,2026-07-17,98.04
+M-30583,J-1265,Reece,Flick mixer tap,1,2026-07-17,140.25
+M-30584,J-1265,Tradelink,Toilet suite,1,2026-07-17,842.78
+M-30585,J-1265,Bunnings,Gutter brackets 10pk,1,2026-07-17,29.09
+M-30587,J-1267,Tradelink,Flexible hoses pair,1,2026-07-18,28.12
+M-30586,J-1267,Reece,Shower mixer valve,1,2026-07-20,490.93
+M-30588,J-1267,Bunnings,Pipe clips 10pk,1,2026-07-20,9.93
+M-30589,J-1267,Bunnings,Silicone sealant,1,2026-07-20,13.08
+M-30590,J-1268,Reece,Pressure limiting valve,1,2026-07-20,110.55
+M-30591,J-1268,Bunnings,Drain cleaner,1,2026-07-20,17.70
+M-31006,J-1265,Reece,Credit: returned flick mixer tap,1,2026-07-20,-140.25
+M-30592,J-1270,Bunnings,Thread tape 5pk,1,2026-07-23,7.20
+M-30593,J-1271,Rheem,Rheem 26L continuous flow,1,2026-07-23,1313.34
+M-30594,J-1272,Reece,Copper pipe 15mm x 6m,1,2026-07-24,82.68
+M-30595,J-1274,Bunnings,PVC pipe 100mm x 3m,1,2026-07-27,36.06
+M-30596,J-1274,Bunnings,Thread tape 5pk,1,2026-07-27,11.12
+M-30597,J-1276,Bunnings,Drain cleaner,1,2026-07-28,25.59
+M-30598,J-1276,Bunnings,Drain cleaner,1,2026-07-28,21.47
+M-30599,J-1277,Bunnings,Thread tape 5pk,1,2026-07-28,8.47
+M-30600,J-1277,Bunnings,PVC pipe 100mm x 3m,1,2026-07-28,41.89
+M-30602,J-1278,Bunnings,PVC pipe 100mm x 3m,1,2026-07-28,42.62
+M-30603,J-1278,Bunnings,Drain cleaner,1,2026-07-28,12.31
+M-30601,J-1277,Reece,Waste trap 40mm,1,2026-07-29,15.57
+M-30604,J-1279,Reece,Pressure limiting valve,1,2026-07-30,104.33
+M-30605,J-1279,Reece,Waste trap 40mm,1,2026-07-30,34.34
+M-30606,J-1281,Rheem,Rheem Stellar 330L gas HWS,1,2026-08-01,1822.88
+M-30607,J-1281,Reece,Waste trap 40mm,1,2026-08-01,32.32
+M-30608,J-1281,Reece,PEX fittings pack,1,2026-08-01,59.00
+M-30611,J-1283,Reece,Pressure limiting valve,1,2026-08-03,107.12
+M-30612,J-1283,Reece,PEX fittings pack,1,2026-08-03,30.06
+M-30613,J-1283,Reece,PEX fittings pack,1,2026-08-03,55.48
+M-30614,J-1283,Reece,Flick mixer tap,1,2026-08-03,249.68
+M-30609,J-1282,Bunnings,Pipe clips 10pk,1,2026-08-04,9.33
+M-30610,J-1282,Bunnings,Silicone sealant,1,2026-08-04,16.46
+M-30615,J-1283,Tradelink,Toilet suite,1,2026-08-04,418.38
+M-30616,J-1283,Tradelink,Basin waste,1,2026-08-04,21.82
+M-30617,J-1283,Bunnings,Drain cleaner,1,2026-08-05,14.46
+M-30618,J-1283,Bunnings,PVC pipe 100mm x 3m,1,2026-08-05,48.24
+M-30619,J-1283,Bunnings,Pipe clips 10pk,1,2026-08-05,15.04
+M-30620,J-1284,Bunnings,PVC pipe 100mm x 3m,1,2026-08-06,39.99
+M-30621,J-1285,Bunnings,Thread tape 5pk,1,2026-08-06,10.99
+M-30622,J-1285,Bunnings,Gutter brackets 10pk,1,2026-08-06,29.97
+M-30623,J-1286,Bunnings,Drain cleaner,1,2026-08-07,17.93
+M-30624,J-1286,Bunnings,Gutter brackets 10pk,1,2026-08-07,26.67
+M-30625,J-1286,Reece,Pressure limiting valve,1,2026-08-07,143.39
+M-30626,J-1286,Reece,Flick mixer tap,1,2026-08-07,134.48
+M-30629,J-1291,Reece,Pressure limiting valve,1,2026-08-08,141.84
+M-30630,J-1291,Reece,Copper pipe 15mm x 6m,1,2026-08-08,78.14
+M-30631,J-1291,Reece,PEX fittings pack,1,2026-08-08,48.47
+M-30632,J-1291,Reece,Waste trap 40mm,1,2026-08-08,17.27
+M-30633,J-1291,Reece,Pressure limiting valve,1,2026-08-08,104.21
+M-30634,J-1291,Tradelink,Toilet suite,1,2026-08-08,392.27
+M-30640,J-1293,Bunnings,Pipe clips 10pk,1,2026-08-09,15.45
+M-30641,J-1293,Bunnings,Pipe clips 10pk,1,2026-08-09,9.07
+M-30627,J-1290,Reece,Pressure limiting valve,1,2026-08-10,145.01
+M-30628,J-1290,Reece,Flick mixer tap,1,2026-08-10,315.52
+M-30635,J-1291,Bunnings,Gutter brackets 10pk,1,2026-08-10,30.44
+M-30636,J-1291,Bunnings,Thread tape 5pk,1,2026-08-10,8.71
+M-30637,J-1291,Bunnings,Gutter brackets 10pk,1,2026-08-10,24.07
+M-30638,J-1292,Bunnings,PVC pipe 100mm x 3m,1,2026-08-11,48.46
+M-30639,J-1292,Reece,Pressure limiting valve,1,2026-08-11,135.97
+M-30642,J-1294,Reece,PEX fittings pack,1,2026-08-12,39.16
+M-30643,J-1294,Reece,PEX fittings pack,1,2026-08-12,23.21
+M-30644,J-1296,Rheem,Rheem Stellar 330L gas HWS,1,2026-08-14,1678.29
+M-30645,J-1296,Reece,Waste trap 40mm,1,2026-08-14,22.90
+M-30646,J-1296,Reece,Shower mixer valve,1,2026-08-14,223.57
+M-30647,J-1296,Bunnings,Thread tape 5pk,1,2026-08-14,11.27
+M-30648,J-1296,Bunnings,Silicone sealant,1,2026-08-14,9.90
+M-30649,J-1297,Reece,Flick mixer tap,1,2026-08-14,369.82
+M-30650,J-1297,Reece,Flick mixer tap,1,2026-08-14,363.73
+M-30651,J-1297,Reece,Flick mixer tap,1,2026-08-14,288.36
+M-30652,J-1297,Bunnings,Silicone sealant,1,2026-08-14,12.16
+M-30653,J-1297,Bunnings,Pipe clips 10pk,1,2026-08-14,14.87
+M-30654,J-1298,Bunnings,Pipe clips 10pk,1,2026-08-14,9.04
+M-30655,J-1298,Bunnings,Pipe clips 10pk,1,2026-08-14,8.37
+M-30656,J-1299,Bunnings,Drain cleaner,1,2026-08-16,25.97
+M-30657,J-1299,Reece,Pressure limiting valve,1,2026-08-16,158.95
+M-30658,J-1300,Reece,Copper pipe 15mm x 6m,1,2026-08-19,51.81
+M-30659,J-1301,Reece,Shower mixer valve,1,2026-08-19,523.80
+M-30660,J-1301,Reece,Flick mixer tap,1,2026-08-19,375.33
+M-30661,J-1301,Reece,Waste trap 40mm,1,2026-08-19,35.77
+M-30662,J-1301,Bunnings,Thread tape 5pk,1,2026-08-19,10.79
+M-30663,J-1301,Bunnings,Gutter brackets 10pk,1,2026-08-19,22.63
+M-30664,J-1302,Bunnings,Thread tape 5pk,1,2026-08-20,8.95
+M-30667,J-1308,Reece,Waste trap 40mm,1,2026-08-25,16.55
+M-30668,J-1308,Reece,Shower mixer valve,1,2026-08-25,215.91
+M-30665,J-1307,Reece,Flick mixer tap,1,2026-08-26,281.67
+M-30666,J-1307,Reece,Pressure limiting valve,1,2026-08-26,146.56
+M-30669,J-1308,Tradelink,Flexible hoses pair,1,2026-08-27,24.28
+M-30673,J-1309,Tradelink,Toilet suite,1,2026-08-29,476.84
+M-31002,J-1308,Tradelink,Credit: returned flexible hoses pair,1,2026-08-30,-24.28
+M-30670,J-1309,Reece,PEX fittings pack,1,2026-08-31,58.08
+M-30671,J-1309,Reece,PEX fittings pack,1,2026-08-31,42.21
+M-30672,J-1309,Reece,PEX fittings pack,1,2026-08-31,49.29
+M-30678,J-1313,Reece,Shower mixer valve,1,2026-08-31,509.99
+M-30679,J-1313,Tradelink,Cistern inlet valve,1,2026-08-31,54.96
+M-30680,J-1313,Tradelink,Flexible hoses pair,1,2026-08-31,33.28
+M-30674,J-1310,Bunnings,PVC pipe 100mm x 3m,1,2026-09-01,35.01
+M-30675,J-1310,Bunnings,PVC pipe 100mm x 3m,1,2026-09-01,41.24
+M-30676,J-1312,Reece,Waste trap 40mm,1,2026-09-02,24.01
+M-30677,J-1312,Reece,Pressure limiting valve,1,2026-09-02,97.89
+M-30681,J-1314,Bunnings,PVC pipe 100mm x 3m,1,2026-09-07,35.53
+M-30682,J-1314,Reece,Shower mixer valve,1,2026-09-07,220.55
+M-30683,J-1318,Rheem,Rheem 26L continuous flow,1,2026-09-13,1232.51
+M-30687,J-1318,Bunnings,Pipe clips 10pk,1,2026-09-13,16.08
+M-30688,J-1318,Bunnings,Drain cleaner,1,2026-09-13,23.12
+M-30690,J-1319,Reece,Waste trap 40mm,1,2026-09-13,37.52
+M-30684,J-1318,Reece,Pressure limiting valve,1,2026-09-14,116.41
+M-30685,J-1318,Reece,Waste trap 40mm,1,2026-09-14,19.89
+M-30686,J-1318,Reece,Shower mixer valve,1,2026-09-14,349.17
+M-30689,J-1319,Bunnings,Gutter brackets 10pk,1,2026-09-14,42.22
+M-30692,J-1322,Reece,PEX fittings pack,1,2026-09-14,25.90
+M-30693,J-1322,Reece,Shower mixer valve,1,2026-09-14,313.04
+M-30694,J-1322,Reece,Flick mixer tap,1,2026-09-14,325.83
+M-30695,J-1322,Reece,PEX fittings pack,1,2026-09-14,22.98
+M-30696,J-1322,Reece,Shower mixer valve,1,2026-09-14,405.53
+M-30701,J-1323,Reece,PEX fittings pack,1,2026-09-14,36.71
+M-30702,J-1323,Reece,Flick mixer tap,1,2026-09-14,302.40
+M-30703,J-1323,Reece,Waste trap 40mm,1,2026-09-14,27.75
+M-30691,J-1320,Bunnings,Thread tape 5pk,1,2026-09-15,11.40
+M-30704,J-1323,Tradelink,Toilet suite,1,2026-09-15,492.76
+M-30697,J-1322,Tradelink,Flexible hoses pair,1,2026-09-16,33.77
+M-30698,J-1322,Tradelink,Toilet suite,1,2026-09-16,731.60
+M-30699,J-1322,Tradelink,Basin waste,1,2026-09-16,25.27
+M-30700,J-1322,Bunnings,Gutter brackets 10pk,1,2026-09-16,42.65
+M-30705,J-1324,Reece,Waste trap 40mm,1,2026-09-17,26.63
+M-30706,J-1324,Reece,Shower mixer valve,1,2026-09-17,394.46
+M-30707,J-1325,Reece,Waste trap 40mm,1,2026-09-17,24.99
+M-30708,J-1325,Reece,Waste trap 40mm,1,2026-09-17,26.32
+M-30710,J-1328,Bunnings,Drain cleaner,1,2026-09-20,18.33
+M-30711,J-1328,Bunnings,Thread tape 5pk,1,2026-09-20,10.69
+M-30709,J-1327,Bunnings,Silicone sealant,1,2026-09-21,16.84
+M-30712,J-1329,Tradelink,Gas bayonet fitting,1,2026-09-22,76.23
+M-30713,J-1333,Bunnings,Pipe clips 10pk,1,2026-09-26,10.31
+M-30714,J-1333,Bunnings,PVC pipe 100mm x 3m,1,2026-09-26,48.58
+M-30715,J-1334,Reece,Copper pipe 15mm x 6m,1,2026-09-28,81.53
+M-30723,J-1337,Tradelink,Flexible hoses pair,1,2026-09-28,16.75
+M-30724,J-1337,Tradelink,Flexible hoses pair,1,2026-09-28,33.30
+M-30725,J-1337,Tradelink,Gas bayonet fitting,1,2026-09-28,58.59
+M-30716,J-1336,Reece,Shower mixer valve,1,2026-09-29,344.34
+M-30717,J-1336,Reece,Pressure limiting valve,1,2026-09-29,91.20
+M-30718,J-1337,Reece,Shower mixer valve,1,2026-09-29,344.23
+M-30719,J-1337,Reece,Copper pipe 15mm x 6m,1,2026-09-29,87.78
+M-30720,J-1337,Reece,Shower mixer valve,1,2026-09-29,277.14
+M-30721,J-1337,Reece,PEX fittings pack,1,2026-09-29,37.68
+M-30722,J-1337,Reece,PEX fittings pack,1,2026-09-29,54.84
+M-30726,J-1338,Bunnings,Thread tape 5pk,1,2026-09-30,6.54
+M-30727,J-1339,Reece,PEX fittings pack,1,2026-10-02,41.31
+M-30728,J-1339,Reece,Shower mixer valve,1,2026-10-02,318.39
+M-30729,J-1339,Bunnings,PVC pipe 100mm x 3m,1,2026-10-02,46.93
+M-30730,J-1339,Bunnings,Gutter brackets 10pk,1,2026-10-02,24.99
+M-30731,J-1340,Reece,Pressure limiting valve,1,2026-10-05,102.47
+M-30732,J-1340,Reece,Waste trap 40mm,1,2026-10-05,37.61
+M-30733,J-1340,Reece,Copper pipe 15mm x 6m,1,2026-10-05,69.75
+M-30734,J-1340,Reece,PEX fittings pack,1,2026-10-05,40.67
+M-30735,J-1340,Reece,PEX fittings pack,1,2026-10-05,53.21
+M-30736,J-1341,Reece,Copper pipe 15mm x 6m,1,2026-10-05,61.20
+M-30737,J-1341,Reece,Waste trap 40mm,1,2026-10-05,30.97
+M-30741,J-1342,Reece,Waste trap 40mm,1,2026-10-05,27.44
+M-30742,J-1342,Reece,Pressure limiting valve,1,2026-10-05,89.15
+M-30743,J-1342,Reece,Pressure limiting valve,1,2026-10-05,137.71
+M-30744,J-1342,Reece,Waste trap 40mm,1,2026-10-05,15.24
+M-30745,J-1342,Reece,Flick mixer tap,1,2026-10-05,241.46
+M-30746,J-1342,Bunnings,Pipe clips 10pk,1,2026-10-05,11.25
+M-30747,J-1342,Bunnings,PVC pipe 100mm x 3m,1,2026-10-05,46.56
+M-30738,J-1341,Tradelink,Toilet suite,1,2026-10-06,813.12
+M-30739,J-1341,Tradelink,Gas bayonet fitting,1,2026-10-06,68.52
+M-30740,J-1341,Bunnings,PVC pipe 100mm x 3m,1,2026-10-06,40.35
+M-30758,J-1345,Bunnings,Drain cleaner,1,2026-10-06,12.15
+M-30759,J-1345,Bunnings,Pipe clips 10pk,1,2026-10-06,12.18
+M-30760,J-1345,Bunnings,Pipe clips 10pk,1,2026-10-06,15.92
+M-30748,J-1343,Tradelink,Cistern inlet valve,1,2026-10-07,37.12
+M-30764,J-1346,Tradelink,Cistern inlet valve,1,2026-10-07,38.32
+M-30765,J-1346,Tradelink,Toilet suite,1,2026-10-07,334.75
+M-30749,J-1343,Bunnings,PVC pipe 100mm x 3m,1,2026-10-08,38.08
+M-30750,J-1344,Reece,Copper pipe 15mm x 6m,1,2026-10-08,86.62
+M-30751,J-1344,Reece,Shower mixer valve,1,2026-10-08,472.06
+M-30752,J-1345,Reece,Copper pipe 15mm x 6m,1,2026-10-08,91.20
+M-30753,J-1345,Reece,Pressure limiting valve,1,2026-10-08,93.16
+M-30754,J-1345,Reece,Shower mixer valve,1,2026-10-08,416.64
+M-30755,J-1345,Reece,Copper pipe 15mm x 6m,1,2026-10-08,52.79
+M-30756,J-1345,Tradelink,Flexible hoses pair,1,2026-10-08,23.23
+M-30757,J-1345,Tradelink,Gas bayonet fitting,1,2026-10-08,80.34
+M-30766,J-1346,Bunnings,Thread tape 5pk,1,2026-10-08,9.50
+M-30767,J-1346,Bunnings,Drain cleaner,1,2026-10-08,22.86
+M-30761,J-1346,Reece,PEX fittings pack,1,2026-10-09,59.98
+M-30762,J-1346,Reece,PEX fittings pack,1,2026-10-09,48.77
+M-30763,J-1346,Reece,Flick mixer tap,1,2026-10-09,221.40
+M-30768,J-1347,Rheem,Rheem 26L continuous flow,1,2026-10-10,1151.91
+M-30772,J-1349,Bunnings,Pipe clips 10pk,1,2026-10-11,9.66
+M-30769,J-1348,Bunnings,Drain cleaner,1,2026-10-12,16.19
+M-30770,J-1348,Bunnings,Thread tape 5pk,1,2026-10-12,6.97
+M-30771,J-1349,Reece,Pressure limiting valve,1,2026-10-12,144.83
+M-30778,J-1352,Bunnings,Gutter brackets 10pk,1,2026-10-12,26.62
+M-30779,J-1352,Bunnings,PVC pipe 100mm x 3m,1,2026-10-12,44.02
+M-30773,J-1350,Bunnings,Silicone sealant,1,2026-10-13,11.84
+M-30774,J-1350,Reece,Flick mixer tap,1,2026-10-13,349.36
+M-30775,J-1351,Reece,PEX fittings pack,1,2026-10-13,34.81
+M-30776,J-1351,Reece,PEX fittings pack,1,2026-10-13,37.52
+M-30777,J-1352,Tradelink,Gas bayonet fitting,1,2026-10-14,62.78
+M-30784,J-1356,Bunnings,Pipe clips 10pk,1,2026-10-18,11.68
+M-30785,J-1356,Bunnings,Pipe clips 10pk,1,2026-10-18,10.85
+M-30780,J-1355,Tradelink,Cistern inlet valve,1,2026-10-19,42.29
+M-30781,J-1355,Tradelink,Basin waste,1,2026-10-19,29.90
+M-30782,J-1355,Bunnings,Thread tape 5pk,1,2026-10-19,9.30
+M-30783,J-1355,Bunnings,Silicone sealant,1,2026-10-19,16.52
+M-30786,J-1357,Rheem,Rheem Stellar 330L gas HWS,1,2026-10-20,1514.21
+M-30787,J-1357,Reece,PEX fittings pack,1,2026-10-20,50.35
+M-30788,J-1357,Reece,Flick mixer tap,1,2026-10-20,207.71
+M-30789,J-1358,Tradelink,Basin waste,1,2026-10-20,39.93
+M-30790,J-1358,Tradelink,Flexible hoses pair,1,2026-10-20,33.02
+M-30795,J-1361,Bunnings,Pipe clips 10pk,1,2026-10-24,9.84
+M-30796,J-1361,Bunnings,Pipe clips 10pk,1,2026-10-24,8.57
+M-30793,J-1360,Tradelink,Flexible hoses pair,1,2026-10-25,29.73
+M-30794,J-1360,Tradelink,Gas bayonet fitting,1,2026-10-25,59.08
+M-30801,J-1362,Tradelink,Cistern inlet valve,1,2026-10-25,40.50
+M-30791,J-1360,Reece,Waste trap 40mm,1,2026-10-26,14.23
+M-30792,J-1360,Reece,Waste trap 40mm,1,2026-10-26,34.02
+M-30797,J-1362,Reece,Copper pipe 15mm x 6m,1,2026-10-27,90.83
+M-30798,J-1362,Reece,Pressure limiting valve,1,2026-10-27,110.57
+M-30799,J-1362,Reece,PEX fittings pack,1,2026-10-27,34.23
+M-30800,J-1362,Reece,Shower mixer valve,1,2026-10-27,233.09
+M-30802,J-1363,Rheem,Rheem 26L continuous flow,1,2026-10-27,1273.75
+M-30803,J-1363,Reece,PEX fittings pack,1,2026-10-27,22.31
+M-30804,J-1363,Reece,PEX fittings pack,1,2026-10-27,40.72
+M-30805,J-1364,Bunnings,Thread tape 5pk,1,2026-10-28,9.88
+M-30806,J-1365,Rheem,Rheem 26L continuous flow,1,2026-10-29,1329.32
+M-30807,J-1365,Reece,Waste trap 40mm,1,2026-10-29,26.91
+M-30808,J-1365,Reece,Waste trap 40mm,1,2026-10-29,35.99
+M-30809,J-1367,Bunnings,Pipe clips 10pk,1,2026-11-01,8.34
+M-30810,J-1367,Reece,Waste trap 40mm,1,2026-11-02,31.97
+M-30811,J-1367,Reece,Pressure limiting valve,1,2026-11-02,124.06
+M-30812,J-1368,Rheem,Rheem 26L continuous flow,1,2026-11-03,1064.23
+M-30813,J-1368,Reece,Flick mixer tap,1,2026-11-03,168.91
+M-30814,J-1368,Reece,Flick mixer tap,1,2026-11-03,175.26
+M-30815,J-1368,Reece,Waste trap 40mm,1,2026-11-03,14.83
+M-30816,J-1369,Reece,PEX fittings pack,1,2026-11-03,37.74
+M-30817,J-1369,Tradelink,Flexible hoses pair,1,2026-11-04,16.50
+M-30818,J-1369,Bunnings,Silicone sealant,1,2026-11-04,18.59
+M-30824,J-1373,Tradelink,Cistern inlet valve,1,2026-11-04,32.55
+M-30821,J-1372,Reece,Waste trap 40mm,1,2026-11-05,17.19
+M-30822,J-1372,Reece,PEX fittings pack,1,2026-11-05,48.68
+M-30823,J-1372,Reece,Waste trap 40mm,1,2026-11-05,21.63
+M-30819,J-1371,Bunnings,Gutter brackets 10pk,1,2026-11-06,39.75
+M-30820,J-1372,Rheem,Rheem 26L continuous flow,1,2026-11-06,1459.52
+M-30826,J-1375,Reece,Flick mixer tap,1,2026-11-08,324.14
+M-30827,J-1375,Reece,PEX fittings pack,1,2026-11-08,57.57
+M-30828,J-1375,Reece,Flick mixer tap,1,2026-11-08,218.11
+M-30825,J-1374,Bunnings,Gutter brackets 10pk,1,2026-11-09,34.76
+M-30829,J-1375,Tradelink,Cistern inlet valve,1,2026-11-09,47.81
+M-30830,J-1375,Bunnings,Pipe clips 10pk,1,2026-11-09,13.67
+M-30831,J-1376,Reece,PEX fittings pack,1,2026-11-09,43.31
+M-30832,J-1377,Reece,Flick mixer tap,1,2026-11-09,232.54
+M-30836,J-1379,Bunnings,Pipe clips 10pk,1,2026-11-09,11.64
+M-30837,J-1379,Bunnings,Pipe clips 10pk,1,2026-11-09,16.46
+M-30835,J-1379,Tradelink,Cistern inlet valve,1,2026-11-10,55.82
+M-30833,J-1379,Reece,Flick mixer tap,1,2026-11-11,226.54
+M-30834,J-1379,Reece,Shower mixer valve,1,2026-11-11,368.68
+M-30838,J-1381,Rheem,Rheem Stellar 330L gas HWS,1,2026-11-11,2035.82
+M-30839,J-1385,Reece,PEX fittings pack,1,2026-11-15,33.30
+M-30840,J-1385,Reece,PEX fittings pack,1,2026-11-15,61.06
+M-30841,J-1385,Tradelink,Cistern inlet valve,1,2026-11-17,53.23
+M-30842,J-1385,Bunnings,Drain cleaner,1,2026-11-17,17.84
+M-30843,J-1385,Bunnings,Thread tape 5pk,1,2026-11-17,10.40
+M-30844,J-1387,Bunnings,Thread tape 5pk,1,2026-11-18,6.51
+M-30845,J-1387,Reece,Copper pipe 15mm x 6m,1,2026-11-18,75.53
+M-30846,J-1387,Reece,Pressure limiting valve,1,2026-11-18,125.87
+M-30847,J-1388,Tradelink,Flexible hoses pair,1,2026-11-18,26.85
+M-30848,J-1391,Bunnings,Drain cleaner,1,2026-11-18,17.78
+M-30849,J-1391,Bunnings,Silicone sealant,1,2026-11-18,9.03
+M-30856,J-1392,Bunnings,Thread tape 5pk,1,2026-11-22,10.99
+M-30850,J-1392,Reece,Pressure limiting valve,1,2026-11-23,164.00
+M-30851,J-1392,Reece,Waste trap 40mm,1,2026-11-23,35.72
+M-30852,J-1392,Reece,Waste trap 40mm,1,2026-11-23,23.24
+M-30853,J-1392,Reece,Shower mixer valve,1,2026-11-23,274.38
+M-30854,J-1392,Reece,PEX fittings pack,1,2026-11-23,58.53
+M-30855,J-1392,Reece,Shower mixer valve,1,2026-11-23,469.00
+M-30857,J-1396,Reece,Flick mixer tap,1,2026-12-02,377.06
+M-30858,J-1398,Reece,Pressure limiting valve,1,2026-12-03,140.68
+M-30859,J-1398,Tradelink,Toilet suite,1,2026-12-03,652.94
+M-30860,J-1398,Bunnings,Gutter brackets 10pk,1,2026-12-03,34.20
+M-30861,J-1398,Bunnings,Gutter brackets 10pk,1,2026-12-03,40.06
+M-31003,J-1396,Reece,Credit: returned flick mixer tap,1,2026-12-05,-377.06
+M-30863,J-1402,Reece,Waste trap 40mm,1,2026-12-07,32.85
+M-30862,J-1401,Bunnings,Gutter brackets 10pk,1,2026-12-08,27.99
+M-30864,J-1402,Bunnings,PVC pipe 100mm x 3m,1,2026-12-08,30.02
+M-30865,J-1405,Bunnings,Thread tape 5pk,1,2026-12-13,10.16
+M-30866,J-1405,Bunnings,PVC pipe 100mm x 3m,1,2026-12-13,44.68
+M-30867,J-1405,Reece,Flick mixer tap,1,2026-12-14,277.57
+M-30868,J-1405,Reece,Copper pipe 15mm x 6m,1,2026-12-14,63.29
+M-30869,J-1407,Reece,PEX fittings pack,1,2026-12-14,22.22
+M-30870,J-1407,Reece,Pressure limiting valve,1,2026-12-14,149.84
+M-30871,J-1407,Reece,Copper pipe 15mm x 6m,1,2026-12-14,49.84
+M-30872,J-1409,Bunnings,Gutter brackets 10pk,1,2026-12-15,28.20
+M-30873,J-1409,Bunnings,Thread tape 5pk,1,2026-12-15,9.64
+M-30874,J-1410,Bunnings,Thread tape 5pk,1,2026-12-16,6.77
+M-30875,J-1410,Bunnings,Drain cleaner,1,2026-12-16,17.91
+M-30876,J-1411,Reece,Waste trap 40mm,1,2026-12-21,29.49
+M-30877,J-1411,Reece,Waste trap 40mm,1,2026-12-21,22.93
+M-30878,J-1411,Reece,Waste trap 40mm,1,2026-12-21,29.55
+M-30879,J-1411,Bunnings,Pipe clips 10pk,1,2026-12-21,11.41
+M-30880,J-1411,Bunnings,Drain cleaner,1,2026-12-21,15.46
+M-30881,J-1412,Bunnings,Silicone sealant,1,2026-12-21,17.69
+M-30882,J-1412,Bunnings,Silicone sealant,1,2026-12-21,11.74
+M-30883,J-1412,Reece,Copper pipe 15mm x 6m,1,2026-12-21,84.79
+M-30884,J-1412,Reece,Copper pipe 15mm x 6m,1,2026-12-21,56.26
+M-30885,J-1413,Bunnings,Thread tape 5pk,1,2026-12-21,10.84
+M-30886,J-1414,Reece,Waste trap 40mm,1,2026-12-24,28.61
+M-30887,J-1415,Reece,Pressure limiting valve,1,2026-12-25,147.56
+M-30888,J-1415,Reece,Copper pipe 15mm x 6m,1,2026-12-25,77.83
+M-30889,J-1415,Tradelink,Cistern inlet valve,1,2026-12-25,46.96
+M-30890,J-1415,Bunnings,PVC pipe 100mm x 3m,1,2026-12-25,48.21
+M-30891,J-1415,Bunnings,Pipe clips 10pk,1,2026-12-25,14.09
+M-30904,J-1419,Bunnings,Pipe clips 10pk,1,2026-12-29,9.46
+M-30905,J-1419,Bunnings,Thread tape 5pk,1,2026-12-29,10.48
+M-30906,J-1419,Bunnings,PVC pipe 100mm x 3m,1,2026-12-29,35.54
+M-30892,J-1418,Reece,Copper pipe 15mm x 6m,1,2026-12-30,61.63
+M-30893,J-1418,Reece,Pressure limiting valve,1,2026-12-30,111.31
+M-30894,J-1418,Reece,PEX fittings pack,1,2026-12-30,22.09
+M-30895,J-1418,Bunnings,Pipe clips 10pk,1,2026-12-30,16.03
+M-30896,J-1419,Reece,Flick mixer tap,1,2026-12-30,131.30
+M-30897,J-1419,Reece,Pressure limiting valve,1,2026-12-30,126.40
+M-30898,J-1419,Reece,Copper pipe 15mm x 6m,1,2026-12-30,72.87
+M-30899,J-1419,Reece,PEX fittings pack,1,2026-12-30,39.25
+M-30900,J-1419,Reece,Pressure limiting valve,1,2026-12-30,89.53
+M-30901,J-1419,Reece,Waste trap 40mm,1,2026-12-30,20.00
+M-30902,J-1419,Tradelink,Basin waste,1,2026-12-30,29.99
+M-30903,J-1419,Tradelink,Cistern inlet valve,1,2026-12-30,45.95
+M-30907,J-1422,Reece,Waste trap 40mm,1,2026-12-30,19.68
+M-30908,J-1422,Bunnings,Pipe clips 10pk,1,2026-12-30,12.32
+M-30912,J-1424,Tradelink,Toilet suite,1,2027-01-02,809.83
+M-30913,J-1424,Bunnings,Gutter brackets 10pk,1,2027-01-02,35.57
+M-30914,J-1424,Bunnings,Silicone sealant,1,2027-01-02,11.22
+M-30909,J-1423,Reece,Pressure limiting valve,1,2027-01-03,142.69
+M-30918,J-1426,Reece,Shower mixer valve,1,2027-01-03,332.63
+M-30919,J-1426,Reece,Waste trap 40mm,1,2027-01-03,20.62
+M-30920,J-1426,Reece,Shower mixer valve,1,2027-01-03,336.74
+M-30910,J-1424,Reece,Copper pipe 15mm x 6m,1,2027-01-04,60.87
+M-30911,J-1424,Reece,PEX fittings pack,1,2027-01-04,61.02
+M-30915,J-1425,Rheem,Rheem Stellar 330L gas HWS,1,2027-01-04,1737.86
+M-30916,J-1425,Reece,Copper pipe 15mm x 6m,1,2027-01-04,79.04
+M-30921,J-1427,Bunnings,PVC pipe 100mm x 3m,1,2027-01-04,47.78
+M-30917,J-1426,Rheem,Rheem 26L continuous flow,1,2027-01-05,1350.65
+M-30927,J-1429,Tradelink,Cistern inlet valve,1,2027-01-05,43.38
+M-30928,J-1429,Bunnings,Pipe clips 10pk,1,2027-01-05,13.46
+M-30929,J-1429,Bunnings,Silicone sealant,1,2027-01-05,10.84
+M-30930,J-1430,Bunnings,Thread tape 5pk,1,2027-01-05,11.11
+M-30931,J-1430,Bunnings,Thread tape 5pk,1,2027-01-05,10.25
+M-30997,J-1424,Tradelink,Credit: returned toilet suite,1,2027-01-05,-809.83
+M-30933,J-1432,Reece,Flick mixer tap,1,2027-01-06,385.17
+M-30934,J-1432,Reece,Waste trap 40mm,1,2027-01-06,33.58
+M-30935,J-1432,Reece,Flick mixer tap,1,2027-01-06,186.01
+M-30936,J-1432,Reece,Flick mixer tap,1,2027-01-06,174.95
+M-30937,J-1432,Reece,Copper pipe 15mm x 6m,1,2027-01-06,73.26
+M-30922,J-1429,Reece,Waste trap 40mm,1,2027-01-07,37.22
+M-30923,J-1429,Reece,Flick mixer tap,1,2027-01-07,140.82
+M-30924,J-1429,Reece,Shower mixer valve,1,2027-01-07,230.06
+M-30925,J-1429,Reece,Waste trap 40mm,1,2027-01-07,18.56
+M-30926,J-1429,Reece,Pressure limiting valve,1,2027-01-07,126.62
+M-30932,J-1431,Reece,Copper pipe 15mm x 6m,1,2027-01-08,78.49
+M-30938,J-1434,Bunnings,Pipe clips 10pk,1,2027-01-10,9.63
+M-30939,J-1434,Reece,Shower mixer valve,1,2027-01-11,371.87
+M-30940,J-1435,Tradelink,Flexible hoses pair,1,2027-01-11,20.41
+M-30941,J-1436,Bunnings,Thread tape 5pk,1,2027-01-12,6.86
+M-30942,J-1438,Bunnings,Drain cleaner,1,2027-01-14,16.15
+M-30943,J-1441,Rheem,Rheem Stellar 330L gas HWS,1,2027-01-16,1835.77
+M-30944,J-1441,Reece,Pressure limiting valve,1,2027-01-18,100.42
+M-30945,J-1441,Reece,Waste trap 40mm,1,2027-01-18,30.49
+M-30946,J-1441,Reece,Shower mixer valve,1,2027-01-18,479.80
+M-30948,J-1443,Tradelink,Flexible hoses pair,1,2027-01-19,28.48
+M-30949,J-1443,Tradelink,Flexible hoses pair,1,2027-01-19,26.83
+M-30947,J-1443,Reece,PEX fittings pack,1,2027-01-20,54.24
+M-30950,J-1444,Bunnings,PVC pipe 100mm x 3m,1,2027-01-20,40.20
+M-30951,J-1444,Bunnings,Pipe clips 10pk,1,2027-01-20,12.74
+M-30952,J-1445,Rheem,Rheem 26L continuous flow,1,2027-01-21,1404.38
+M-30953,J-1446,Bunnings,Gutter brackets 10pk,1,2027-01-21,24.17
+M-30954,J-1448,Reece,PEX fittings pack,1,2027-01-21,41.73
+M-30955,J-1448,Reece,PEX fittings pack,1,2027-01-21,53.42
+M-30956,J-1448,Reece,Waste trap 40mm,1,2027-01-21,36.77
+M-30957,J-1448,Reece,Pressure limiting valve,1,2027-01-21,120.28
+M-30958,J-1448,Tradelink,Toilet suite,1,2027-01-22,391.13
+M-30959,J-1448,Tradelink,Toilet suite,1,2027-01-22,656.07
+M-30960,J-1448,Bunnings,Pipe clips 10pk,1,2027-01-22,15.49
+M-31005,J-1443,Tradelink,Credit: returned flexible hoses pair,1,2027-01-22,-28.48
+M-30963,J-1451,Tradelink,Toilet suite,1,2027-01-26,424.24
+M-30966,J-1453,Reece,Shower mixer valve,1,2027-01-27,476.47
+M-30967,J-1453,Tradelink,Flexible hoses pair,1,2027-01-27,26.55
+M-30968,J-1453,Tradelink,Toilet suite,1,2027-01-27,470.46
+M-30961,J-1451,Reece,Shower mixer valve,1,2027-01-28,467.00
+M-30962,J-1451,Reece,Flick mixer tap,1,2027-01-28,136.29
+M-30964,J-1451,Bunnings,Drain cleaner,1,2027-01-28,14.82
+M-30969,J-1453,Bunnings,Gutter brackets 10pk,1,2027-01-28,23.15
+M-30965,J-1452,Bunnings,Thread tape 5pk,1,2027-01-29,10.51
+M-30970,J-1455,Reece,PEX fittings pack,1,2027-02-01,45.81
+M-30971,J-1455,Reece,Pressure limiting valve,1,2027-02-01,96.40
+M-30972,J-1455,Reece,Copper pipe 15mm x 6m,1,2027-02-01,54.70
+M-30977,J-1457,Reece,Flick mixer tap,1,2027-02-01,226.16
+M-30978,J-1457,Reece,Waste trap 40mm,1,2027-02-01,23.92
+M-30979,J-1457,Reece,Pressure limiting valve,1,2027-02-01,108.97
+M-30975,J-1456,Bunnings,Pipe clips 10pk,1,2027-02-02,13.85
+M-30976,J-1456,Bunnings,Silicone sealant,1,2027-02-02,18.40
+M-30973,J-1455,Bunnings,PVC pipe 100mm x 3m,1,2027-02-03,37.55
+M-30974,J-1455,Bunnings,Silicone sealant,1,2027-02-03,18.34
+M-30985,J-1458,Bunnings,Silicone sealant,1,2027-02-03,16.02
+M-30986,J-1458,Bunnings,Pipe clips 10pk,1,2027-02-03,9.03
+M-30987,J-1459,Reece,Copper pipe 15mm x 6m,1,2027-02-03,92.01
+M-30988,J-1459,Reece,Flick mixer tap,1,2027-02-03,334.29
+M-30980,J-1458,Reece,Flick mixer tap,1,2027-02-04,250.13
+M-30981,J-1458,Reece,Waste trap 40mm,1,2027-02-04,26.84
+M-30982,J-1458,Reece,Pressure limiting valve,1,2027-02-04,97.29
+M-30983,J-1458,Tradelink,Flexible hoses pair,1,2027-02-05,19.59
+M-30984,J-1458,Tradelink,Basin waste,1,2027-02-05,19.81
+M-30989,J-1459,Bunnings,Gutter brackets 10pk,1,2027-02-05,30.73
+M-30993,J-1461,Reece,Copper pipe 15mm x 6m,1,2027-02-06,81.97
+M-30994,J-1462,Bunnings,Pipe clips 10pk,1,2027-02-07,15.78
+M-30995,J-1462,Reece,Shower mixer valve,1,2027-02-07,448.35
+M-30996,J-1462,Reece,Pressure limiting valve,1,2027-02-07,160.69
+M-30990,J-1460,Bunnings,PVC pipe 100mm x 3m,1,2027-02-08,29.94
+M-30991,J-1461,Bunnings,Thread tape 5pk,1,2027-02-08,11.48
+M-30992,J-1461,Bunnings,Drain cleaner,1,2027-02-08,17.45
